@@ -44,6 +44,10 @@ LOCAL_JAVA_LIBRARIES := \
     telephony-common \
     ims-common
 
+ifeq ($(BOARD_VENDOR),oneplus)
+LOCAL_JAVA_LIBRARIES := telephony-ext
+endif
+
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-arch-lifecycle-runtime \
     android-arch-lifecycle-extensions \
