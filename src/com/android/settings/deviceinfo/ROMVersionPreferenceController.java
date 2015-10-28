@@ -22,12 +22,14 @@ import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 
 import com.android.settings.R;
-import com.android.settings.core.PreferenceController;
+import com.android.settings.core.PreferenceControllerMixin;
+import com.android.settingslib.core.AbstractPreferenceController;
 
-public class ROMVersionPreferenceController extends PreferenceController {
+public class ROMVersionPreferenceController extends AbstractPreferenceController implements
+        PreferenceControllerMixin {
 
-    private static final String PROPERTY_DU_VERSION = "ro.mod.version";
-    private static final String KEY_DU_VERSION = "mod_version";
+    private static final String PROPERTY_STATIX_VERSION = "ro.statix.version";
+    private static final String KEY_STATIX_VERSION = "ro.mod.version";
 
     public ROMVersionPreferenceController(Context context) {
         super(context);
@@ -35,20 +37,20 @@ public class ROMVersionPreferenceController extends PreferenceController {
 
     @Override
     public boolean isAvailable() {
-        return !TextUtils.isEmpty(SystemProperties.get(PROPERTY_DU_VERSION));
+        return !TextUtils.isEmpty(SystemProperties.get(PROPERTY_STATIX_VERSION));
     }
 
     @Override
     public String getPreferenceKey() {
-        return KEY_DU_VERSION;
+        return KEY_STATIX_VERSION;
     }
 
     @Override
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
-        final Preference pref = screen.findPreference(KEY_DU_VERSION);
+        final Preference pref = screen.findPreference(KEY_STATIX_VERSION);
         if (pref == null) return;
-        String version = SystemProperties.get(PROPERTY_DU_VERSION);
+        String version = SystemProperties.get(PROPERTY_STATIX_VERSION);
         pref.setSummary(version);
     }
 }
