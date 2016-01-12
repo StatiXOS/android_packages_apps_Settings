@@ -201,4 +201,8 @@
     <!-- Power Menu on lockscreen -->
     <string name="powermenu_lockscreen_title">Power menu visibility</string>
     <string name="powermenu_lockscreen_summary">Display power menu on a secured lockscreen</string>
+
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_summary">Show quick settings on secure lockscreen</string>
 </resources>
