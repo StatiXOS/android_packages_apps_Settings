@@ -21,6 +21,14 @@
     android:key="privacy_dashboard_page"
     android:title="@string/privacy_dashboard_title">
 
+    <!-- Anonymous statistics - (CMStats) -->
+    <PreferenceScreen
+        android:key="cmstats"
+        android:title="@string/anonymous_statistics_title"
+        android:summary="@string/anonymous_statistics_summary"
+        android:fragment="org.cyanogenmod.cmparts.cmstats.AnonymousStats" >
+    </PreferenceScreen>
+
     <!-- This preference isn't searchable, and user won't see title in this preference.
          So, we just set empty text for title. -->
     <com.android.settingslib.widget.BarChartPreference
