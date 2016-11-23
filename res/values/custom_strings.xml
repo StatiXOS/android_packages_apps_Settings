@@ -35,6 +35,14 @@
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
 
+<<<<<<< HEAD   (091939 [2/2] Settings: allow disable of screenshot shutter sound)
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
+=======
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+
+>>>>>>> CHANGE (07b978 Settings: Volume Long Press Skip Tracks (2/2))
 </resources>

@@ -82,8 +82,21 @@
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <Preference
+<<<<<<< HEAD   (091939 [2/2] Settings: allow disable of screenshot shutter sound)
         android:key="gesture_power_menu_summary"
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
+=======
+        android:key="gesture_global_actions_panel_summary"
+        android:title="@string/global_actions_panel_short_title"
+        android:fragment="com.android.settings.gestures.GlobalActionsPanelSettings"
+        settings:controller="com.android.settings.gestures.GlobalActionsPanelPreferenceController" />
+    <Preference
+        android:key="volume_button_music_control_sumary"
+        android:title="@string/volume_button_music_control_title"
+        android:fragment="com.android.settings.gestures.VolumeButtonMusicControlGestureSettings"
+        settings:controller="com.android.settings.gestures.VolumeButtonMusicControlPreferenceController" />
+
+>>>>>>> CHANGE (07b978 Settings: Volume Long Press Skip Tracks (2/2))
 </PreferenceScreen>
