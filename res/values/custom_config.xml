@@ -30,6 +30,6 @@
     <string name="config_customDozePackage" translatable="false"></string>
 
     <!-- Metrics server endpoints -->
-    <string name="stats_cm_url">https://stats.cyanogenmod.org/submit</string>
+    <string name="stats_cm_url">https://stats.cyanogenmod.org/api/v1/stats</string>
 
 </resources>
