@@ -55,4 +55,8 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
 </resources>
