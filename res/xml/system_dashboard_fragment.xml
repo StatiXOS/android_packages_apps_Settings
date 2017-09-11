@@ -33,7 +33,8 @@
         android:key="buttons_settings"
         android:title="@string/buttons_settings_title"
         android:icon="@drawable/ic_settings_buttons"
-        android:order="-200" />
+        android:order="-200"
+        android:fragment="com.android.settings.system.ButtonSettings" />
 
     <Preference
         android:key="reset_dashboard"

@@ -131,6 +131,7 @@ import com.android.settings.security.SecuritySettings;
 import com.android.settings.shortcut.CreateShortcut;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.support.SupportDashboardActivity;
+import com.android.settings.system.ButtonSettings;
 import com.android.settings.system.ResetDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settings.tts.TextToSpeechSettings;
@@ -261,6 +262,7 @@ public class SettingsGateway {
             WifiAPITest.class.getName(),
             WifiInfo.class.getName(),
             MasterClear.class.getName(),
+            ButtonSettings.class.getName(),
             ResetDashboardFragment.class.getName(),
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
