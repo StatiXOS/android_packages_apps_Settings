@@ -136,6 +136,7 @@ import com.statix.sparks.fragments.FlingSettings;
 import com.statix.sparks.fragments.NavigationBar;
 import com.statix.sparks.fragments.PulseSettings;
 import com.statix.sparks.fragments.SmartbarSettings;
+import com.statix.sparks.Sparks;
 
 public class SettingsGateway {
 
@@ -262,6 +263,7 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName()
+            Sparks.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -304,5 +306,6 @@ public class SettingsGateway {
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName()
+            Settings.SparksActivity.class.getName(),
     };
 }
