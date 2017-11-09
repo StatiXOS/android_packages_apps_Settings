@@ -22,6 +22,7 @@ import android.os.Bundle;
 import android.provider.SearchIndexableResource;
 
 import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.display.AmbientDisplayCustomPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
@@ -92,6 +93,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));
         controllers.add(new BrightnessLevelPreferenceController(context, lifecycle));
+        controllers.add(new AmbientDisplayCustomPreferenceController(context));
         return controllers;
     }
 
