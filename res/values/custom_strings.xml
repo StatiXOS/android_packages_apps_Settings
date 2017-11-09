@@ -95,4 +95,8 @@
     <string name="security_settings_fingerprint_sensor_location_left">left side</string>
     <string name="security_settings_fingerprint_sensor_location_right">right side</string>
 
+    <!-- Custom Doze Package -->
+    <string name="customDozePackage_title">Ambient Display</string>
+    <string name="customDozePackage_summary">Interact with your device when the screen is off</string>
+
 </resources>
