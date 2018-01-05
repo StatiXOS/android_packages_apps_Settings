@@ -98,4 +98,10 @@
         android:title="@string/power_button_torch_title"
         android:fragment="com.android.settings.gestures.PowerButtonTorchSettings"
         settings:controller="com.android.settings.gestures.PowerButtonTorchGesturePreferenceController" />
+
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_brightness_control"
+        android:title="@string/status_bar_toggle_brightness"
+        android:summary="@string/status_bar_toggle_brightness_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
