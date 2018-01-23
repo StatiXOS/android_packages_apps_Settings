@@ -42,12 +42,6 @@ public class SwipeToDismissPreferenceController extends GesturePreferenceControl
         mKey = key;
     }
 
-    public static boolean isSuggestionComplete(Context context, SharedPreferences prefs) {
-        return !isGestureAvailable(context)
-                || prefs.getBoolean(SwipeToDismissSettings.PREF_KEY_SUGGESTION_COMPLETE,
-                        false);
-    }
-
     private static boolean isGestureAvailable(Context context) {
         return Utils.hasFingerprintHardware(context) && context.getResources()
                 .getBoolean(com.android.internal.R.bool.config_supportSystemNavigationKeys);
