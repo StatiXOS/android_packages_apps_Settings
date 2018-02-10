@@ -35,6 +35,7 @@ import com.android.settings.display.QSPreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
 import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.SystemThemePreferenceController;
+import com.android.settings.display.ScreenOffAnimationsPreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.ThemePreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
@@ -93,6 +94,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new AccentPickerPreferenceController(context, lifecycle, fragment));
         controllers.add(new QSPreferenceController(context));
+        controllers.add(new ScreenOffAnimationsPreferenceController(context));
         controllers.add(new AmbientDisplayPreferenceController(
                 context,
                 new AmbientDisplayConfiguration(context),
