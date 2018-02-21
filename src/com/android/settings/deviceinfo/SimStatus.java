@@ -44,6 +44,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
@@ -191,6 +192,7 @@ public class SimStatus extends SettingsPreferenceFragment {
         super.onViewCreated(view, savedInstanceState);
 
         updatePhoneInfos();
+        getActivity().getWindow().setFlags(WindowManager.LayoutParams.FLAG_SECURE, WindowManager.LayoutParams.FLAG_SECURE);
     }
 
     @Override
@@ -405,12 +407,6 @@ public class SimStatus extends SettingsPreferenceFragment {
 
         if (!mShowLatestAreaInfo) {
             removePreferenceFromScreen(KEY_LATEST_AREA_INFO);
-        }
-
-        boolean hideSignalStrength = carrierConfig.getBoolean(
-                CarrierConfigManager.KEY_HIDE_SIGNAL_STRENGTH_IN_SIM_STATUS_BOOL);
-        if (hideSignalStrength) {
-            removePreferenceFromScreen(KEY_SIGNAL_STRENGTH);
         }
     }
 

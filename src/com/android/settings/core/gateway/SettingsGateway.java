@@ -132,10 +132,10 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
-import com.statix.sparks.fragments.FlingSettings;
-import com.statix.sparks.fragments.NavigationBar;
-import com.statix.sparks.fragments.PulseSettings;
-import com.statix.sparks.fragments.SmartbarSettings;
+import com.statix.sparks.preferences.FlingSettings;
+import com.statix.sparks.fragments.navigation.Navigation;
+import com.statix.sparks.preferences.PulseSettings;
+import com.statix.sparks.preferences.SmartbarSettings;
 import com.statix.sparks.Sparks;
 
 public class SettingsGateway {
@@ -258,12 +258,12 @@ public class SettingsGateway {
             WebViewAppPicker.class.getName(),
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
-            DataUsageList.class.getName()
-            NavigationBar.class.getName(),
+            DataUsageList.class.getName(),
+            Navigation.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
-            PulseSettings.class.getName()
-            Sparks.class.getName(),
+            PulseSettings.class.getName(),
+            Sparks.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -305,7 +305,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
-            Settings.PulseSettingsActivity.class.getName()
-            Settings.SparksActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.SparksActivity.class.getName()
     };
 }

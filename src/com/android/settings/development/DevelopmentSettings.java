@@ -210,25 +210,18 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             "persist.bluetooth.disableabsvol";
     private static final String BLUETOOTH_AVRCP_VERSION_PROPERTY =
                                     "persist.bluetooth.avrcpversion";
-    private static final String BLUETOOTH_DISABLE_INBAND_RINGING_PROPERTY =
-                                    "persist.bluetooth.disableinbandringing";
+    private static final String BLUETOOTH_ENABLE_INBAND_RINGING_PROPERTY =
+                                    "persist.bluetooth.enableinbandringing";
     private static final String BLUETOOTH_BTSNOOP_ENABLE_PROPERTY =
                                     "persist.bluetooth.btsnoopenable";
 
-    static final String BLUETOOTH_MAX_CONNECTED_AUDIO_DEVICES_PROPERTY =
-            "persist.bluetooth.maxconnectedaudiodevices";
-
-    private static final String BLUETOOTH_DISABLE_INBAND_RINGING_KEY = "bluetooth_disable_inband_ringing";
+    private static final String BLUETOOTH_ENABLE_INBAND_RINGING_KEY = "bluetooth_enable_inband_ringing";
     private static final String BLUETOOTH_SELECT_AVRCP_VERSION_KEY = "bluetooth_select_avrcp_version";
     private static final String BLUETOOTH_SELECT_A2DP_CODEC_KEY = "bluetooth_select_a2dp_codec";
     private static final String BLUETOOTH_SELECT_A2DP_SAMPLE_RATE_KEY = "bluetooth_select_a2dp_sample_rate";
     private static final String BLUETOOTH_SELECT_A2DP_BITS_PER_SAMPLE_KEY = "bluetooth_select_a2dp_bits_per_sample";
     private static final String BLUETOOTH_SELECT_A2DP_CHANNEL_MODE_KEY = "bluetooth_select_a2dp_channel_mode";
     private static final String BLUETOOTH_SELECT_A2DP_LDAC_PLAYBACK_QUALITY_KEY = "bluetooth_select_a2dp_ldac_playback_quality";
-    private static final String BLUETOOTH_MAX_CONNECTED_AUDIO_DEVICES_KEY =
-            "bluetooth_max_connected_audio_devices";
-
-    private static final String PRIVATE_DNS_PREF_KEY = "select_private_dns_configuration";
 
     private static final String INACTIVE_APPS_KEY = "inactive_apps";
 
@@ -245,8 +238,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private static final String TERMINAL_APP_PACKAGE = "com.android.terminal";
 
     private static final String KEY_CONVERT_FBE = "convert_to_file_encryption";
-
-    private static final String OTA_DISABLE_AUTOMATIC_UPDATE_KEY = "ota_disable_automatic_update";
 
     private static final int RESULT_DEBUG_APP = 1000;
     private static final int RESULT_MOCK_LOCATION_APP = 1001;
@@ -296,7 +287,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private SwitchPreference mTetheringHardwareOffload;
     private SwitchPreference mBluetoothShowDevicesWithoutNames;
     private SwitchPreference mBluetoothDisableAbsVolume;
-    private SwitchPreference mBluetoothDisableInbandRinging;
+    private SwitchPreference mBluetoothEnableInbandRinging;
 
     private BluetoothA2dp mBluetoothA2dp;
     private final Object mBluetoothA2dpLock = new Object();
@@ -306,9 +297,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private ListPreference mBluetoothSelectA2dpBitsPerSample;
     private ListPreference mBluetoothSelectA2dpChannelMode;
     private ListPreference mBluetoothSelectA2dpLdacPlaybackQuality;
-    private ListPreference mBluetoothSelectMaxConnectedAudioDevices;
 
-    private SwitchPreference mOtaDisableAutomaticUpdate;
     private SwitchPreference mWifiAllowScansWithTraffic;
     private SwitchPreference mStrictMode;
     private SwitchPreference mPointerLocation;
@@ -369,10 +358,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
     private DashboardFeatureProvider mDashboardFeatureProvider;
     private DevelopmentSettingsEnabler mSettingsEnabler;
     private DevelopmentSwitchBarController mSwitchBarController;
-    private BugReportPreferenceController mBugReportController;
-    private BugReportInPowerPreferenceController mBugReportInPowerController;
     private TelephonyMonitorPreferenceController mTelephonyMonitorController;
-    private CameraHalHdrplusPreferenceController mCameraHalHdrplusController;
     private CameraLaserSensorPreferenceController mCameraLaserSensorController;
 
     private BroadcastReceiver mEnableAdbReceiver;
@@ -402,21 +388,16 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mBackupManager = IBackupManager.Stub.asInterface(
                 ServiceManager.getService(Context.BACKUP_SERVICE));
         mWebViewUpdateService = WebViewFactory.getUpdateService();
-        if (showEnableOemUnlockPreference(getContext())) {
-            mOemLockManager = (OemLockManager) getSystemService(Context.OEM_LOCK_SERVICE);
-        }
+        mOemLockManager = (OemLockManager) getSystemService(Context.OEM_LOCK_SERVICE);
         mTelephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
         mUm = (UserManager) getSystemService(Context.USER_SERVICE);
 
         mWifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 
-        mBugReportController = new BugReportPreferenceController(getActivity());
-        mBugReportInPowerController = new BugReportInPowerPreferenceController(getActivity());
         mTelephonyMonitorController = new TelephonyMonitorPreferenceController(getActivity());
         mWebViewAppPrefController = new WebViewAppPreferenceController(getActivity());
         mVerifyAppsOverUsbController = new VerifyAppsOverUsbPreferenceController(getActivity());
-        mCameraHalHdrplusController = new CameraHalHdrplusPreferenceController(getActivity());
         mCameraLaserSensorController = new CameraLaserSensorPreferenceController(getActivity());
 
         setIfOnlyAvailableForAdmins(true);
@@ -446,11 +427,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             mEnableTerminal = null;
         }
 
-        mBugReportController.displayPreference(getPreferenceScreen());
-        mBugReportInPowerController.displayPreference(getPreferenceScreen());
         mTelephonyMonitorController.displayPreference(getPreferenceScreen());
         mWebViewAppPrefController.displayPreference(getPreferenceScreen());
-        mCameraHalHdrplusController.displayPreference(getPreferenceScreen());
         mEnableAdbController.displayPreference(getPreferenceScreen());
 
         mCameraLaserSensorController.displayPreference(getPreferenceScreen());
@@ -521,10 +499,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mBluetoothShowDevicesWithoutNames =
                 findAndInitSwitchPref(BLUETOOTH_SHOW_DEVICES_WITHOUT_NAMES_KEY);
         mBluetoothDisableAbsVolume = findAndInitSwitchPref(BLUETOOTH_DISABLE_ABSOLUTE_VOLUME_KEY);
-        mBluetoothDisableInbandRinging = findAndInitSwitchPref(BLUETOOTH_DISABLE_INBAND_RINGING_KEY);
+        mBluetoothEnableInbandRinging = findAndInitSwitchPref(BLUETOOTH_ENABLE_INBAND_RINGING_KEY);
         if (!BluetoothHeadset.isInbandRingingSupported(getContext())) {
-            removePreference(mBluetoothDisableInbandRinging);
-            mBluetoothDisableInbandRinging = null;
+            removePreference(mBluetoothEnableInbandRinging);
+            mBluetoothEnableInbandRinging = null;
         }
 
         mBluetoothSelectAvrcpVersion = addListPreference(BLUETOOTH_SELECT_AVRCP_VERSION_KEY);
@@ -533,10 +511,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mBluetoothSelectA2dpBitsPerSample = addListPreference(BLUETOOTH_SELECT_A2DP_BITS_PER_SAMPLE_KEY);
         mBluetoothSelectA2dpChannelMode = addListPreference(BLUETOOTH_SELECT_A2DP_CHANNEL_MODE_KEY);
         mBluetoothSelectA2dpLdacPlaybackQuality = addListPreference(BLUETOOTH_SELECT_A2DP_LDAC_PLAYBACK_QUALITY_KEY);
-        mBluetoothSelectMaxConnectedAudioDevices = addListPreference(BLUETOOTH_MAX_CONNECTED_AUDIO_DEVICES_KEY);
         initBluetoothConfigurationValues();
-
-        updatePrivateDnsSummary();
 
         mWindowAnimationScale = addListPreference(WINDOW_ANIMATION_SCALE_KEY);
         mTransitionAnimationScale = addListPreference(TRANSITION_ANIMATION_SCALE_KEY);
@@ -585,12 +560,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             removePreference(KEY_CONVERT_FBE);
         }
 
-        mOtaDisableAutomaticUpdate = findAndInitSwitchPref(OTA_DISABLE_AUTOMATIC_UPDATE_KEY);
-
         mColorModePreference = (ColorModePreference) findPreference(KEY_COLOR_MODE);
         mColorModePreference.updateCurrentAndSupported();
         if (mColorModePreference.getColorModeCount() < 2 ||
-                getContext().getDisplay().isWideColorGamut()) {
+                getContext().getResources().getConfiguration().isScreenWideColorGamut()) {
             removePreference(KEY_COLOR_MODE);
             mColorModePreference = null;
         }
@@ -602,6 +575,11 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         } else {
             removePreference(COLOR_TEMPERATURE_KEY);
             mColorTemperaturePreference = null;
+        }
+
+        if (Settings.Secure.getInt(getContext().getContentResolver(),
+                Settings.Secure.BUGREPORT_IN_POWER_MENU, 0) == 1) {
+            Settings.Secure.putInt(getContext().getContentResolver(), Settings.Secure.BUGREPORT_IN_POWER_MENU, 0);
         }
 
         addDashboardCategoryPreferences();
@@ -673,10 +651,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             pref.setEnabled(enabled && !mDisabledPrefs.contains(pref));
         }
         mEnableAdbController.enablePreference(enabled);
-        mBugReportInPowerController.enablePreference(enabled);
         mTelephonyMonitorController.enablePreference(enabled);
         mWebViewAppPrefController.enablePreference(enabled);
-        mCameraHalHdrplusController.enablePreference(enabled);
         mCameraLaserSensorController.enablePreference(enabled);
         updateAllOptions();
     }
@@ -761,7 +737,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             @Override
             public void onReceive(Context context, Intent intent) {
                 mVerifyAppsOverUsbController.updatePreference();
-                updateBugreportOptions();
             }
         };
         LocalBroadcastManager.getInstance(getContext())
@@ -809,9 +784,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                     context.getPackageManager().getApplicationEnabledSetting(TERMINAL_APP_PACKAGE)
                             == PackageManager.COMPONENT_ENABLED_STATE_ENABLED);
         }
-        mHaveDebugSettings |= mBugReportInPowerController.updatePreference();
         mHaveDebugSettings |= mTelephonyMonitorController.updatePreference();
-        mHaveDebugSettings |= mCameraHalHdrplusController.updatePreference();
         mHaveDebugSettings |= mCameraLaserSensorController.updatePreference();
         updateSwitchPreference(mKeepScreenOn, Settings.Global.getInt(cr,
                 Settings.Global.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
@@ -845,8 +818,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         updateShowAllANRsOptions();
         updateShowNotificationChannelWarningsOptions();
         mVerifyAppsOverUsbController.updatePreference();
-        updateOtaDisableAutomaticUpdateOptions();
-        updateBugreportOptions();
         updateForceRtlOptions();
         updateLogdSizeValues();
         updateLogpersistValues();
@@ -867,9 +838,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
         updateBluetoothShowDevicesWithoutUserFriendlyNameOptions();
         updateBluetoothDisableAbsVolumeOptions();
-        updateBluetoothDisableInbandRingingOptions();
+        updateBluetoothEnableInbandRingingOptions();
         updateBluetoothA2dpConfigurationValues();
-        updatePrivateDnsSummary();
     }
 
     private void resetDangerousOptions() {
@@ -881,7 +851,10 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 onPreferenceTreeClick(cb);
             }
         }
-        mBugReportInPowerController.resetPreference();
+        if (mBluetoothEnableInbandRinging != null) {
+            mBluetoothEnableInbandRinging.setChecked(true);
+            onPreferenceTreeClick(mBluetoothEnableInbandRinging);
+        }
         mEnableAdbController.resetPreference();
         resetDebuggerOptions();
         writeLogpersistOption(null, true);
@@ -1049,26 +1022,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
     }
 
-    private void updateOtaDisableAutomaticUpdateOptions() {
-        // We use the "disabled status" in code, but show the opposite text
-        // "Automatic system updates" on screen. So a value 0 indicates the
-        // automatic update is enabled.
-        updateSwitchPreference(mOtaDisableAutomaticUpdate, Settings.Global.getInt(
-                getActivity().getContentResolver(),
-                Settings.Global.OTA_DISABLE_AUTOMATIC_UPDATE, 0) != 1);
-    }
-
-    private void writeOtaDisableAutomaticUpdateOptions() {
-        // We use the "disabled status" in code, but show the opposite text
-        // "Automatic system updates" on screen. So a value 0 indicates the
-        // automatic update is enabled.
-        Settings.Global.putInt(getActivity().getContentResolver(),
-                Settings.Global.OTA_DISABLE_AUTOMATIC_UPDATE,
-                mOtaDisableAutomaticUpdate.isChecked() ? 0 : 1);
-    }
-
     private static boolean showEnableOemUnlockPreference(Context context) {
-        return ServiceManager.getService(Context.OEM_LOCK_SERVICE) != null;
+        return context.getSystemService(Context.OEM_LOCK_SERVICE) != null;
     }
 
     /**
@@ -1098,11 +1053,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 mEnableOemUnlock.checkRestrictionAndSetDisabled(UserManager.DISALLOW_FACTORY_RESET);
             }
         }
-    }
-
-    private void updateBugreportOptions() {
-        mBugReportController.enablePreference(true);
-        mBugReportInPowerController.updateBugreportOptions();
     }
 
     // Returns the current state of the system property that controls
@@ -1528,24 +1478,24 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                 mBluetoothDisableAbsVolume.isChecked() ? "true" : "false");
     }
 
-    private void updateBluetoothDisableInbandRingingOptions() {
-        if (mBluetoothDisableInbandRinging != null) {
-            updateSwitchPreference(mBluetoothDisableInbandRinging,
-                SystemProperties.getBoolean(BLUETOOTH_DISABLE_INBAND_RINGING_PROPERTY, false));
+    private void updateBluetoothEnableInbandRingingOptions() {
+        if (mBluetoothEnableInbandRinging != null) {
+            updateSwitchPreference(mBluetoothEnableInbandRinging,
+                SystemProperties.getBoolean(BLUETOOTH_ENABLE_INBAND_RINGING_PROPERTY, true));
         }
     }
 
-    private void writeBluetoothDisableInbandRingingOptions() {
-        if (mBluetoothDisableInbandRinging != null) {
-            SystemProperties.set(BLUETOOTH_DISABLE_INBAND_RINGING_PROPERTY,
-                mBluetoothDisableInbandRinging.isChecked() ? "true" : "false");
+    private void writeBluetoothEnableInbandRingingOptions() {
+        if (mBluetoothEnableInbandRinging != null) {
+            SystemProperties.set(BLUETOOTH_ENABLE_INBAND_RINGING_PROPERTY,
+                mBluetoothEnableInbandRinging.isChecked() ? "true" : "false");
         }
     }
 
     private void updateMobileDataAlwaysOnOptions() {
         updateSwitchPreference(mMobileDataAlwaysOn, Settings.Global.getInt(
                 getActivity().getContentResolver(),
-                Settings.Global.MOBILE_DATA_ALWAYS_ON, 1) != 0);
+                Settings.Global.MOBILE_DATA_ALWAYS_ON, 0) != 0);
     }
 
     private void writeMobileDataAlwaysOnOptions() {
@@ -1867,13 +1817,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         index = 3;
         mBluetoothSelectA2dpLdacPlaybackQuality.setValue(values[index]);
         mBluetoothSelectA2dpLdacPlaybackQuality.setSummary(summaries[index]);
-
-        // Init the maximum connected devices - Default
-        values = getResources().getStringArray(R.array.bluetooth_max_connected_audio_devices_values);
-        summaries = getResources().getStringArray(R.array.bluetooth_max_connected_audio_devices);
-        index = 0;
-        mBluetoothSelectMaxConnectedAudioDevices.setValue(values[index]);
-        mBluetoothSelectMaxConnectedAudioDevices.setSummary(summaries[index]);
     }
 
     private void writeBluetoothAvrcpVersion(Object newValue) {
@@ -1897,7 +1840,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
         synchronized (mBluetoothA2dpLock) {
             if (mBluetoothA2dp != null) {
-                codecStatus = mBluetoothA2dp.getCodecStatus(null);      // Use current active device
+                codecStatus = mBluetoothA2dp.getCodecStatus();
                 if (codecStatus != null) {
                     codecConfig = codecStatus.getCodecConfig();
                     codecsLocalCapabilities = codecStatus.getCodecsLocalCapabilities();
@@ -2042,15 +1985,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
     }
 
-    private void writeBluetoothMaxConnectedAudioDevices(Object newValue) {
-        SystemProperties.set(BLUETOOTH_MAX_CONNECTED_AUDIO_DEVICES_PROPERTY, newValue.toString());
-        int index = mBluetoothSelectMaxConnectedAudioDevices.findIndexOfValue(newValue.toString());
-        if (index >= 0) {
-            String[] titles = getResources().getStringArray(R.array.bluetooth_max_connected_audio_devices);
-            mBluetoothSelectMaxConnectedAudioDevices.setSummary(titles[index]);
-        }
-    }
-
     private void writeBluetoothConfigurationOption(Preference preference,
                                                    Object newValue) {
         String[] summaries;
@@ -2125,14 +2059,14 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         case 6:
         synchronized (mBluetoothA2dpLock) {
             if (mBluetoothA2dp != null) {
-                mBluetoothA2dp.enableOptionalCodecs(null); // Use current active device
+                mBluetoothA2dp.enableOptionalCodecs();
             }
         }
         return;
         case 7:
         synchronized (mBluetoothA2dpLock) {
             if (mBluetoothA2dp != null) {
-                mBluetoothA2dp.disableOptionalCodecs(null); // Use current active device
+                mBluetoothA2dp.disableOptionalCodecs();
             }
         }
         return;
@@ -2255,17 +2189,9 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
         synchronized (mBluetoothA2dpLock) {
             if (mBluetoothA2dp != null) {
-                // Use current active device
-                mBluetoothA2dp.setCodecConfigPreference(null, codecConfig);
+                mBluetoothA2dp.setCodecConfigPreference(codecConfig);
             }
         }
-    }
-
-    private void updatePrivateDnsSummary() {
-        final String summary = PrivateDnsModeDialogPreference.getSummaryStringForModeFromSettings(
-                getActivity().getContentResolver(), getActivity().getResources());
-        final Preference pref = findPreference(PRIVATE_DNS_PREF_KEY);
-        pref.setSummary(summary);
     }
 
     private void writeImmediatelyDestroyActivitiesOptions() {
@@ -2487,10 +2413,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             return false;
         }
 
-        if (mBugReportInPowerController.handlePreferenceTreeClick(preference)) {
-            return true;
-        }
-
         if (mTelephonyMonitorController.handlePreferenceTreeClick(preference)) {
             return true;
         }
@@ -2500,10 +2422,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         }
 
         if (mVerifyAppsOverUsbController.handlePreferenceTreeClick(preference)) {
-            return true;
-        }
-
-        if (mCameraHalHdrplusController.handlePreferenceTreeClick(preference)) {
             return true;
         }
 
@@ -2562,8 +2480,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             startActivityForResult(intent, RESULT_DEBUG_APP);
         } else if (preference == mWaitForDebugger) {
             writeDebuggerOptions();
-        } else if (preference == mOtaDisableAutomaticUpdate) {
-            writeOtaDisableAutomaticUpdateOptions();
         } else if (preference == mStrictMode) {
             writeStrictModeVisualOptions();
         } else if (preference == mPointerLocation) {
@@ -2614,8 +2530,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             writeBluetoothShowDevicesWithoutUserFriendlyNameOptions();
         } else if (preference == mBluetoothDisableAbsVolume) {
             writeBluetoothDisableAbsVolumeOptions();
-        } else if (preference == mBluetoothDisableInbandRinging) {
-            writeBluetoothDisableInbandRingingOptions();
+        } else if (preference == mBluetoothEnableInbandRinging) {
+            writeBluetoothEnableInbandRingingOptions();
         } else if (SHORTCUT_MANAGER_RESET_KEY.equals(preference.getKey())) {
             resetShortcutManagerThrottling();
         } else {
@@ -2646,9 +2562,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                    (preference == mBluetoothSelectA2dpChannelMode) ||
                    (preference == mBluetoothSelectA2dpLdacPlaybackQuality)) {
             writeBluetoothConfigurationOption(preference, newValue);
-            return true;
-        } else if (preference == mBluetoothSelectMaxConnectedAudioDevices) {
-            writeBluetoothMaxConnectedAudioDevices(newValue);
             return true;
         } else if (preference == mLogdSize) {
             writeLogdSizeOption(newValue);
@@ -2845,7 +2758,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                     return context.getSharedPreferences(DevelopmentSettings.PREF_FILE,
                             Context.MODE_PRIVATE).getBoolean(
                             DevelopmentSettings.PREF_SHOW,
-                            android.os.Build.TYPE.equals("eng"));
+                            android.os.Build.TYPE.equals("eng") || android.os.Build.TYPE.equals("userdebug")
+                            || android.os.Build.TYPE.equals("user"));
                 }
 
                 @Override

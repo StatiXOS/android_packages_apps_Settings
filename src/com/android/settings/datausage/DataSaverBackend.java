@@ -206,10 +206,6 @@ public class DataSaverBackend {
         public void onRestrictBackgroundChanged(final boolean isDataSaving) throws RemoteException {
             mHandler.post(() -> handleRestrictBackgroundChanged(isDataSaving));
         }
-
-        @Override
-        public void onSubscriptionOverride(int subId, int overrideMask, int overrideValue) {
-        }
     };
 
     public interface Listener {

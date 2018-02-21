@@ -36,7 +36,7 @@ import com.android.settings.security.LockscreenDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settingslib.drawer.CategoryKey;
 
-import com.dirtyunicorns.tweaks.DirtyTweaks;
+import com.statix.sparks.Sparks;
 
 import java.util.Map;
 

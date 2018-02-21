@@ -3304,7 +3304,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dirtyunicorns.tweaks.fragments.NavigationBar" />
+                android:value="com.statix.sparks.fragments.navigation.Navigation" />
         </activity>
 
         <!-- Smartbar settings -->
@@ -3316,7 +3316,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dirtyunicorns.tweaks.fragments.SmartbarSettings" />
+                android:value="com.statix.sparks.preferences.SmartbarSettings" />
         </activity>
 
         <!-- Fling settings -->
@@ -3328,7 +3328,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dirtyunicorns.tweaks.fragments.FlingSettings" />
+                android:value="com.statix.sparks.preferences.FlingSettings" />
         </activity>
 
         <!-- Pulse settings -->
@@ -3340,11 +3340,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.dirtyunicorns.tweaks.fragments.PulseSettings" />
+                android:value="com.statix.sparks.preferences.PulseSettings" />
         </activity>
 
         <!-- System action picker -->
-        <activity android:name="com.dirtyunicorns.tweaks.ActionPickerDialogActivity"
+        <activity android:name="com.statix.sparks.ActionPickerDialogActivity"
                 android:theme="@style/Theme.SmartBar.Dialog"
                 android:label="@string/choose_action_title"
                 android:excludeFromRecents="true">
@@ -3354,7 +3354,7 @@
         </activity>
 
         <!-- Icon pack picker -->
-        <activity android:name="com.dirtyunicorns.tweaks.IconPickerActivity"
+        <activity android:name="com.statix.sparks.IconPickerActivity"
                 android:theme="@style/Theme.SmartBar.Dialog"
                 android:label="@string/icon_pack_picker_dialog_title"
                 android:excludeFromRecents="true">
@@ -3365,7 +3365,7 @@
 
 
         <!-- Icon picker proxy for gallery -->
-        <activity android:name="com.dirtyunicorns.tweaks.IconPickerGallery"
+        <activity android:name="com.statix.sparks.IconPickerGallery"
             android:theme="@style/Theme.SmartBar.Dialog"
             android:label="@string/icon_pack_picker_dialog_title"
             android:excludeFromRecents="true">
@@ -3375,12 +3375,13 @@
         </activity>
 
         <!-- Icon pack grid -->
-        <activity android:name="com.dirtyunicorns.tweaks.IconPackGridActivity"
+        <activity android:name="com.statix.sparks.preferences.IconPackGridActivity"
                 android:excludeFromRecents="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+
 	<!-- Sparks -->
         <activity android:name="Settings$SparksActivity"
                 android:label="@string/sparks_title"
