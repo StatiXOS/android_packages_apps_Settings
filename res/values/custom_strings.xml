@@ -31,5 +31,11 @@
     <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
     <!--  [CHAR LIMIT=160]-->
     <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+
+    <!-- Font picker -->
+    <string name="font_picker_title">Font</string>
+    <string name="font_subs_info">Please make sure to disable every Font Overlay in Substratum before using this.\nIf you want to go back to using Substratum, make sure to select the Default Font (Roboto) here.</string>
+    <string name="font_picker_reboot_recommended">For optimal experience,\nreboot your device</string>
+
 </resources>
 
