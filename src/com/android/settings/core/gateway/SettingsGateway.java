@@ -132,8 +132,14 @@ import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
+// Sparks additions
 import com.statix.sparks.preferences.FlingSettings;
 import com.statix.sparks.fragments.navigation.Navigation;
+import com.statix.sparks.fragments.misc.Misc;
+import com.statix.sparks.fragments.system.System;
+import com.statix.sparks.fragments.statusbar.Statusbar;
+import com.statix.sparks.fragments.gestures.GestureSettings;
+import com.statix.sparks.fragments.lockscreen.Lockscreen;
 import com.statix.sparks.preferences.PulseSettings;
 import com.statix.sparks.preferences.SmartbarSettings;
 import com.statix.sparks.Sparks;
@@ -260,6 +266,11 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             Navigation.class.getName(),
+	    Misc.class.getName(),
+	    Lockscreen.class.getName(),
+            System.class.getName(),
+            GestureSettings.class.getName(),
+            Statusbar.class.getName(),
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
@@ -303,6 +314,11 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.NavigationSettingsActivity.class.getName(),
+	    Settings.MiscSettingsActivity.class.getName(),
+	    Settings.GesturesSettingsActivity.class.getName(),
+            Settings.LockscreenSettingsActivity.class.getName(),
+            Settings.StatusbarSettingsActivity.class.getName(),
+            Settings.SystemSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),

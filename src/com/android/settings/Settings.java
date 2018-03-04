@@ -193,6 +193,11 @@ public class Settings extends SettingsActivity {
 
     // Custom categories
     public static class NavigationSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class MiscSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class LockscreenSettingsActivity extends SettingsActivity  { /* empty */ }
+    public static class GesturesSettingsActivity extends SettingsActivity  { /* empty */ }
+    public static class StatusbarSettingsActivity extends SettingsActivity  { /* empty */ }
+    public static class SystemSettingsActivity extends SettingsActivity  { /* empty */ }
     public static class FlingSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SmartbarSettingsActivity extends SettingsActivity { /* empty */ }
     public static class PulseSettingsActivity extends SettingsActivity { /* empty */ }

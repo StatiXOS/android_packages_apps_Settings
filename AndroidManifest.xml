@@ -3344,7 +3344,7 @@
         </activity>
 
         <!-- System action picker -->
-        <activity android:name="com.statix.sparks.ActionPickerDialogActivity"
+        <activity android:name="com.statix.sparks.preferences.ActionPickerDialogActivity"
                 android:theme="@style/Theme.SmartBar.Dialog"
                 android:label="@string/choose_action_title"
                 android:excludeFromRecents="true">
@@ -3354,7 +3354,7 @@
         </activity>
 
         <!-- Icon pack picker -->
-        <activity android:name="com.statix.sparks.IconPickerActivity"
+        <activity android:name="com.statix.sparks.preferences.IconPickerActivity"
                 android:theme="@style/Theme.SmartBar.Dialog"
                 android:label="@string/icon_pack_picker_dialog_title"
                 android:excludeFromRecents="true">
@@ -3365,7 +3365,7 @@
 
 
         <!-- Icon picker proxy for gallery -->
-        <activity android:name="com.statix.sparks.IconPickerGallery"
+        <activity android:name="com.statix.sparks.preferences.IconPickerGallery"
             android:theme="@style/Theme.SmartBar.Dialog"
             android:label="@string/icon_pack_picker_dialog_title"
             android:excludeFromRecents="true">
@@ -3395,6 +3395,63 @@
                 android:value="com.statix.sparks.Sparks" />
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/sparks_summary" />
+        </activity>
+
+	<!-- Sparks Menus -->
+        <!-- Miscellaneous -->
+        <activity android:name="Settings$MiscSettingsActivity"
+                android:label="@string/misc_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.statix.sparks.fragments.misc.Misc" />
+        </activity>
+        <!-- Statusbar -->
+        <activity android:name="Settings$StatusbarSettingsActivity"
+                android:label="@string/statusbar_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.statix.sparks.fragments.statusbar.Statusbar" />
+        </activity>
+        <!-- System -->
+        <activity android:name="Settings$SystemSettingsActivity"
+                android:label="@string/system_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.statix.sparks.fragments.system.System" />
+        </activity>	
+        <!-- Gestures -->
+        <activity android:name="Settings$GesturesSettingsActivity"
+                android:label="@string/gestures_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.statix.sparks.fragments.gestures.GestureSettings" />
+        </activity>
+        <!-- Lockscreen -->
+        <activity android:name="Settings$LockscreenSettingsActivity"
+                android:label="@string/lockscreen_category"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.statix.sparks.fragments.lockscreen.Lockscreen" />
         </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
