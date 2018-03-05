@@ -28,8 +28,8 @@ import com.android.settingslib.core.AbstractPreferenceController;
 public class ROMVersionPreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin {
 
-    private static final String PROPERTY_STATIX_VERSION = "ro.statix.version";
-    private static final String KEY_STATIX_VERSION = "ro.mod.version";
+    private static final String PROPERTY_STATIX_VERSION = "ro.mod.version";
+    private static final String KEY_STATIX_VERSION = "mod_version";
 
     public ROMVersionPreferenceController(Context context) {
         super(context);
