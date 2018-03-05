@@ -1471,7 +1471,7 @@
     <string name="bluetooth_display_passkey_pin_msg">To pair with:<xliff:g id="bold1">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold1">&lt;/b>&lt;br>&lt;br></xliff:g>Type on it:<xliff:g id="bold2">&lt;br>&lt;b></xliff:g><xliff:g id="passkey">%2$s</xliff:g><xliff:g id="end_bold2">&lt;/b></xliff:g>, then press Return or Enter.</string>
 
     <!-- Checkbox message in pairing dialogs.  [CHAR LIMIT=NONE] -->
-    <string name="bluetooth_pairing_shares_phonebook">Allow <xliff:g id="device_name">%1$s</xliff:g> to access your contacts and call history</string>
+    <string name="bluetooth_pairing_shares_phonebook">Allow access to your contacts and call history</string>
 
     <!-- Title for BT error dialogs. -->
     <string name="bluetooth_error_title"></string>
@@ -2379,8 +2379,15 @@
     <string name="display_settings">Display</string>
     <!-- Sound & display settings screen, accelerometer-based rotation check box label -->
     <string name="accelerometer_title">Auto-rotate screen</string>
-    <!-- Display settings screen, vivid (or vibrant or saturated) color mode switch label [CHAR LIMIT=30] -->
-    <string name="color_mode_title">Vivid colors</string>
+    <!-- Display settings screen, Color mode settings title [CHAR LIMIT=30] -->
+    <string name="color_mode_title">Colors</string>
+    <!-- Display settings screen, Color mode option for "natural(sRGB) color"  [CHAR LIMIT=45] -->
+    <string name="color_mode_option_natural">Natural</string>
+    <!-- Display settings screen, Color mode option for "Boosted(sRGB + 10%) color"  [CHAR LIMIT=45] -->
+    <string name="color_mode_option_boosted">Boosted</string>
+    <!-- Display settings screen, Color mode option for "Saturated color"  [CHAR LIMIT=45] -->
+    <string name="color_mode_option_saturated">Saturated</string>
+
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->
     <string name="accelerometer_summary_on" product="tablet">Switch orientation automatically when rotating tablet</string>
     <!-- Sound & display settings screen, accelerometer-based rotation summary text when check box is selected -->

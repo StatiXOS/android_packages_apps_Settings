@@ -1004,7 +1004,10 @@
     <string name="search_clear_history" msgid="4196658962573162457">"வரலாற்றை அழி"</string>
     <string name="display_settings" msgid="7965901687241669598">"திரை அமைப்பு"</string>
     <string name="accelerometer_title" msgid="7854608399547349157">"திரையைத் தானாகச் சுழற்று"</string>
-    <string name="color_mode_title" msgid="3159275920408338215">"ஒளிமிக்க நிறங்கள்"</string>
+    <string name="color_mode_title" msgid="9186249332902370471">"வண்ணங்கள்"</string>
+    <string name="color_mode_option_natural" msgid="5013837483986772758">"இயற்கை வண்ணம்"</string>
+    <string name="color_mode_option_boosted" msgid="8588223970257287524">"பூஸ்ட் செய்யப்பட்டது"</string>
+    <string name="color_mode_option_saturated" msgid="4569683960058798843">"செறிவூட்டப்பட்டது"</string>
     <string name="accelerometer_summary_on" product="tablet" msgid="429982132339828942">"டேப்லெட்டைச் சுழற்றும்போது திசையமைவையும் தானாக மாற்று"</string>
     <string name="accelerometer_summary_on" product="default" msgid="1133737282813048021">"மொபைலைச் சுழற்றும்போது திசையமைவைத் தானாக மாற்று"</string>
     <string name="accelerometer_summary_off" product="tablet" msgid="4781734213242521682">"டேப்லெட்டைச் சுழற்றும்போது திசையமைவையும் தானாக மாற்று"</string>

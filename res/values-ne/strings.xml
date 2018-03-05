@@ -1004,7 +1004,10 @@
     <string name="search_clear_history" msgid="4196658962573162457">"इतिहास खाली गर्नुहोस्"</string>
     <string name="display_settings" msgid="7965901687241669598">"प्रदर्शन"</string>
     <string name="accelerometer_title" msgid="7854608399547349157">"स्वतःघुम्ने स्क्रिन"</string>
-    <string name="color_mode_title" msgid="3159275920408338215">"जीवन्त रङहरू"</string>
+    <string name="color_mode_title" msgid="9186249332902370471">"रङहरू"</string>
+    <string name="color_mode_option_natural" msgid="5013837483986772758">"प्राकृतिक"</string>
+    <string name="color_mode_option_boosted" msgid="8588223970257287524">"बढाइयो"</string>
+    <string name="color_mode_option_saturated" msgid="4569683960058798843">"परिपूर्ण पारियो"</string>
     <string name="accelerometer_summary_on" product="tablet" msgid="429982132339828942">"ट्याब्लेट घुमाउँदा स्वचालित रूपमा अभिमुखिकरण स्विच गर्नुहोस्"</string>
     <string name="accelerometer_summary_on" product="default" msgid="1133737282813048021">"फोन घुमाउँदा स्वचालित रूपमा अभिमुखिकरण स्विच गर्नुहोस्"</string>
     <string name="accelerometer_summary_off" product="tablet" msgid="4781734213242521682">"ट्याब्लेट घुमाउँदा अभिमुखिकरण स्वचालित तवरले बदल्नुहोस्"</string>

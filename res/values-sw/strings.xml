@@ -1004,7 +1004,10 @@
     <string name="search_clear_history" msgid="4196658962573162457">"Futa historia"</string>
     <string name="display_settings" msgid="7965901687241669598">"Kwenye Skrini"</string>
     <string name="accelerometer_title" msgid="7854608399547349157">"Skrini ijizungushe kiotomatiki"</string>
-    <string name="color_mode_title" msgid="3159275920408338215">"Rangi dhahiri"</string>
+    <string name="color_mode_title" msgid="9186249332902370471">"Rangi"</string>
+    <string name="color_mode_option_natural" msgid="5013837483986772758">"Asili"</string>
+    <string name="color_mode_option_boosted" msgid="8588223970257287524">"Imeongezwa Rangi"</string>
+    <string name="color_mode_option_saturated" msgid="4569683960058798843">"Imekolezwa"</string>
     <string name="accelerometer_summary_on" product="tablet" msgid="429982132339828942">"Badilisha uelekezo kiotomatiki wakati unazungusha kompyuta ndogo"</string>
     <string name="accelerometer_summary_on" product="default" msgid="1133737282813048021">"Badili uelekezaji kiotomatiki wakati wa kuzungusha simu"</string>
     <string name="accelerometer_summary_off" product="tablet" msgid="4781734213242521682">"Badilisha uelekezo kiotomatiki wakati unazungusha kompyuta ndogo"</string>
@@ -1832,10 +1835,10 @@
     <string name="accessibility_screen_magnification_navbar_title" msgid="7141753038957538230">"Kuza ukitumia kitufe"</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture" msgid="2760906043221923793">"Kuza ukitumia kitufe na kugonga mara tatu"</string>
     <string name="accessibility_preference_magnification_summary" msgid="5867883657521404509">"Vuta karibu kwenye skrini"</string>
-    <string name="accessibility_screen_magnification_short_summary" msgid="3411979839172752057">"Gusa mara 3 ili ukuze"</string>
-    <string name="accessibility_screen_magnification_navbar_short_summary" msgid="3693116360267980492">"Gusa kitufe ili ukuze"</string>
-    <string name="accessibility_screen_magnification_summary" msgid="5258868553337478505"><b>"Ili kukuza"</b>", gusa skrini mara 3 haraka.\n"<ul><li>"Buruta vidole 2 au zaidi ili usogeze"</li>\n<li>"Bana vidole 2 au zaidi ili ubadilishe ukuzaji"</li></ul>\n\n<b>"Ili kukuza kwa muda mfupi"</b>", gusa skrini mara 3 kwa haraka na ukifika mara ya tatu, usiondoe kidole.\n"<ul><li>"Buruta ili usogeze kwenye skrini"</li>\n<li>"Inua kidole ili uvute mbali"</li></ul>\n\n"Huwezi kukuza ukitumia kibodi au sehemu ya viungo muhimu."</string>
-    <string name="accessibility_screen_magnification_navbar_summary" msgid="1996584694050087161">"Ukiwasha kipengele cha ukuzaji, tumia Kitufe cha zana za walio na matatizo ya kuona au kusikia hapo chini ya skrini ili ukuze haraka.\n\n"<b>"Ili kukuza"</b>", gusa Kitufe cha zana za walio na matatizo ya kuona au kusikia, kisha uguse mahali popote kwenye skrini.\n"<ul><li>"Buruta kwa kutumia vidole 2 au zaidi ili usogeze"</li>\n<li>"Bana vidole 2 au zaidi ili ubadilishe ukuzaji"</li></ul>\n\n<b>"Ili kukuza kwa muda mfupi"</b>", gusa Kitufe cha zana za walio na matatizo ya kuona au kusikia, kisha uguse na ushikilie mahali popote kwenye skrini.\n"<ul><li>"Buruta ili usogeze kwenye skrini"</li>\n<li>"Inua kidole ili usogeze mbali"</li></ul>\n\n"Huwezi kuvuta karibu kwenye kibodi au sehemu ya viungo muhimu."</string>
+    <string name="accessibility_screen_magnification_short_summary" msgid="3411979839172752057">"Gonga mara 3 ili ukuze"</string>
+    <string name="accessibility_screen_magnification_navbar_short_summary" msgid="3693116360267980492">"Gonga kitufe ili ukuze"</string>
+    <string name="accessibility_screen_magnification_summary" msgid="5258868553337478505"><b>"Ili kukuza"</b>", gonga skrini mara 3 haraka.\n"<ul><li>"Buruta vidole 2 au zaidi ili usogeze"</li>\n<li>"Bana vidole 2 au zaidi ili ubadilishe ukuzaji"</li></ul>\n\n<b>"Ili kukuza kwa muda mfupi"</b>", gonga skrini mara 3 kwa haraka na ukifika mara ya tatu, usiondoe kidole.\n"<ul><li>"Buruta ili usogeze kwenye skrini"</li>\n<li>"Inua kidole ili uvute mbali"</li></ul>\n\n"Huwezi kukuza ukitumia kibodi au sehemu ya viungo muhimu."</string>
+    <string name="accessibility_screen_magnification_navbar_summary" msgid="1996584694050087161">"Ukiwasha kipengele cha ukuzaji, tumia Kitufe cha zana za walio na matatizo ya kuona au kusikia hapo chini ya skrini ili ukuze haraka.\n\n"<b>"Ili kukuza"</b>", gusa Kitufe cha zana za walio na matatizo ya kuona au kusikia, kisha ugonge mahali popote kwenye skrini.\n"<ul><li>"Buruta kwa kutumia vidole 2 au zaidi ili usogeze"</li>\n<li>"Bana vidole 2 au zaidi ili ubadilishe ukuzaji"</li></ul>\n\n<b>"Ili kukuza kwa muda mfupi"</b>", gusa Kitufe cha zana za walio na matatizo ya kuona au kusikia, kisha uguse na ushikilie mahali popote kwenye skrini.\n"<ul><li>"Buruta ili usogeze kwenye skrini"</li>\n<li>"Inua kidole ili usogeze mbali"</li></ul>\n\n"Huwezi kuvuta karibu kwenye kibodi au sehemu ya viungo muhimu."</string>
     <string name="accessibility_screen_magnification_navbar_configuration_warning" msgid="70533120652758190">"Kitufe cha zana za walio na matatizo ya kuona au kusikia kimewekwa kuwa <xliff:g id="SERVICE">%1$s</xliff:g>. Gusa na ushikilie Kitufe cha zana za walio na matatizo ya kuona au kusikia, kisha uchague ukuzaji ili utumie kipengele cha ukuzaji."</string>
     <string name="accessibility_global_gesture_preference_title" msgid="2048884356166982714">"Njia ya mkato ya kitufe cha sauti"</string>
     <string name="accessibility_shortcut_service_title" msgid="4779360749706905640">"Huduma ya njia ya mkato"</string>
@@ -3579,9 +3582,9 @@
     <string name="double_twist_for_camera_suggestion_summary" product="default" msgid="447403641027147153">"Geuza simu mara mbili ili uweke picha ya kujipiga mwenyewe"</string>
     <string name="double_twist_for_camera_suggestion_summary" product="tablet" msgid="1724660290703318739">"Geuza kompyuta kibao mara mbili ili uweke picha ya kujipiga mwenyewe"</string>
     <string name="double_twist_for_camera_suggestion_summary" product="device" msgid="5980398380988039489">"Geuza kifaa mara mbili ili uweke picha ya kujipiga mwenyewe"</string>
-    <string name="ambient_display_title" product="default" msgid="5144814600610448504">"Gusa mara mbili ili uangalie simu"</string>
-    <string name="ambient_display_title" product="tablet" msgid="8688795028609563837">"Gusa mara mbili ili uangalie kompyuta kibao"</string>
-    <string name="ambient_display_title" product="device" msgid="3423781975742145894">"Gusa mara mbili ili uangalie kifaa"</string>
+    <string name="ambient_display_title" product="default" msgid="5144814600610448504">"Gonga mara mbili ili uangalie simu"</string>
+    <string name="ambient_display_title" product="tablet" msgid="8688795028609563837">"Gonga mara mbili ili uangalie kompyuta kibao"</string>
+    <string name="ambient_display_title" product="device" msgid="3423781975742145894">"Gonga mara mbili ili uangalie kifaa"</string>
     <string name="ambient_display_summary" msgid="525662960806416373">"Ili uangalie saa, aikoni za arifa na maelezo mengine, gusa skrini yako mara mbili."</string>
     <string name="ambient_display_suggestion_summary" msgid="5987443721392571847">"Angalia arifa wakati skrini imezimwa"</string>
     <string name="ambient_display_pickup_title" product="default" msgid="818688002837687268">"Inua ili uangalie simu"</string>
