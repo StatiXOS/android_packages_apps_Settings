@@ -91,10 +91,7 @@ public class WifiTetherMaximizeCompatibilityPreferenceController extends
         if (mWifiManager == null) {
             return false;
         }
-        if (!mWifiManager.is5GHzBandSupported() || mWifiManager.getCountryCode() == null) {
-            return false;
-        }
-        return true;
+        return mWifiManager.is5GHzBandSupported();
     }
 
     @VisibleForTesting
