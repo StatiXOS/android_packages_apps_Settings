@@ -143,6 +143,7 @@ import com.statix.sparks.fragments.lockscreen.Lockscreen;
 import com.statix.sparks.preferences.PulseSettings;
 import com.statix.sparks.preferences.SmartbarSettings;
 import com.statix.sparks.Sparks;
+import com.statix.sparks.fragments.system.SmartPixels;
 
 public class SettingsGateway {
 
@@ -274,7 +275,8 @@ public class SettingsGateway {
             FlingSettings.class.getName(),
             SmartbarSettings.class.getName(),
             PulseSettings.class.getName(),
-            Sparks.class.getName()
+            Sparks.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -322,6 +324,7 @@ public class SettingsGateway {
             Settings.FlingSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.PulseSettingsActivity.class.getName(),
-            Settings.SparksActivity.class.getName()
+            Settings.SparksActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
