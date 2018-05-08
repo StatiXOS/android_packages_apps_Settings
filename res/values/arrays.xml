@@ -456,7 +456,7 @@
     <!-- Bearer Info used in APN editor -->
     <string-array name="bearer_entries">
         <item>Unspecified</item>
-        <item>LTE</item>
+        <item>LIT</item>
         <item>HSPAP</item>
         <item>HSPA</item>
         <item>HSUPA</item>
