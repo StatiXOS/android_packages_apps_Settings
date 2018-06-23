@@ -29,7 +29,7 @@ public class ROMVersionPreferenceController extends AbstractPreferenceController
         PreferenceControllerMixin {
 
     private static final String PROPERTY_STATIX_VERSION = "ro.mod.version";
-    private static final String KEY_STATIX_VERSION = "mod_version";
+    private static final String KEY_STATIX_VERSION = "mod.version";
 
     public ROMVersionPreferenceController(Context context) {
         super(context);
