@@ -26,6 +26,8 @@ public class BuildNumberDialogController {
 
     @VisibleForTesting
     static final int BUILD_NUMBER_VALUE_ID = R.id.build_number_value;
+    @VisibleForTesting
+    static final int BUILD_NUMBER_LABEL_ID = R.id.build_number_label;
 
     private final FirmwareVersionDialogFragment mDialog;
 
@@ -37,7 +39,9 @@ public class BuildNumberDialogController {
      * Updates the build number to the dialog.
      */
     public void initialize() {
-        mDialog.setText(BUILD_NUMBER_VALUE_ID,
-                BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
+        mDialog.removeSettingFromScreen(BUILD_NUMBER_LABEL_ID);
+        mDialog.removeSettingFromScreen(BUILD_NUMBER_VALUE_ID);
+        //mDialog.setText(BUILD_NUMBER_VALUE_ID,
+                //BidiFormatter.getInstance().unicodeWrap(Build.DISPLAY));
     }
 }
