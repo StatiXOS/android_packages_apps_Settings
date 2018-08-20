@@ -147,6 +147,7 @@
     <string name="buttons_settings_title">Buttons</string>
     <string name="hardware_keys_title">Hardware keys</string>
     <string name="button_brightness_title">Backlight</string>
+    <string name="button_brightness_sw_title">Enable backlight</string>
     <string name="backlight_timeout_title">Buttons backlight timeout</string>
     <string name="backlight_timeout_on">Enabled always</string>
     <string name="backlight_timeout_3s">3 sec</string>
