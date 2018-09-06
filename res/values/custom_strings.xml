@@ -27,4 +27,7 @@
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
 
+    <!-- When SystemUI theme is black [CHAR LIMIT=60] -->
+    <string name="systemui_theme_black">Black</string>
+
 </resources>
