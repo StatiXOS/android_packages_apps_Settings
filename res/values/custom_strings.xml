@@ -19,4 +19,7 @@
     <!-- StatiXOS version -->
     <string name="statix_version">StatiXOS version</string>
     <string name="statix_version_default">Unknown</string>
+
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
 </resources>
