@@ -25,6 +25,7 @@ import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Process;
+import android.text.TextUtils;
 import android.util.SparseIntArray;
 
 import com.android.internal.os.BatterySipper;
@@ -48,6 +49,7 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
     static final String BATTERY_ESTIMATE_BASED_ON_USAGE_COL = "is_based_on_usage";
     static final String BATTERY_ESTIMATE_COL = "battery_estimate";
     static final String BATTERY_LEVEL_COL = "battery_level";
+    static final String IS_EARLY_WARNING_COL = "is_early_warning";
     static final String TIMESTAMP_COL = "timestamp_millis";
     static final int CUSTOMIZED_TO_USER = 1;
     static final int NEED_EARLY_WARNING = 1;
@@ -116,8 +118,15 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
         Cursor cursor = context.getContentResolver().query(uri, null, null, null, null);
 
         // Return null if cursor is null or empty
-        if (cursor == null || !cursor.moveToFirst())
+        if (cursor == null || !cursor.moveToFirst()) {
+            try {
+                cursor.close();
+            }
+            catch (NullPointerException nullPointerException) {
+                 // cursor might be null
+            }
             return null;
+        }
 
         // Check if estimate is usage based
         int colIndex = cursor.getColumnIndex(BATTERY_ESTIMATE_BASED_ON_USAGE_COL);
@@ -159,8 +168,15 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
         Cursor cursor = context.getContentResolver().query(uri, null, null, null, null);
 
         // Return null if cursor is null or empty
-        if (cursor == null || !cursor.moveToFirst())
+        if (cursor == null || !cursor.moveToFirst()) {
+            try {
+                cursor.close();
+            }
+            catch (NullPointerException nullPointerException) {
+                 // cursor might be null
+            }
             return null;
+        }
 
         // Get time/battery data indicies
         int timestamp = cursor.getColumnIndex(TIMESTAMP_COL);
@@ -227,7 +243,41 @@ public class PowerUsageFeatureProviderImpl implements PowerUsageFeatureProvider 
 
     @Override
     public boolean getEarlyWarningSignal(Context context, String id) {
-        return false;
+        // Build early warning URI and create a cursor to read it
+        Uri.Builder builder = new Uri.Builder().scheme("content")
+                                            .authority("com.google.android.apps.turbo.estimated_time_remaining")
+                                            .appendPath("early_warning")
+                                            .appendPath("id");
+        if (TextUtils.isEmpty(id)) {
+            builder.appendPath(context.getPackageName());
+        } else {
+            builder.appendPath(id);
+        }
+        Cursor cursor = context.getContentResolver().query(builder.build(), null, null, null, null);
+
+        // Return null if cursor is null or empty
+        if (cursor == null || !cursor.moveToFirst()) {
+            try {
+                cursor.close();
+            }
+            catch (NullPointerException nullPointerException) {
+                 // cursor might be null
+            }
+            return false;
+        }
+
+        // Check if early warning is available
+        boolean earlyWarningAvailable  = cursor.getInt(cursor.getColumnIndex(IS_EARLY_WARNING_COL)) == 1;
+
+        // Cleanup
+        try {
+            cursor.close();
+        }
+        catch (NullPointerException nullPointerException) {
+            // We already checked if cursor is null, so it shouldn't be dereferenced yet.
+        }
+
+        return earlyWarningAvailable;
     }
 
     @Override
