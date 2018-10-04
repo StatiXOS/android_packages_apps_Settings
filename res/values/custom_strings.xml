@@ -214,4 +214,7 @@
     <string name="theme_settings_title">Themes</string>
     <string name="theme_settings_summary">No mistakes, only happy accidents</string>
 
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">Double tap to sleep on statusbar</string>
+    <string name="double_tap_to_sleep_summary">Double tap on statusbar to switch the screen off</string>
 </resources>
