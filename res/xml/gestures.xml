@@ -98,4 +98,10 @@
         android:title="@string/doubletap_lockscreen_screen_title"
         android:fragment="com.android.settings.gestures.DoubleTapLockscreenSettings"
         settings:controller="com.android.settings.gestures.DoubleTapLockscreenPreferenceController" />
+
+    <Preference
+        android:key="double_tap_to_sleep_summary"
+        android:title="@string/double_tap_to_sleep_screen_title"
+        android:fragment="com.android.settings.gestures.DoubleTapStatusBarSettings"
+        settings:controller="com.android.settings.gestures.DoubleTapSatatusBarPreferenceController" />
 </PreferenceScreen>
