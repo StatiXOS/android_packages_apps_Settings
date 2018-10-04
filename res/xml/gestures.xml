@@ -105,4 +105,9 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotGesturePreferenceController" />
 
+    <Preference
+        android:key="double_tap_to_sleep_summary"
+        android:title="@string/double_tap_to_sleep_title"
+        android:fragment="com.android.settings.gestures.DoubleTapStatusBarSettings"
+        settings:controller="com.android.settings.gestures.DoubleTapStatusBarPreferenceController" />
 </PreferenceScreen>
