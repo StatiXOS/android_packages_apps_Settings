@@ -30,7 +30,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-import com.dirtyunicorns.tweaks.fragments.AccentPicker;
+import com.statix.sparks.fragments.AccentPicker;
 
 import com.android.internal.util.du.Utils;
 
