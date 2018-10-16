@@ -30,4 +30,13 @@
     <!-- When SystemUI theme is black [CHAR LIMIT=60] -->
     <string name="systemui_theme_black">Black</string>
 
+    <!-- QS Selector -->
+    <string name="qs_category_title">QS customization</string>
+    <string name="qs_selector_title">QS theming</string>
+    <string name="qs_selector_default">Default</string>
+    <string name="qs_selector_split">Split</string>
+    <string name="qs_selector_teardrop">Teardrop</string>
+    <string name="qs_selector_framed">Framed</string>
+    <string name="qs_selector_super_bubble">Super Bubble</string>
+
 </resources>
