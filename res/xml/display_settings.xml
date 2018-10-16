@@ -136,6 +136,12 @@
             android:key="accent_picker"
             android:title="@string/theme_accent_picker_title" />
 
+        <ListPreference
+            android:key="qs_selector"
+            android:title="@string/qs_category_title"
+            android:entries="@array/qs_selector_entries"
+            android:entryValues="@array/qs_selector_values"
+            android:persistent="false" />
      </PreferenceCategory>
 
     <Preference
