@@ -27,4 +27,12 @@
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
 
+    <!-- QS Selector -->
+    <string name="qs_category_title">QS customization</string>
+    <string name="qs_selector_title">QS theming</string>
+    <string name="qs_selector_default">Default</string>
+    <string name="qs_selector_split">Split</string>
+    <string name="qs_selector_teardrop">Teardrop</string>
+    <string name="qs_selector_framed">Framed</string>
+    <string name="qs_selector_super_bubble">Super Bubble</string>
 </resources>
