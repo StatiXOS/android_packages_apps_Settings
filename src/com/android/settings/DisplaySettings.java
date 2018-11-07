@@ -93,7 +93,7 @@ public class DisplaySettings extends DashboardFragment {
         controllers.add(new NightModePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new AccentPickerPreferenceController(context, lifecycle, fragment));
-        controllers.add(new QSPreferenceController(context));
+        controllers.add(new QSPreferenceController(context, lifecycle, fragment));
         controllers.add(new ScreenOffAnimationsPreferenceController(context));
         controllers.add(new AmbientDisplayPreferenceController(
                 context,
