@@ -98,6 +98,17 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
 
+// Sparks
+import com.statix.sparks.fragments.buttons.ButtonBrightness;
+import com.statix.sparks.fragments.buttons.Buttons;
+import com.statix.sparks.fragments.extras.AccentPicker;
+import com.statix.sparks.fragments.extras.BatteryLightSettings;
+import com.statix.sparks.fragments.extras.QsTileStyles;
+import com.statix.sparks.fragments.misc.Misc;
+import com.statix.sparks.fragments.statusbar.ClockOptions;
+import com.statix.sparks.fragments.statusbar.Statusbar;
+import com.statix.sparks.fragments.statusbar.TrafficIndicators;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -191,6 +202,17 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(RecentLocationRequestSeeAllFragment.class);
         addIndex(PreviouslyConnectedDeviceDashboardFragment.class);
         addIndex(BluetoothDashboardFragment.class);
+
+        // Sparks
+        addIndex(AccentPicker.class);
+        addIndex(ButtonBrightness.class);
+        addIndex(Buttons.class);
+        addIndex(BatteryLightSettings.class);
+        addIndex(ClockOptions.class);
+        addIndex(Misc.class);
+        addIndex(QsTileStyles.class);
+        addIndex(Statusbar.class);
+        addIndex(TrafficIndicators.class);
     }
 
     @Override
