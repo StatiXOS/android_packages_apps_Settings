@@ -3361,5 +3361,16 @@
                 android:resource="@string/sparks_summary" />
         </activity>
         <!-- This is the longest AndroidManifest.xml ever. -->
+
+        <!-- Changelog -->
+        <activity android:name="com.bytehamster.changelog.Main"
+                  android:taskAffinity=""
+                  android:parentActivityName="Settings"
+                  android:configChanges="orientation|screenLayout|screenSize"
+                  android:label="@string/changelog_title" />
+        <activity android:name="com.bytehamster.changelog.Preferences"
+                  android:configChanges="orientation|screenLayout|screenSize"
+                  android:label="@string/settings_label" />
+
     </application>
 </manifest>
