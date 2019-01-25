@@ -112,6 +112,18 @@
         settings:keywords="@string/keywords_android_version"
         android:summary="@string/summary_placeholder"/>
 
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog"
+        android:order="33"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.bytehamster.changelog.Main" />
+    </Preference>
+
     <!--IP address -->
     <Preference
         android:key="wifi_ip_address"

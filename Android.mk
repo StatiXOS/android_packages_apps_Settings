@@ -21,6 +21,7 @@ LOCAL_USE_AAPT2 := true
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../Sparks/src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartNavSettings/src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../Changelog/app/src/main/java)
 
 LOCAL_FULL_LIBS_MANIFEST_FILES += $(LOCAL_PATH)/AndroidManifest-SmartNav.xml
 
@@ -57,7 +58,8 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     frameworks/support/v7/recyclerview/res \
     frameworks/support/design/res \
     packages/apps/Sparks/res \
-    packages/apps/SmartNavSettings/res
+    packages/apps/SmartNavSettings/res \
+    packages/apps/Changelog/app/src/main/res \
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
@@ -68,8 +70,8 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
     --extra-packages android.support.design \
-    --extra-packages com.statix.sparks
-
+    --extra-packages com.statix.sparks \
+    --extra-packages com.bytehamster.changelog \
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
