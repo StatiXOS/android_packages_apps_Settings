@@ -153,5 +153,13 @@
         android:title="@string/build_number"
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
+  
+    <!-- Up time -->
+    <Preference
+        android:key="status_up_time"
+        android:order="44"
+        android:title="@string/status_up_time"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"/>
 
 </PreferenceScreen>
