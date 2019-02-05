@@ -1,0 +1,24 @@
+<vector android:height="2234dp" android:viewportHeight="2233.561"
+    android:viewportWidth="1605.091" android:width="1605dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@*android:color/accent_device_default_light" android:fillType="evenOdd"
+        android:pathData="M419.48,2221.91c-17.74,-5.67 -25.36,-31.42 -17.03,-57.5L1078.47,48.65c8.34,-26.08 29.47,-42.63 
+47.21,-36.96s25.36,31.42 17.03,57.5L466.68,2184.96C458.35,2211.04 437.21,2227.58 419.48,2221.91Z"
+        android:strokeColor="@*android:color/accent_device_default_light" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="20.00"/>
+    <path android:fillColor="@*android:color/accent_device_default_light" android:fillType="evenOdd"
+        android:pathData="M1591.03,1116.41a33.75,33.75 0,0 1,-33.76 33.76L44.7,1150.17a33.76,33.76 0,1 1,0 
+-67.52L1557.27,1082.65A33.75,33.75 0,0 1,1591.03 1116.41Z"
+        android:strokeColor="@*android:color/accent_device_default_light" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="20.00"/>
+    <path android:fillColor="@*android:color/accent_device_default_light" android:fillType="evenOdd"
+        android:pathData="M1584.16,1097.65a32.51,32.51 0,0 1,0 47.66L459.4,2213.06a36.87,36.87 0,0 1,-50.21 0,32.51 32.51,0 0,1 
+0,-47.67L1533.95,1097.65A36.84,36.84 0,0 1,1584.16 1097.65Z"
+        android:strokeColor="@*android:color/accent_device_default_light" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="20.00"/>
+    <path android:fillColor="@*android:color/accent_device_default_light" android:fillType="evenOdd"
+        android:pathData="M1136.18,20.43a33.8,33.8 0,0 1,0 47.74L68.08,1137.65a33.74,33.74 0,0 1,-47.68 -47.75L1088.49,20.43A33.69,33.69 0,0 
+1,1136.18 20.43Z"
+        android:strokeColor="@*android:color/accent_device_default_light" android:strokeLineCap="round"
+        android:strokeLineJoin="round" android:strokeWidth="20.00" />
+</vector>
+
