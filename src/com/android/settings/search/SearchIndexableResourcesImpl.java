@@ -92,7 +92,6 @@ import com.android.settings.system.ResetDashboardFragment;
 import com.android.settings.system.SystemDashboardFragment;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.tts.TtsEnginePreferenceFragment;
-import com.android.settings.users.UserSettings;
 import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
@@ -102,10 +101,13 @@ import com.android.settings.wifi.WifiSettings;
 import com.statix.sparks.fragments.buttons.ButtonBrightness;
 import com.statix.sparks.fragments.buttons.Buttons;
 import com.statix.sparks.fragments.extras.notification.BatteryLightSettings;
+import com.statix.sparks.fragments.gestures.ActiveEdge;
 import com.statix.sparks.fragments.statusbar.ClockOptions;
 import com.statix.sparks.fragments.misc.Misc;
 import com.statix.sparks.fragments.statusbar.Statusbar;
 import com.statix.sparks.fragments.statusbar.TrafficIndicators;
+
+// SmartNav
 import com.android.settings.smartnav.FlingSettings;
 import com.android.settings.smartnav.PulseSettings;
 import com.android.settings.smartnav.SmartbarSettings;
@@ -206,6 +208,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(BluetoothDashboardFragment.class);
 
         // Sparks
+        addIndex(ActiveEdge.class);
         addIndex(ButtonBrightness.class);
         addIndex(Buttons.class);
         addIndex(BatteryLightSettings.class);
