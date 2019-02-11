@@ -102,6 +102,7 @@ import com.android.settings.wifi.WifiSettings;
 import com.statix.sparks.fragments.buttons.ButtonBrightness;
 import com.statix.sparks.fragments.buttons.Buttons;
 import com.statix.sparks.fragments.extras.notification.BatteryLightSettings;
+import com.statix.sparks.fragments.gestures.ActiveEdge;
 import com.statix.sparks.fragments.statusbar.ClockOptions;
 import com.statix.sparks.fragments.lockscreen.Lockscreen;
 import com.statix.sparks.fragments.gestures.Gestures;
@@ -213,6 +214,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(BluetoothDashboardFragment.class);
 
         // Sparks
+        addIndex(ActiveEdge.class);
         addIndex(ButtonBrightness.class);
         addIndex(Buttons.class);
         addIndex(BatteryLightSettings.class);
