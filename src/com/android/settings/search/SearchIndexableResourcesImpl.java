@@ -97,6 +97,7 @@ import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.WifiSettings;
+import com.statix.sparks.fragments.gestures.ActiveEdge;
 
 // Sparks
 import com.statix.sparks.fragments.buttons.ButtonBrightness;
@@ -202,6 +203,7 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(BluetoothDashboardFragment.class);
 
         // Sparks
+        addIndex(ActiveEdge.class);
         addIndex(ButtonBrightness.class);
         addIndex(Buttons.class);
         addIndex(BatteryLightSettings.class);
