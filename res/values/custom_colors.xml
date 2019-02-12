@@ -19,4 +19,7 @@
     <color name="switch_bar_bg_activated_dark">#242424</color>
     <color name="switch_bar_bg_deactivated_dark">#333333</color>
 
+    <!-- Suggestion cards -->
+    <color name="suggestion_card_background">#fafafa</color>
+
 </resources>
