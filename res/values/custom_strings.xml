@@ -80,4 +80,8 @@
     <string name="battery_temp_title">Battery temperature</string>
     <string name="battery_temp_summary">Tap to switch scale</string>
 
+    <!-- Ambient category -->
+    <string name="ambient_display_category">Ambient options</string>
+    <string name="custom_ambient_display_summary">Configure advanced Ambient display</string>
+
 </resources>
