@@ -26,9 +26,9 @@
     <!-- System theme -->
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
-
-    <!-- When SystemUI theme is black [CHAR LIMIT=60] -->
-    <string name="systemui_theme_black">Black</string>
+    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
+    <string name="system_theme_light">Light</string>
+    <string name="system_theme_dark">Dark</string>
 
     <!-- QS Selector -->
     <string name="qs_category_title">QS customization</string>

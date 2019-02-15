@@ -147,11 +147,11 @@
         android:title="@string/theme_category_title">
 
         <ListPreference
-            android:key="system_theme_style"
+            android:key="dark_ui_mode"
             android:title="@string/device_theme"
-            android:entries="@array/system_theme_style_entries"
-            android:entryValues="@array/system_theme_style_values"
-            android:persistent="false" />
+            android:dialogTitle="@string/device_theme"
+            android:entries="@array/dark_ui_mode_entries"
+            android:entryValues="@array/dark_ui_mode_values" />
 
         <Preference
             android:key="accent_picker"
