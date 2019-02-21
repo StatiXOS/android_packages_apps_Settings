@@ -111,6 +111,12 @@ import com.statix.sparks.fragments.system.GlobalActionsSettings;
 import com.statix.sparks.fragments.system.SmartPixels;
 import com.statix.sparks.fragments.system.System;
 
+// SmartNav
+import com.android.settings.smartnav.FlingSettings;
+import com.android.settings.smartnav.PulseSettings;
+import com.android.settings.smartnav.SmartbarSettings;
+import com.android.settings.smartnav.NavigationBarSettings;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -217,6 +223,12 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(GlobalActionsSettings.class);
         addIndex(SmartPixels.class);
         addIndex(System.class);
+
+        // SmartNav
+        addIndex(FlingSettings.class);
+        addIndex(NavigationBarSettings.class);
+        addIndex(PulseSettings.class);
+        addIndex(SmartbarSettings.class);
     }
 
     @Override
