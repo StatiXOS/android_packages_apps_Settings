@@ -106,6 +106,10 @@ import com.statix.sparks.fragments.statusbar.ClockOptions;
 import com.statix.sparks.fragments.misc.Misc;
 import com.statix.sparks.fragments.statusbar.Statusbar;
 import com.statix.sparks.fragments.statusbar.TrafficIndicators;
+import com.android.settings.smartnav.FlingSettings;
+import com.android.settings.smartnav.PulseSettings;
+import com.android.settings.smartnav.SmartbarSettings;
+import com.android.settings.smartnav.NavigationBarSettings;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -209,6 +213,10 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(Misc.class);
         addIndex(Statusbar.class);
         addIndex(TrafficIndicators.class);
+        addIndex(FlingSettings.class);
+        addIndex(NavigationBarSettings.class);
+        addIndex(PulseSettings.class);
+        addIndex(SmartbarSettings.class);
     }
 
     @Override
