@@ -56,7 +56,7 @@
         settings:useAdditionalSummary="true"/>
 
     <!-- Custom led color -->
-    <net.margaritov.preference.colorpicker.ColorPickerPreference
+    <com.statix.support.colorpicker.ColorPickerPreference
         android:key="custom_light"
         android:dependency="lights"
         android:title="@string/custom_light_title"
