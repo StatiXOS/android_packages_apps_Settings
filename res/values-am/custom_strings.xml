@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS ስሪት</string>
+	<string name="statix_version_default">የማይታወቅ</string>
+
+	<!-- Density category -->
+	<string name="density_category">የመጥፋት አማራጮች</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">ገጽታ በመተግበር ላይ, እባክዎ ይጠብቁ…</string>
+	<string name="theme_applied_toast">ጭብጥ ተግባራዊ ሆኗል!</string>
+	<string name="system_theme_wallpaper">ራስ-ሰር (በቀኑ ጊዜ ላይ በመመርኮዝ)</string>
+	<string name="system_theme_light">ብርሃን</string>
+	<string name="system_theme_dark">ጨለማ</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS ማበጀት</string>
+	<string name="qs_selector_title">QS ዱቄት</string>
+	<string name="qs_selector_default">ነባሪ</string>
+	<string name="qs_selector_split">የተከፈለ</string>
+	<string name="qs_selector_teardrop">ሽርታር</string>
+	<string name="qs_selector_framed">ክፈፍ</string>
+	<string name="qs_selector_super_bubble">ጥሩ አረፋ</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">የ SELinux ሁኔታ</string>
+	<string name="selinux_status_disabled">ተሰናክሏል</string>
+	<string name="selinux_status_permissive">ፈቃዱ</string>
+	<string name="selinux_status_enforcing">በማስፈጸም ላይ</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">ማያ ገጽ አኒሜሽን</string>
+	<string name="screen_off_animation_default">ነባሪ</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">ልኬት</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">ፈዛዛ ቀለም</string>
+	<string name="custom_light_on_time_title">በማሽከርከር ህመም ወቅት (ሚሴ)</string>
+	<string name="custom_light_off_time_title">በማሽከርከር ግፊት (ሚሴስ) ጊዜን ያጥፉት</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">ፎንት</string>
+	<string name="disable_fonts_installed_title">ከሳራታች ጋር ግጭቶችን ለማስወገድ የቅርጸ-ቁምፊ መልቀሚያ አይገኝም. የቅርጸ ቁምፊውን መምረጥ የሚፈልጉ ከሆነ ያራግፉ.</string>
+	<string name="font_picker_progress">አዲስ ቅርጸ ቁምፊን ይተግብሩ\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">ችቦውን ያግብሩ</string>
+	<string name="double_tap_power_flashlight_title">ማያ ገጽ የኃይል አዝራር አዝራር</string>
+	<string name="torch_power_button_gesture_none">ተሰናክሏል</string>
+	<string name="torch_power_button_gesture_dt">ችካሪውን ለማብራት ሁለቴ መታ ማድረግ</string>
+	<string name="torch_power_button_gesture_lp">ችካሪውን ለመለወጥ ረጅሙ ኃይልን ይጫኑ</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">ምዝግብ ማስታወሻ ይቀይሩ</string>
+	<string name="changelog_summary">Gerrit የሁኔታ ለውጦች</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">የባትሪ ሙቀት</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">በዙሪያ የተዘጉ አማራጮች</string>
+	<string name="custom_ambient_display_summary">የላቀ የአረንጓዴ ማሳያ አዋቅር</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">ሙሉ የሙዚቃ ሁነታን ያንቁ</string>
+	<string name="full_gesture_mode_summary">ይህ ሁነታ ደግሞ የተመለስ አዝራሩን ያሰናክልና በ navbar አሞሌ በግራ ማንሸራተቻ ላይ የኋላ አዝራር እርምጃን ማስጀመር ይችላሉ. በቀኝ ማንሸራተት የመጨረሻውን የመተግበሪያ ድርጊት ያደርገዋል.</string>
+
+</resources>

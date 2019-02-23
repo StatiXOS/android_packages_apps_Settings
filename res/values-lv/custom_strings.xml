@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS versija</string>
+	<string name="statix_version_default">Nezināms</string>
+
+	<!-- Density category -->
+	<string name="density_category">Blīvuma opcijas</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Motīva lietošana, lūdzu, uzgaidiet…</string>
+	<string name="theme_applied_toast">Tēma piemērota!</string>
+	<string name="system_theme_wallpaper">Automātiski (atkarībā no diennakts laika)</string>
+	<string name="system_theme_light">Gaisma</string>
+	<string name="system_theme_dark">Tumšs</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS pielāgošana</string>
+	<string name="qs_selector_title">QS tematika</string>
+	<string name="qs_selector_default">Noklusējums</string>
+	<string name="qs_selector_split">Sadalīt</string>
+	<string name="qs_selector_teardrop">Asaras</string>
+	<string name="qs_selector_framed">Ierāmēts</string>
+	<string name="qs_selector_super_bubble">Super burbulis</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux statuss</string>
+	<string name="selinux_status_disabled">Atspējots</string>
+	<string name="selinux_status_permissive">Atļauts</string>
+	<string name="selinux_status_enforcing">Izpilde</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Ekrāna izslēgta animācija</string>
+	<string name="screen_off_animation_default">Noklusējums</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Mērogs</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Gaiša krāsa</string>
+	<string name="custom_light_on_time_title">Gaismas ieslēgšanas laiks LED impulsa laikā (ms)</string>
+	<string name="custom_light_off_time_title">Gaismas izslēgšanas laiks LED impulsa laikā (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Fonts</string>
+	<string name="disable_fonts_installed_title">Fonta atlasītājs nav pieejams, lai izvairītos no konfliktiem ar Substratum. Atinstalējiet to, ja vēlaties izmantot fontu atlasītāju.</string>
+	<string name="font_picker_progress">Jauna fonta lietošana\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktivizējiet lāpu</string>
+	<string name="double_tap_power_flashlight_title">Ekrāna izslēgšanas taustiņa deglis</string>
+	<string name="torch_power_button_gesture_none">Atspējots</string>
+	<string name="torch_power_button_gesture_dt">Divreiz pieskarieties jaudai, lai pārslēgtu degli</string>
+	<string name="torch_power_button_gesture_lp">Ilgi nospiediet jaudu, lai pārslēgtu degli</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Mainīt žurnālu</string>
+	<string name="changelog_summary">Izmaiņas Gerrit instancē</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Akumulatora temperatūra</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Apkārtējās vides iespējas</string>
+	<string name="custom_ambient_display_summary">Konfigurējiet uzlaboto apkārtējās vides displeju</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Iespējot pilnu žestu režīmu</string>
+	<string name="full_gesture_mode_summary">Šis režīms atspējos arī atpakaļ pogu un jūs varēsiet aktivizēt atpakaļ pogas darbību, izmantojot kreisās svārstības navigācijas joslā. Labā zvēliens joprojām aktivizēs pēdējās lietotnes darbību.</string>
+
+</resources>

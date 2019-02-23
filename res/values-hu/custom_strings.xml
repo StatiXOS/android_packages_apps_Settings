@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS verzió</string>
+	<string name="statix_version_default">Ismeretlen</string>
+
+	<!-- Density category -->
+	<string name="density_category">Sűrűség opciók</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Téma alkalmazása, kérjük várjon…</string>
+	<string name="theme_applied_toast">Alkalmazott téma!</string>
+	<string name="system_theme_wallpaper">Automatikus (aktuális napszak alapján)</string>
+	<string name="system_theme_light">Fény</string>
+	<string name="system_theme_dark">Sötét</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS testreszabás</string>
+	<string name="qs_selector_title">QS-témák</string>
+	<string name="qs_selector_default">Alapértelmezett</string>
+	<string name="qs_selector_split">Hasított</string>
+	<string name="qs_selector_teardrop">Könnycsepp</string>
+	<string name="qs_selector_framed">Keretezett</string>
+	<string name="qs_selector_super_bubble">Szuper Buborék</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux állapot</string>
+	<string name="selinux_status_disabled">Tiltva</string>
+	<string name="selinux_status_permissive">Megengedő</string>
+	<string name="selinux_status_enforcing">érvényesítése</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Képernyő kikapcsolása</string>
+	<string name="screen_off_animation_default">Alapértelmezett</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Skála</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Világos szín</string>
+	<string name="custom_light_on_time_title">Világítás bekapcsolási ideje a led impulzus alatt (ms)</string>
+	<string name="custom_light_off_time_title">Világítás kikapcsolási ideje a led impulzus alatt (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Betűtípus</string>
+	<string name="disable_fonts_installed_title">A betűkészlet-kereső nem érhető el, hogy elkerülje a szubsztrátokkal való konfliktusokat. Távolítsa el, ha használni szeretné a betűtípust.</string>
+	<string name="font_picker_progress">Új betűkészlet alkalmazása\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktiválja a fáklyát</string>
+	<string name="double_tap_power_flashlight_title">Kijelző kikapcsolja a bekapcsológombot</string>
+	<string name="torch_power_button_gesture_none">Tiltva</string>
+	<string name="torch_power_button_gesture_dt">Dupla érintéssel kapcsolja be a fáklyát</string>
+	<string name="torch_power_button_gesture_lp">Hosszú megnyomásával kapcsolja be a fáklyát</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Változási napló</string>
+	<string name="changelog_summary">A Gerrit példány megváltozik</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Az akkumulátor hőmérséklete</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Környezeti lehetőségek</string>
+	<string name="custom_ambient_display_summary">Fejlett Ambient kijelző konfigurálása</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Teljes gesztus mód engedélyezése</string>
+	<string name="full_gesture_mode_summary">Ez az üzemmód letiltja a vissza gombot is, és a bal oldali ujjlenyomat segítségével kiválaszthat egy visszalépés műveletet. A jobb egérmutató továbbra is aktiválja az utolsó alkalmazást.</string>
+
+</resources>

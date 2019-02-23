@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Версия StatiXOS</string>
+	<string name="statix_version_default">неизвестный</string>
+
+	<!-- Density category -->
+	<string name="density_category">Варианты плотности</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Применяя тему, пожалуйста подождите…</string>
+	<string name="theme_applied_toast">Тема применена!</string>
+	<string name="system_theme_wallpaper">Автоматически (в зависимости от времени суток)</string>
+	<string name="system_theme_light">Свет</string>
+	<string name="system_theme_dark">Темно</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">Настройка QS</string>
+	<string name="qs_selector_title">Тема QS</string>
+	<string name="qs_selector_default">По умолчанию</string>
+	<string name="qs_selector_split">Трещина</string>
+	<string name="qs_selector_teardrop">Капля слезы</string>
+	<string name="qs_selector_framed">обрамленный</string>
+	<string name="qs_selector_super_bubble">Супер пузырь</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">Статус SELinux</string>
+	<string name="selinux_status_disabled">инвалид</string>
+	<string name="selinux_status_permissive">диспозитивный</string>
+	<string name="selinux_status_enforcing">Обеспечение</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Экран выключен, анимация</string>
+	<string name="screen_off_animation_default">По умолчанию</string>
+	<string name="screen_off_animation_crt">ЭЛТ</string>
+	<string name="screen_off_animation_scale">Масштаб</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Светлый цвет</string>
+	<string name="custom_light_on_time_title">Свет на время во время светодиодного импульса (мс)</string>
+	<string name="custom_light_off_time_title">Время выключения при светодиодном импульсе (мс)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Шрифт</string>
+	<string name="disable_fonts_installed_title">Средство выбора шрифтов недоступно, чтобы избежать конфликтов с субстратом. Удалите его, если вы хотите использовать средство выбора шрифтов.</string>
+	<string name="font_picker_progress">Применение нового шрифта\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Активировать факел</string>
+	<string name="double_tap_power_flashlight_title">Экран выключен кнопкой питания факела</string>
+	<string name="torch_power_button_gesture_none">инвалид</string>
+	<string name="torch_power_button_gesture_dt">Дважды нажмите на мощность, чтобы включить факел</string>
+	<string name="torch_power_button_gesture_lp">Длительное нажатие на кнопку включения факела</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Журнал изменений</string>
+	<string name="changelog_summary">Изменения экземпляра Gerrit</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Температура батареи</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Окружающие варианты</string>
+	<string name="custom_ambient_display_summary">Настроить расширенный внешний дисплей</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Включить режим полного жеста</string>
+	<string name="full_gesture_mode_summary">Этот режим также отключит кнопку «Назад», и вы сможете запустить действие кнопки «Назад» нажатием левой кнопки на панели навигации. Смахивание вправо по-прежнему вызовет действие последнего приложения.</string>
+
+</resources>

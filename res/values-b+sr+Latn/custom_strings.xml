@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS верзија</string>
+	<string name="statix_version_default">Непознат</string>
+
+	<!-- Density category -->
+	<string name="density_category">Опције густине</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Примена теме, сачекајте…</string>
+	<string name="theme_applied_toast">Тема примењена!</string>
+	<string name="system_theme_wallpaper">Automatski (u zavisnosti od doba dana)</string>
+	<string name="system_theme_light">Лигхт</string>
+	<string name="system_theme_dark">Дарк</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS цустомизатион</string>
+	<string name="qs_selector_title">QS тхеминг</string>
+	<string name="qs_selector_default">Уобичајено</string>
+	<string name="qs_selector_split">Разделити</string>
+	<string name="qs_selector_teardrop">Теардро</string>
+	<string name="qs_selector_framed">Урамљено</string>
+	<string name="qs_selector_super_bubble">Супер буббле</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux статус</string>
+	<string name="selinux_status_disabled">Дисаблед</string>
+	<string name="selinux_status_permissive">Пермиссиве</string>
+	<string name="selinux_status_enforcing">Енфорцинг</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Анимација за искључивање екрана</string>
+	<string name="screen_off_animation_default">Уобичајено</string>
+	<string name="screen_off_animation_crt">ЦРТ</string>
+	<string name="screen_off_animation_scale">Скала</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">LСветле боје</string>
+	<string name="custom_light_on_time_title">Светло на време током импулса (мс)</string>
+	<string name="custom_light_off_time_title">Време осветљења током импулса (мс)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Фонт</string>
+	<string name="disable_fonts_installed_title">Бирач фонтова није доступан да би се избегли сукоби са Субстратум-ом. Деинсталирајте га ако желите користити алат за избор фонтова.</string>
+	<string name="font_picker_progress">Примена новог фонта\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Активирајте бакљу</string>
+	<string name="double_tap_power_flashlight_title">Искључите светиљку дугмета за напајање</string>
+	<string name="torch_power_button_gesture_none">Дисаблед</string>
+	<string name="torch_power_button_gesture_dt">Двоструки додир снаге за укључивање бакље</string>
+	<string name="torch_power_button_gesture_lp">Дуга сила притиска за укључивање бакље</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Промена дневника</string>
+	<string name="changelog_summary">Gerrit промене инстанце</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Температура батерије</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Амбиент опције</string>
+	<string name="custom_ambient_display_summary">Конфигуришите напредни екран</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Омогућите режим потпуног покрета</string>
+	<string name="full_gesture_mode_summary">Овај мод ће онемогућити и дугме за повратак и моћи ћете да покренете акцију дугмета за повратак левим превлачењем на навигационој траци. Десно превлачење ће и даље покренути радњу последње апликације.</string>
+
+</resources>

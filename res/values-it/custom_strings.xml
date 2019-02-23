@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Versione StatiXOS</string>
+	<string name="statix_version_default">Sconosciuto</string>
+
+	<!-- Density category -->
+	<string name="density_category">Opzioni di densità</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Applicazione del tema, attendere…</string>
+	<string name="theme_applied_toast">Tema applicato!</string>
+	<string name="system_theme_wallpaper">Automatica (in base all\'ora del giorno)</string>
+	<string name="system_theme_light">Luce</string>
+	<string name="system_theme_dark">Buio</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">Personalizzazione QS</string>
+	<string name="qs_selector_title">Tematiche QS</string>
+	<string name="qs_selector_default">Predefinito</string>
+	<string name="qs_selector_split">Diviso</string>
+	<string name="qs_selector_teardrop">Lacrima</string>
+	<string name="qs_selector_framed">Incorniciato</string>
+	<string name="qs_selector_super_bubble">Super Bolla</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">Stato SELinux</string>
+	<string name="selinux_status_disabled">Disabilitato</string>
+	<string name="selinux_status_permissive">Permissivo</string>
+	<string name="selinux_status_enforcing">Applicazione</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animazione schermo spento</string>
+	<string name="screen_off_animation_default">Predefinito</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Scala</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Colore chiaro</string>
+	<string name="custom_light_on_time_title">Luce ON tempo durante impulso led (ms)</string>
+	<string name="custom_light_off_time_title">Tempo di spegnimento luce durante impulso led (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Caratteri</string>
+	<string name="disable_fonts_installed_title">Il selettore di caratteri non è disponibile per evitare conflitti con Substratum. Disinstallalo se desideri utilizzare il selettore di font.</string>
+	<string name="font_picker_progress">Applicazione di nuovi caratteri\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Attiva la torcia</string>
+	<string name="double_tap_power_flashlight_title">Schermo spento torcia pulsante di accensione</string>
+	<string name="torch_power_button_gesture_none">Disabilitato</string>
+	<string name="torch_power_button_gesture_dt">Doppio tocco per accendere la torcia</string>
+	<string name="torch_power_button_gesture_lp">Premere a lungo il pulsante per accendere la torcia</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Registro delle modifiche</string>
+	<string name="changelog_summary">L\'istanza di Gerrit cambia</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Temperatura della batteria</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Opzioni ambientali</string>
+	<string name="custom_ambient_display_summary">Configura la visualizzazione ambiente avanzata</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Abilita la modalità completa dei gesti</string>
+	<string name="full_gesture_mode_summary">Questa modalità disabiliterà anche il pulsante Indietro e sarai in grado di attivare un\'azione di pulsante indietro con uno scorrimento a sinistra sulla barra di navigazione. Il tasto destro del mouse attiverà comunque l\'azione dell\'ultima app.</string>
+
+</resources>

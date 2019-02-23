@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">גרסת StatiXOS</string>
+	<string name="statix_version_default">לא ידוע</string>
+
+	<!-- Density category -->
+	<string name="density_category">אפשרויות צפיפות</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">מחיל נושא, המתן…</string>
+	<string name="theme_applied_toast">נושא הוחל!</string>
+	<string name="system_theme_wallpaper">אוטומטי (מבוסס על השעה ביום)</string>
+	<string name="system_theme_light">אור</string>
+	<string name="system_theme_dark">אפל</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS התאמה אישית</string>
+	<string name="qs_selector_title">QS נושאים</string>
+	<string name="qs_selector_default">ברירת מחדל</string>
+	<string name="qs_selector_split">פיצול</string>
+	<string name="qs_selector_teardrop">דמעה</string>
+	<string name="qs_selector_framed">מסומנת</string>
+	<string name="qs_selector_super_bubble">סופר בועה</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">מצב SELinux</string>
+	<string name="selinux_status_disabled">מושבת</string>
+	<string name="selinux_status_permissive">מתירני</string>
+	<string name="selinux_status_enforcing">אכיפה</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">מסך את האנימציה</string>
+	<string name="screen_off_animation_default">ברירת מחדל</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">קנה מידה</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">צבע בהיר</string>
+	<string name="custom_light_on_time_title">אור בזמן בזמן הדופק (ms)</string>
+	<string name="custom_light_off_time_title">שעה כבוי בזמן הדופק הוביל (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">גופן</string>
+	<string name="disable_fonts_installed_title">בורר הגופנים אינו זמין כדי להימנע מהתנגשויות עם תת-התשתית. הסר את ההתקנה אם אתה רוצה להשתמש בוחר גופן.</string>
+	<string name="font_picker_progress">החלת גופן חדש\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">הפעל את הלפיד</string>
+	<string name="double_tap_power_flashlight_title">כבה את הפנס של לחצן ההפעלה</string>
+	<string name="torch_power_button_gesture_none">מושבת</string>
+	<string name="torch_power_button_gesture_dt">הקש פעמיים כוח כדי לעבור לפיד</string>
+	<string name="torch_power_button_gesture_lp">לחץ לחיצה ארוכה כדי להחליף את הלפיד</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">שנה יומן</string>
+	<string name="changelog_summary">למשל Gerrit משתנה</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">טמפרטורת הסוללה</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">אפשרויות אמביינט</string>
+	<string name="custom_ambient_display_summary">קבע תצורה אמביינטית מתקדמת</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">הפעל מצב מחווה מלא</string>
+	<string name="full_gesture_mode_summary">מצב זה יבטל גם את לחצן \'הקודם\' ותוכל להפעיל פעולת לחצן אחורי על ידי החלקה שמאלה על סרגל הניווט. החלקה ימנית עדיין תפעיל את פעולת היישום האחרון.</string>
+
+</resources>

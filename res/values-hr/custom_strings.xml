@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS verzija</string>
+	<string name="statix_version_default">Nepoznata</string>
+
+	<!-- Density category -->
+	<string name="density_category">Opcije gustoće</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Primjena teme, pričekajte…</string>
+	<string name="theme_applied_toast">Primijenjena tema!</string>
+	<string name="system_theme_wallpaper">Automatski (na temelju doba dana)</string>
+	<string name="system_theme_light">Svjetlo</string>
+	<string name="system_theme_dark">Mrak</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS prilagodba</string>
+	<string name="qs_selector_title">QS tema</string>
+	<string name="qs_selector_default">Zadano</string>
+	<string name="qs_selector_split">Podjela</string>
+	<string name="qs_selector_teardrop">Suza</string>
+	<string name="qs_selector_framed">Uramljen</string>
+	<string name="qs_selector_super_bubble">Mjehurić Izvanredan</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux status</string>
+	<string name="selinux_status_disabled">Onemogućeno</string>
+	<string name="selinux_status_permissive">Popustljiv</string>
+	<string name="selinux_status_enforcing">Izvršenje</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animacija za isključivanje zaslona</string>
+	<string name="screen_off_animation_default">Zadano</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Ljestvica</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Svijetla boja</string>
+	<string name="custom_light_on_time_title">Vrijeme uključivanja svjetla tijekom impulsa (ms)</string>
+	<string name="custom_light_off_time_title">Vrijeme isključivanja svjetla tijekom impulsa (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Krstionica</string>
+	<string name="disable_fonts_installed_title">Odabir fonta nije dostupan kako bi se izbjegli sukobi s Substratumom. Deinstalirajte ga ako želite koristiti alat za odabir fontova.</string>
+	<string name="font_picker_progress">Primjena novog fonta\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktivirajte svjetiljku</string>
+	<string name="double_tap_power_flashlight_title">Isključite svjetiljku gumba za napajanje</string>
+	<string name="torch_power_button_gesture_none">Onemogućeno</string>
+	<string name="torch_power_button_gesture_dt">Dvaput dodirnite napajanje za uključivanje baklje</string>
+	<string name="torch_power_button_gesture_lp">Dugo pritisnite tipku za uključivanje baklje</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Podmetnuto</string>
+	<string name="changelog_summary">Gerrit se mijenja</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Temperatura baterije</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Mogućnosti okoline</string>
+	<string name="custom_ambient_display_summary">Konfiguriranje naprednog prikaza okoline</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Omogući potpuni način pokreta</string>
+	<string name="full_gesture_mode_summary">Ovaj će način onemogućiti i gumb za povratak i moći ćete pokrenuti radnju gumba za povratak lijevim zamahom na navigacijskoj traci. Pomicanje udesno će i dalje pokrenuti radnju posljednje aplikacije.</string>
+
+</resources>

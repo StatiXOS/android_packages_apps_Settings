@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS版本</string>
+	<string name="statix_version_default">未知</string>
+
+	<!-- Density category -->
+	<string name="density_category">密度选项</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">应用主题，请稍候…</string>
+	<string name="theme_applied_toast">主题应用！</string>
+	<string name="system_theme_wallpaper">自動 (依照時段)</string>
+	<string name="system_theme_light">光</string>
+	<string name="system_theme_dark">暗</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS定制</string>
+	<string name="qs_selector_title">QS主题</string>
+	<string name="qs_selector_default">缺省</string>
+	<string name="qs_selector_split">分裂</string>
+	<string name="qs_selector_teardrop">泪珠</string>
+	<string name="qs_selector_framed">陷害</string>
+	<string name="qs_selector_super_bubble">超级泡泡</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux状态</string>
+	<string name="selinux_status_disabled">残</string>
+	<string name="selinux_status_permissive">宽容</string>
+	<string name="selinux_status_enforcing">强制执行</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">屏蔽动画</string>
+	<string name="screen_off_animation_default">缺省</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">规模</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">浅色</string>
+	<string name="custom_light_on_time_title">LED脉冲期间的导通时间（ms）</string>
+	<string name="custom_light_off_time_title">LED脉冲期间的灯关闭时间（ms）</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">字形</string>
+	<string name="disable_fonts_installed_title">字体选择器不可用以避免与Substratum冲突。 如果您想使用字体选择器，请将其卸载。</string>
+	<string name="font_picker_progress">应用新字体\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">激活火炬</string>
+	<string name="double_tap_power_flashlight_title">屏幕关闭电源按钮火炬</string>
+	<string name="torch_power_button_gesture_none">残</string>
+	<string name="torch_power_button_gesture_dt">双击电源切换割炬</string>
+	<string name="torch_power_button_gesture_lp">长按电源切换割炬</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">更新日志</string>
+	<string name="changelog_summary">Gerrit实例更改</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">电池温度</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">环境选择</string>
+	<string name="custom_ambient_display_summary">配置高级环境显示</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">启用完整手势模式</string>
+	<string name="full_gesture_mode_summary">此模式也会禁用后退按钮，您可以通过导航栏上的左侧滑动触发后退按钮操作。 向右滑动仍会触发最后一次应用操作。</string>
+
+</resources>

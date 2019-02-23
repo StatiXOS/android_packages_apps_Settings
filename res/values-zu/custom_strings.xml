@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Inguqulo ye-StatiXOS</string>
+	<string name="statix_version_default">Akuziwa</string>
+
+	<!-- Density category -->
+	<string name="density_category">Izinketho zobuningi</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Ukusebenzisa isihloko, sicela ulinde…</string>
+	<string name="theme_applied_toast">Isihloko sisetshenzisiwe!</string>
+	<string name="system_theme_wallpaper">Okuzenzakalelayo (kusukela kusikhathi sosuku)</string>
+	<string name="system_theme_light">Ukukhanya</string>
+	<string name="system_theme_dark">Umnyama</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">Ukwenza ngokwezifiso kwe-QS</string>
+	<string name="qs_selector_title">isihloko QS</string>
+	<string name="qs_selector_default">Okuzenzakalelayo</string>
+	<string name="qs_selector_split">Hlukanisa</string>
+	<string name="qs_selector_teardrop">Hamba ukwehlisa</string>
+	<string name="qs_selector_framed">Ifakwe ohlwini</string>
+	<string name="qs_selector_super_bubble">I-bubble enhle</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">Isimo se-SELinux</string>
+	<string name="selinux_status_disabled">Khutshaziwe</string>
+	<string name="selinux_status_permissive">I-Permissive</string>
+	<string name="selinux_status_enforcing">Ukuphoqelela</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Isikrini sivaliwe izithombe</string>
+	<string name="screen_off_animation_default">Okuzenzakalelayo</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Isikali</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Umbala okhanyayo</string>
+	<string name="custom_light_on_time_title">Ukukhanya ngesikhathi ngesikhathi sokuhoxiswa (ms)</string>
+	<string name="custom_light_off_time_title">Isikhathi sokuvala ngesikhathi se-pulse ehamba phambili (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Ifonti</string>
+	<string name="disable_fonts_installed_title">I-picker yefonti ayitholakali ukugwema ukungqubuzana ne-Substratum. Khipha uma ufisa ukusebenzisa i-picker yefonti.</string>
+	<string name="font_picker_progress">Isebenzisa ifonti entsha\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Yenza kusebenze isibani</string>
+	<string name="double_tap_power_flashlight_title">Isikrini sokuvala isikhinobho samandla</string>
+	<string name="torch_power_button_gesture_none">Khutshaziwe</string>
+	<string name="torch_power_button_gesture_dt">Amandla kampompi kabili ukuguqula isibani</string>
+	<string name="torch_power_button_gesture_lp">Ukucindezela isikhathi eside ukushintsha isibani</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Shintsha ilogi</string>
+	<string name="changelog_summary">Isibonelo seGerrit sishintsha</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Ukushisa kwebhethri</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">Izinketho ezimbi</string>
+	<string name="custom_ambient_display_summary">Lungiselela ukubonisa okuphambili</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Nika amandla imodi yokuthinta egcwele</string>
+	<string name="full_gesture_mode_summary">Lemodi izokhubaza futhi inkinobho yangemuva futhi uzokwazi ukukhipha isenzo se-inkinobho yangemuva ngeswayipha kwesokunxele ku-navbar. Ukuswayipha kwesokudla kuzobe kususa isenzo sokugcina lokusebenza.</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS weergawe</string>
+	<string name="statix_version_default">Onbekend</string>
+
+	<!-- Density category -->
+	<string name="density_category">Digtheid opsies</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Pas tema toe, wag asseblief…</string>
+	<string name="theme_applied_toast">Tema toegepas!</string>
+	<string name="system_theme_wallpaper">Outomaties (op grond van die tyd van die dag)</string>
+	<string name="system_theme_light">Lig</string>
+	<string name="system_theme_dark">Donker</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS aanpassing</string>
+	<string name="qs_selector_title">QS temas</string>
+	<string name="qs_selector_default">Verstek</string>
+	<string name="qs_selector_split">Verdeel</string>
+	<string name="qs_selector_teardrop">Traan</string>
+	<string name="qs_selector_framed">Geraamde</string>
+	<string name="qs_selector_super_bubble">Super Borrel</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux status</string>
+	<string name="selinux_status_disabled">Gestremde</string>
+	<string name="selinux_status_permissive">Permissiewe</string>
+	<string name="selinux_status_enforcing">Afdwinging</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Skerm af animasie</string>
+	<string name="screen_off_animation_default">Verstek</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Skaal</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Lig kleur</string>
+	<string name="custom_light_on_time_title">Lig ON-tyd tydens geleide pols (ms)</string>
+	<string name="custom_light_off_time_title">Lig UIT-tyd tydens geleide pols (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Font</string>
+	<string name="disable_fonts_installed_title">Font picker is nie beskikbaar om konflik met Substrate te vermy nie.</string>
+	<string name="font_picker_progress">Toepassing van nuwe font\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktiveer die fakkel</string>
+	<string name="double_tap_power_flashlight_title">Skerm af krag knoppie fakkel</string>
+	<string name="torch_power_button_gesture_none">Gestremde</string>
+	<string name="torch_power_button_gesture_dt">Dubbelkrag krag om fakkel te wissel</string>
+	<string name="torch_power_button_gesture_lp">Lang druk krag om fakkel te verander</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Verander log</string>
+	<string name="changelog_summary">Gerrit-geval verander</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Battery temperatuur</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Omgewingsopsies</string>
+	<string name="custom_ambient_display_summary">Stel gevorderde Omgewingskerm op</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Aktiveer volle gebaar modus</string>
+	<string name="full_gesture_mode_summary">Hierdie modus sal ook die terugknoppie uitskakel en jy sal \'n terugknoppie-aksie kan aktiveer deur \'n linker-swaai op die navbalk. Regs swipe sal steeds die laaste app-aksie aktiveer.</string>
+
+</resources>

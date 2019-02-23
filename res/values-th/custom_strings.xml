@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">รุ่น StatiXOS</string>
+	<string name="statix_version_default">ไม่ทราบ</string>
+
+	<!-- Density category -->
+	<string name="density_category">ตัวเลือกความหนาแน่น</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">กำลังใช้ชุดรูปแบบโปรดรอ…</string>
+	<string name="theme_applied_toast">ใช้ชุดรูปแบบ!</string>
+	<string name="system_theme_wallpaper">อัตโนมัติ (อิงตามเวลาของวัน)</string>
+	<string name="system_theme_light">เบา</string>
+	<string name="system_theme_dark">มืด</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">การปรับแต่ง QS</string>
+	<string name="qs_selector_title">ชุดรูปแบบ QS</string>
+	<string name="qs_selector_default">ค่าเริ่มต้น</string>
+	<string name="qs_selector_split">แยก</string>
+	<string name="qs_selector_teardrop">หยดน้ำตา</string>
+	<string name="qs_selector_framed">กรอบ</string>
+	<string name="qs_selector_super_bubble">ฟองสุดยอด</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">สถานะ SELinux</string>
+	<string name="selinux_status_disabled">พิการ</string>
+	<string name="selinux_status_permissive">อนุญาต</string>
+	<string name="selinux_status_enforcing">การบังคับใช้</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">ภาพเคลื่อนไหวปิดหน้าจอ</string>
+	<string name="screen_off_animation_default">ค่าเริ่มต้น</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">ขนาด</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">สีอ่อน</string>
+	<string name="custom_light_on_time_title">แสงตรงเวลาระหว่างพัลส์นำ (ms)</string>
+	<string name="custom_light_off_time_title">ระยะเวลาปิดไฟระหว่างนำพัลส์ (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">ตัวอักษร</string>
+	<string name="disable_fonts_installed_title">เครื่องมือเลือกแบบอักษรไม่พร้อมใช้งานเพื่อหลีกเลี่ยงข้อขัดแย้งกับ Substratum ถอนการติดตั้งหากคุณต้องการใช้ตัวเลือกฟอนต์</string>
+	<string name="font_picker_progress">ใช้แบบอักษรใหม่\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">เปิดใช้งานไฟฉาย</string>
+	<string name="double_tap_power_flashlight_title">ไฟฉายหน้าจอปิดปุ่มเพาเวอร์</string>
+	<string name="torch_power_button_gesture_none">พิการ</string>
+	<string name="torch_power_button_gesture_dt">แตะสองครั้งเพื่อเปิดไฟฉาย</string>
+	<string name="torch_power_button_gesture_lp">กดแบบยาวเพื่อสลับคบเพลิง</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">เปลี่ยนบันทึก</string>
+	<string name="changelog_summary">การเปลี่ยนแปลงอินสแตนซ์ของ Gerrit</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">อุณหภูมิแบตเตอรี่</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">ตัวเลือกโดยรอบ</string>
+	<string name="custom_ambient_display_summary">กำหนดค่าการแสดงผลรอบข้างขั้นสูง</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">เปิดใช้งานโหมดท่าทางเต็ม</string>
+	<string name="full_gesture_mode_summary">โหมดนี้จะปิดใช้งานด้วยปุ่มย้อนกลับและคุณจะสามารถกระตุ้นการทำงานของปุ่มย้อนกลับด้วยการกวาดนิ้วไปทางซ้ายบน navbar การกวาดนิ้วไปทางขวาจะยังคงกระตุ้นการทำงานของแอปล่าสุด</string>
+
+</resources>

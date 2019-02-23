@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS संस्करण</string>
+	<string name="statix_version_default">अनजान</string>
+
+	<!-- Density category -->
+	<string name="density_category">घनत्व विकल्प</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">विषय लागू करें, कृपया प्रतीक्षा करें…</string>
+	<string name="theme_applied_toast">थीम लागू!</string>
+	<string name="system_theme_wallpaper">डार्क मोड अपने आप सेट होना (समय के हिसाब से)</string>
+	<string name="system_theme_light">रोशनी</string>
+	<string name="system_theme_dark">अंधेरा</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS अनुकूलन</string>
+	<string name="qs_selector_title">QS थीमिंग</string>
+	<string name="qs_selector_default">चूक</string>
+	<string name="qs_selector_split">विभाजित करें</string>
+	<string name="qs_selector_teardrop">अश्रु</string>
+	<string name="qs_selector_framed">फ़्रेम</string>
+	<string name="qs_selector_super_bubble">सुपर बबल</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux स्थिति</string>
+	<string name="selinux_status_disabled">विकलांग</string>
+	<string name="selinux_status_permissive">विकलांग</string>
+	<string name="selinux_status_enforcing">लागू करने</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">एनीमेशन बंद स्क्रीन</string>
+	<string name="screen_off_animation_default">चूक</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">स्केल</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">हल्का रंग</string>
+	<string name="custom_light_on_time_title">एलईडी पल्स के दौरान समय पर प्रकाश (एमएस)</string>
+	<string name="custom_light_off_time_title">एलईडी पल्स (एमएस) के दौरान लाइट ऑफ टाइम</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">फ़ॉन्ट</string>
+	<string name="disable_fonts_installed_title">Substratum के साथ संघर्ष से बचने के लिए फ़ॉन्ट पिकर अनुपलब्ध है। यदि आप फ़ॉन्ट पिकर का उपयोग करना चाहते हैं तो इसे अनइंस्टॉल करें।</string>
+	<string name="font_picker_progress">नया फॉन्ट लगाना\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">मशाल को सक्रिय करें</string>
+	<string name="double_tap_power_flashlight_title">पावर बटन टॉर्च बंद करें</string>
+	<string name="torch_power_button_gesture_none">विकलांग</string>
+	<string name="torch_power_button_gesture_dt">मशाल टॉगल करने के लिए डबल टैप पावर</string>
+	<string name="torch_power_button_gesture_lp">मशाल को टॉगल करने के लिए लंबी प्रेस शक्ति</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">लॉग बदलें</string>
+	<string name="changelog_summary">Gerrit उदाहरण बदल जाता है</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">बैटरी का तापमान</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">परिवेश के विकल्प</string>
+	<string name="custom_ambient_display_summary">उन्नत परिवेश प्रदर्शन कॉन्फ़िगर करें</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">फुल जेस्चर मोड इनेबल करें</string>
+	<string name="full_gesture_mode_summary">यह मोड बैक बटन को भी डिसेबल कर देगा और आप नेवबार पर लेफ्ट स्वाइप करके बैक बटन एक्शन को ट्रिगर कर पाएंगे। राइट स्वाइप अभी भी अंतिम-ऐप एक्शन को ट्रिगर करेगा।</string>
+
+</resources>

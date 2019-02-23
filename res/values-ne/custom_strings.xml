@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS संस्करण</string>
+	<string name="statix_version_default">अज्ञात</string>
+
+	<!-- Density category -->
+	<string name="density_category">घनत्व विकल्पहरू
+</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">विषयवस्तु लागू गर्दै, कृपया पर्खनुहोस्…</string>
+	<string name="theme_applied_toast">विषयवस्तु लागू गरियो!</string>
+	<string name="system_theme_wallpaper">स्वचालित (दिनको कुन समय हो भन्ने कुरामा आधारित)</string>
+	<string name="system_theme_light">लाइट</string>
+	<string name="system_theme_dark">गाढा</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS अनुकूलन</string>
+	<string name="qs_selector_title">QS इनिंग</string>
+	<string name="qs_selector_default">पूर्वनिर्धारित</string>
+	<string name="qs_selector_split">विभाजित गर्नुहोस्</string>
+	<string name="qs_selector_teardrop">आँसु ड्रप</string>
+	<string name="qs_selector_framed">फ्रेम गरिएको</string>
+	<string name="qs_selector_super_bubble">सुपर बुलबुला</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux स्थिति</string>
+	<string name="selinux_status_disabled">अक्षम</string>
+	<string name="selinux_status_permissive">Permissive</string>
+	<string name="selinux_status_enforcing">प्रवर्धन गर्दै</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">एनिमेसन बन्द गर्नुहोस्</string>
+	<string name="screen_off_animation_default">पूर्वनिर्धारित</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">स्केल</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">हल्का रङ्ग</string>
+	<string name="custom_light_on_time_title">नेतृत्व पल्स (एमएस) को समयमा समय मा लाइट</string>
+	<string name="custom_light_off_time_title">लाइट पल्स (एमएस) को समयमा समय बन्द</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">फन्ट</string>
+	<string name="disable_fonts_installed_title">फन्ट चुनेजर सबस्टटम संग संघर्षबाट बच्न अनुपलब्ध छ। यदि फन्ट पिकर प्रयोग गर्न चाहनुहुन्छ भने यसलाई स्थापना रद्द गर्नुहोस्।</string>
+	<string name="font_picker_progress">नयाँ फन्ट लागू गर्दै\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">मशाच सक्रिय गर्नुहोस्</string>
+	<string name="double_tap_power_flashlight_title">स्क्रिन बटन मशाच बन्द गर्नुहोस्</string>
+	<string name="torch_power_button_gesture_none">अक्षम</string>
+	<string name="torch_power_button_gesture_dt">मशा टगल गर्न पावरलाई डबल ट्याप गर्नुहोस्</string>
+	<string name="torch_power_button_gesture_lp">मशालाई टगल गर्न पावर थिच्नुहोस्</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">लग परिवर्तन गर्नुहोस्</string>
+	<string name="changelog_summary">Gerrit उदाहरण परिवर्तन</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">ब्याट्री तापमान</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">परिवेश विकल्पहरू</string>
+	<string name="custom_ambient_display_summary">उन्नत परिवेश प्रदर्शन कन्फिगर गर्नुहोस्</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">पूर्ण इशारा मोड सक्षम गर्नुहोस्</string>
+	<string name="full_gesture_mode_summary">यस मोडले ब्याक बटनलाई असक्षम पार्नेछ र तपाईं नेभिबारमा बायाँ स्वाइप द्वारा ब्याक बटन कार्य ट्रिगर गर्न सक्नुहुनेछ। दाँया स्वाइपले अझै पनि अन्तिम-एप कार्य ट्रिगर गर्नेछ।</string>
+
+</resources>

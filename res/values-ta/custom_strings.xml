@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS பதிப்பு</string>
+	<string name="statix_version_default">தெரியாத</string>
+
+	<!-- Density category -->
+	<string name="density_category">அடர்த்தி விருப்பங்கள்</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">தீம் பயன்படுத்துகிறது, தயவுசெய்து காத்திருக்கவும்…</string>
+	<string name="theme_applied_toast">தீம் பயன்படுத்தப்படும்!</string>
+	<string name="system_theme_wallpaper">தானியங்கு (நாளின் நேரத்தைப் பொறுத்து)</string>
+	<string name="system_theme_light">ஒளி</string>
+	<string name="system_theme_dark">டார்க்</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS தனிப்படுத்தல்</string>
+	<string name="qs_selector_title">QS தீம்</string>
+	<string name="qs_selector_default">இயல்புநிலை</string>
+	<string name="qs_selector_split">பிரி</string>
+	<string name="qs_selector_teardrop">துளி துளி</string>
+	<string name="qs_selector_framed">கட்டமைத்தார்</string>
+	<string name="qs_selector_super_bubble">சூப்பர் குமிழி</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux நிலை</string>
+	<string name="selinux_status_disabled">முடக்கப்பட்டது</string>
+	<string name="selinux_status_permissive">அனுமதியளிக்கும்</string>
+	<string name="selinux_status_enforcing">செயல்படுத்துவதில்</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">அனிமேஷன் ஆஃப் அனிமேஷன்</string>
+	<string name="screen_off_animation_default">இயல்புநிலை</string>
+	<string name="screen_off_animation_crt">சிஆர்டி</string>
+	<string name="screen_off_animation_scale">ஸ்கேல்</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">ஒளி வண்ணம்</string>
+	<string name="custom_light_on_time_title">தலைமையிலான துடிப்பு நேரத்தில் (மி)</string>
+	<string name="custom_light_off_time_title">தலைமையிலான துடிப்பு நேரத்தில் (நேரம்)</string>
+	<string name="value_equals_default">டெப்</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">எழுத்துரு</string>
+	<string name="disable_fonts_installed_title">மூலக்கூறுகளுடன் மோதல்களைத் தவிர்க்க எழுத்துரு தெரிவு கிடைக்கவில்லை. நீங்கள் எழுத்துரு தெரிவு பயன்படுத்த விரும்பினால் அதை நீக்க.</string>
+	<string name="font_picker_progress">புதிய எழுத்துருவை பயன்படுத்துதல்\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">ஜோதினை செயல்படுத்து</string>
+	<string name="double_tap_power_flashlight_title">மின்சக்தி பொத்தானை அழுத்துவதன் திரை</string>
+	<string name="torch_power_button_gesture_none">முடக்கப்பட்டது</string>
+	<string name="torch_power_button_gesture_dt">ஜோதினை மாற்றியமைக்க இரட்டை குழாய் ஆற்றல்</string>
+	<string name="torch_power_button_gesture_lp">ஜோதினை மாற்றியமைக்க நீண்ட பத்திரிகை சக்தி</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">பதிவு மாற்ற</string>
+	<string name="changelog_summary">ஜெர்ரி உதாரணமாக மாற்றங்கள்</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">பேட்டரி வெப்பநிலை</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">சுற்றுச்சூழல் விருப்பங்கள்</string>
+	<string name="custom_ambient_display_summary">மேம்பட்ட சுற்றுப்புற காட்சி கட்டமைக்க</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">முழு சைகை பயன்முறையை இயக்கு</string>
+	<string name="full_gesture_mode_summary">இந்த பயன் முடக்கவும் முதுகும் பொத்தானை முடக்கப்படும் மேலும் நீக்கப்பட்ட ஒரு இடது பொத்தானை செயலிழக்கச் செய்யலாம். சரியான தேய்த்தால், கடைசி பயன்பாட்டு செயலைத் தூண்டும்.</string>
+
+</resources>

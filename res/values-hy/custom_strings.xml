@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS տարբերակը</string>
+	<string name="statix_version_default">Անհայտ է</string>
+
+	<!-- Density category -->
+	<string name="density_category">Խտության տարբերակներ</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Դիմելով թեմա, խնդրում ենք սպասել…</string>
+	<string name="theme_applied_toast">Թեման կիրառվեց:</string>
+	<string name="system_theme_wallpaper">Ավտոմատ (ըստ օրվա ժամի)</string>
+	<string name="system_theme_light">սակավարժեք</string>
+	<string name="system_theme_dark">մութ</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS- ի հարմարեցում</string>
+	<string name="qs_selector_title">QS theming- ը</string>
+	<string name="qs_selector_default">չգոյություն</string>
+	<string name="qs_selector_split">Սպլիտ</string>
+	<string name="qs_selector_teardrop">Արցունքաբեր</string>
+	<string name="qs_selector_framed">Շրջանակված</string>
+	<string name="qs_selector_super_bubble">ստատիստ փուչիկ</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux կարգավիճակը</string>
+	<string name="selinux_status_disabled">Անաշխատունակ</string>
+	<string name="selinux_status_permissive">Թույլատրելի</string>
+	<string name="selinux_status_enforcing">Իրականացնելը</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Էկրանի անիմացիան</string>
+	<string name="screen_off_animation_default">չգոյություն</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">մասշտաբ</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Բաց գույնը</string>
+	<string name="custom_light_on_time_title">Լույսը ժամանակի ընթացքում թողարկված զարկերակի (ms)</string>
+	<string name="custom_light_off_time_title">Թեթեւ անջատված ժամանակահատվածի ժամանակահատվածում (ms)</string>
+	<string name="value_equals_default">դեֆ</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Տառատեսակի</string>
+	<string name="disable_fonts_installed_title">Տառատեսակի ընտրողը անհասանելի է, որպեսզի խուսափել Substratum- ի հետ: Տեղահանեք այն, եթե ցանկանում եք օգտագործել տառատեսակը:</string>
+	<string name="font_picker_progress">Նոր տառատեսակ կիրառելը\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Միացրեք ջահը</string>
+	<string name="double_tap_power_flashlight_title">Էկրանի անջատման հոսանքի կոճակ</string>
+	<string name="torch_power_button_gesture_none">Անաշխատունակ</string>
+	<string name="torch_power_button_gesture_dt">Երկկողմանի հզորություն, ջահը փոխելու համար</string>
+	<string name="torch_power_button_gesture_lp">Երկարացնել սեղմել ուժը, անցնել ջահը</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Փոխել պատմությունը</string>
+	<string name="changelog_summary">Գերիտի օրինակ փոփոխությունները</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Մարտկոցի ջերմաստիճանը</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Շրջակա միջավայրի ընտրանքները</string>
+	<string name="custom_ambient_display_summary">Կարգավորել առաջադեմ Արտաքին ցուցադրումը</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Միացնել ամբողջական ժեստի ռեժիմը</string>
+	<string name="full_gesture_mode_summary">Այս ռեժիմը անջատելու է նաեւ հետեւի կոճակը, եւ դուք կկարողանաք գործարկել ձախ սահեցրեք նարդոսի մեջ ձախ կոճակի գործողությունը: Անմիջապես սահեցրեք վերջին գործողության գործողությունը:</string>
+
+</resources>

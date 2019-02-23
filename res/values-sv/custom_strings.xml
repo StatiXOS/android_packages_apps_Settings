@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS version</string>
+	<string name="statix_version_default">Okänd</string>
+
+	<!-- Density category -->
+	<string name="density_category">Densitetsalternativ</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Använda tema, vänta…</string>
+	<string name="theme_applied_toast">Tema tillämpad!</string>
+	<string name="system_theme_wallpaper">Automatisk (grundat på tidpunkt)</string>
+	<string name="system_theme_light">Ljus</string>
+	<string name="system_theme_dark">Mörk</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS-anpassning</string>
+	<string name="qs_selector_title">QS teman</string>
+	<string name="qs_selector_default">Standard</string>
+	<string name="qs_selector_split">Dela</string>
+	<string name="qs_selector_teardrop">Tårningsfall</string>
+	<string name="qs_selector_framed">Inramat</string>
+	<string name="qs_selector_super_bubble">Superbubbla</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux-status</string>
+	<string name="selinux_status_disabled">Inaktiverad</string>
+	<string name="selinux_status_permissive">Tolerant</string>
+	<string name="selinux_status_enforcing">Driva</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Skärma av animering</string>
+	<string name="screen_off_animation_default">Standard</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Skala</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Ljus färg</string>
+	<string name="custom_light_on_time_title">Ljus i tid under ledpuls (ms)</string>
+	<string name="custom_light_off_time_title">Ljus av tiden under ledpuls (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Font</string>
+	<string name="disable_fonts_installed_title">Font picker är inte tillgänglig för att undvika konflikter med Substratum. Avinstallera det om du vill använda fontväljaren.</string>
+	<string name="font_picker_progress">Tillämpa ny typsnitt\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktivera facklan</string>
+	<string name="double_tap_power_flashlight_title">Skär av strömbrytaren</string>
+	<string name="torch_power_button_gesture_none">Inaktiverad</string>
+	<string name="torch_power_button_gesture_dt">Dubbelklicka på strömmen för att växla facklan</string>
+	<string name="torch_power_button_gesture_lp">Långtryckseffekt för att växla fackla</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Ändra logg</string>
+	<string name="changelog_summary">Gerrit-instans ändras</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Batteritemperatur</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">Omgivande alternativ</string>
+	<string name="custom_ambient_display_summary">Konfigurera avancerad omgivningsdisplay</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Aktivera fullständigt gestläge</string>
+	<string name="full_gesture_mode_summary">I det här läget avaktiveras även bakåtknappen och du kan utlösa en backknappsåtgärd genom att dra åt vänster på navbältet. Höger svepning kommer fortfarande att utlösa åtgärden för senaste appen.</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS ਵਰਜਨ</string>
+	<string name="statix_version_default">ਅਣਜਾਣ</string>
+
+	<!-- Density category -->
+	<string name="density_category">ਘਣਤਾ ਵਿਕਲਪ</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">ਥੀਮ ਲਾਗੂ ਕਰ ਰਿਹਾ ਹੈ, ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ…</string>
+	<string name="theme_applied_toast">ਥੀਮ ਲਾਗੂ ਕੀਤਾ!</string>
+	<string name="system_theme_wallpaper">ਸਵੈਚਲਿਤ (ਦਿਨ ਦੇ ਸਮੇਂ ਅਨੁਸਾਰ)</string>
+	<string name="system_theme_light">ਲਾਈਟ</string>
+	<string name="system_theme_dark">ਹਨੇਰ</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS ਅਨੁਕੂਲਤਾ</string>
+	<string name="qs_selector_title">QS ਥੀਮਿੰਗ</string>
+	<string name="qs_selector_default">ਡਿਫੌਲਟ</string>
+	<string name="qs_selector_split">ਵੰਡ</string>
+	<string name="qs_selector_teardrop">ਟਾਇਰ ਡਰਾਪ</string>
+	<string name="qs_selector_framed">ਫਰੇਮਡ</string>
+	<string name="qs_selector_super_bubble">ਸੁਪਰ ਬੱਬਲ</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux ਸਥਿਤੀ</string>
+	<string name="selinux_status_disabled">ਅਪਾਹਜ</string>
+	<string name="selinux_status_permissive">ਆਗਿਆਕਾਰ</string>
+	<string name="selinux_status_enforcing">ਲਾਗੂ ਕਰਨਾ</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">ਸਕਰੀਨ ਬੰਦ ਐਨੀਮੇਸ਼ਨ</string>
+	<string name="screen_off_animation_default">ਡਿਫੌਲਟ</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">ਸਕੇਲ</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">ਹਲਕੇ ਰੰਗ</string>
+	<string name="custom_light_on_time_title">ਅਗਵਾਈ ਵਾਲੇ ਪਲਸ (ਐਮਐਸ) ਦੌਰਾਨ ਸਮੇਂ ਤੇ ਚਾਨਣ</string>
+	<string name="custom_light_off_time_title">ਅਗਵਾਈ ਵਾਲੇ ਪਲਸ (ਐਮਐਸ) ਦੌਰਾਨ ਲਾਈਟ ਆਫ ਟਾਈਮ</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">ਫੋਂਟ</string>
+	<string name="disable_fonts_installed_title">ਥਰਿੱਟਟਾਮਮ ਦੇ ਨਾਲ ਟਕਰਾਅ ਤੋਂ ਬਚਣ ਲਈ ਫੋਂਟ ਪੈਕਰ ਉਪਲੱਬਧ ਨਹੀਂ ਹੈ. ਇਸ ਨੂੰ ਅਣਇੰਸਟੌਲ ਕਰੋ ਜੇ ਤੁਸੀਂ ਫੌਂਟ ਚੋਣਕਰਤਾ ਨੂੰ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ</string>
+	<string name="font_picker_progress">ਨਵੇਂ ਫੌਂਟ ਨੂੰ ਲਾਗੂ ਕਰ ਰਿਹਾ ਹੈ\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">ਟਾਰਚ ਨੂੰ ਕਿਰਿਆਸ਼ੀਲ ਕਰੋ</string>
+	<string name="double_tap_power_flashlight_title">ਸਕਰੀਨ ਬੰਦ ਪਾਵਰ ਬਟਨ ਮਸ਼ਕ</string>
+	<string name="torch_power_button_gesture_none">ਅਪਾਹਜ</string>
+	<string name="torch_power_button_gesture_dt">ਟਾਰਚ ਨੂੰ ਟੋਗਲ ਕਰਨ ਲਈ ਡਬਲ ਟੈਪ ਪਾਵਰ</string>
+	<string name="torch_power_button_gesture_lp">ਟਾਰਚ ਨੂੰ ਟੋਗਲ ਕਰਨ ਲਈ ਲੰਬੇ ਸਮੇਂ ਦੀ ਤਾਕਤ</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">ਲਾਗ ਬਦਲੋ</string>
+	<string name="changelog_summary">Gerrit ਮੌਕੇ ਬਦਲਦਾ ਹੈ</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">ਬੈਟਰੀ ਦਾ ਤਾਪਮਾਨ</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">ਅੰਬੀਨਟ ਵਿਕਲਪ</string>
+	<string name="custom_ambient_display_summary">ਵਿਸਤ੍ਰਿਤ ਅੰਬੀਨਟ ਡਿਸਪਲੇ ਨੂੰ ਕੌਂਫਿਗਰ ਕਰੋ</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">ਪੂਰੇ ਸੰਕੇਤ ਮੋਡ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ</string>
+	<string name="full_gesture_mode_summary">ਇਹ ਮੋਡ ਬੈਕ ਬਟਨ ਨੂੰ ਵੀ ਅਸਮਰੱਥ ਬਣਾ ਦੇਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਇੱਕ ਨਵ ਖੱਬੇ ਪੱਟੀ ਤੇ ਸਵਾਇਪ ਦੁਆਰਾ ਪਿੱਛੇ ਬਟਨ ਕਿਰਿਆ ਨੂੰ ਟ੍ਰਿਗਰ ਕਰਨ ਦੇ ਯੋਗ ਹੋਵੋਗੇ. ਸੱਜੀ ਸਵਾਈਪ ਅਜੇ ਵੀ ਆਖਰੀ ਐਪ ਐਕਸ਼ਨ ਨੂੰ ਟਰਿੱਗਰ ਕਰ ਦੇਵੇਗਾ</string>
+
+</resources>

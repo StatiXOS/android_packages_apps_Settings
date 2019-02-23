@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Phiên bản StatiXOS</string>
+	<string name="statix_version_default">không xác định</string>
+
+	<!-- Density category -->
+	<string name="density_category">Tùy chọn mật độ</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Áp dụng chủ đề, vui lòng chờ đợi…</string>
+	<string name="theme_applied_toast">Áp dụng chủ đề!</string>
+	<string name="system_theme_wallpaper">Tự động (dựa vào thời gian trong ngày)</string>
+	<string name="system_theme_light">Ánh sáng</string>
+	<string name="system_theme_dark">Tối</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">Tùy chỉnh QS</string>
+	<string name="qs_selector_title">QS theo chủ đề</string>
+	<string name="qs_selector_default">Mặc định</string>
+	<string name="qs_selector_split">Tách</string>
+	<string name="qs_selector_teardrop">Giọt nước mắt</string>
+	<string name="qs_selector_framed">Đóng khung</string>
+	<string name="qs_selector_super_bubble">Siêu bong bóng</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux trạng thái</string>
+	<string name="selinux_status_disabled">Tàn tật</string>
+	<string name="selinux_status_permissive">Cho phép</string>
+	<string name="selinux_status_enforcing">Thi hành</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Tắt màn hình</string>
+	<string name="screen_off_animation_default">Mặc định</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Tỉ lệ</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Màu sáng</string>
+	<string name="custom_light_on_time_title">Ánh sáng đúng giờ trong khi xung led (ms)</string>
+	<string name="custom_light_off_time_title">Tắt thời gian trong khi xung led (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Phông chữ</string>
+	<string name="disable_fonts_installed_title">Công cụ chọn phông chữ không khả dụng để tránh xung đột với Substratum. Gỡ cài đặt nó nếu bạn muốn sử dụng trình chọn phông chữ.</string>
+	<string name="font_picker_progress">Áp dụng phông chữ mới\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Kích hoạt ngọn đuốc</string>
+	<string name="double_tap_power_flashlight_title">Màn hình tắt đèn pin nút</string>
+	<string name="torch_power_button_gesture_none">Tàn tật</string>
+	<string name="torch_power_button_gesture_dt">chạm hai lần power để chuyển đổi ngọn đuốc</string>
+	<string name="torch_power_button_gesture_lp">Nhấn mạnh để bật ngọn đuốc</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Thay đổi nhật ký</string>
+	<string name="changelog_summary">Thay đổi cá thể Gerrit</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Nhiệt độ pin</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">Tùy chọn môi trường xung quanh</string>
+	<string name="custom_ambient_display_summary">Cấu hình hiển thị môi trường nâng cao</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Kích hoạt chế độ cử chỉ đầy đủ</string>
+	<string name="full_gesture_mode_summary">Chế độ này cũng sẽ vô hiệu hóa nút quay lại và bạn sẽ có thể kích hoạt hành động nút quay lại bằng cách vuốt sang trái trên thanh điều hướng. Vuốt phải vẫn sẽ kích hoạt hành động ứng dụng cuối cùng.</string>
+
+</resources>
