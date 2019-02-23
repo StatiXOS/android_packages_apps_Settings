@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS versiyası</string>
+	<string name="statix_version_default">Naməlum</string>
+
+	<!-- Density category -->
+	<string name="density_category">Yoğunluk variantları</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Mövzu tətbiq edin, gözləyin…</string>
+	<string name="theme_applied_toast">Mövzu tətbiq olundu!</string>
+	<string name="system_theme_wallpaper">Avtomatik (günün vaxtından aslı olaraq)</string>
+	<string name="system_theme_light">İşıq</string>
+	<string name="system_theme_dark">Qaranlıq</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS özelleştirme</string>
+	<string name="qs_selector_title">QS mövzular</string>
+	<string name="qs_selector_default">Default</string>
+	<string name="qs_selector_split">Bölmək</string>
+	<string name="qs_selector_teardrop">Gözyaşardıcı</string>
+	<string name="qs_selector_framed">Çərçivəli</string>
+	<string name="qs_selector_super_bubble">Yüksək Köpük</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux statusu</string>
+	<string name="selinux_status_disabled">Söndürülə bilər</string>
+	<string name="selinux_status_permissive">Icazə verici</string>
+	<string name="selinux_status_enforcing">İcra</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animasiya söndürün</string>
+	<string name="screen_off_animation_default">Cari tənzimləmə</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Ölçək</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Yüngül rəng</string>
+	<string name="custom_light_on_time_title">Nəzarət darvazası zamanı işıq (ms)</string>
+	<string name="custom_light_off_time_title">Nəzarət darvazası zamanı işıq söndü (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Kupel</string>
+	<string name="disable_fonts_installed_title">Substrata qarşı münaqişələrin qarşısını almaq üçün font seçici mövcud deyil. Şrift seçicisini istifadə etmək istəyirsinizsə onu sil.</string>
+	<string name="font_picker_progress">Yeni yazı tətbiq etmək\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Torçu aktivləşdirin</string>
+	<string name="double_tap_power_flashlight_title">Ekranın söndürülməsi düyməsini yandırın</string>
+	<string name="torch_power_button_gesture_none">Söndürülə bilər</string>
+	<string name="torch_power_button_gesture_dt">Əyləc dəyişdirmək üçün cüt vurun</string>
+	<string name="torch_power_button_gesture_lp">Əyləc dəyişdirmək üçün uzun mətbuat gücü</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Dəyişikliklər</string>
+	<string name="changelog_summary">Gerrit nümunəsi dəyişir</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Batareyanın temperaturu</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Ətraf variantları</string>
+	<string name="custom_ambient_display_summary">İrəli Mühit ekranını konfiqurasiya edin</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Tam jest rejimini aktiv edin</string>
+	<string name="full_gesture_mode_summary">Bu rejim geri düyməni də bağlayacaq və navbarda sol çalmakla geri düyməni hərəkətini tetikleyebilirsiniz. Sağ çalmak hələ də son tətbiq tətbiqini tetikleyecektir.</string>
+
+</resources>

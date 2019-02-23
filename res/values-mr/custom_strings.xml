@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS आवृत्ती</string>
+	<string name="statix_version_default">अज्ञात</string>
+
+	<!-- Density category -->
+	<string name="density_category">घनता पर्याय</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">थीम लागू करीत आहे, कृपया प्रतीक्षा करा…</string>
+	<string name="theme_applied_toast">थीम लागू!</string>
+	<string name="system_theme_wallpaper">आपोआप (वेळेच्या आधारावर)</string>
+	<string name="system_theme_light">प्रकाश</string>
+	<string name="system_theme_dark">गडद</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">क्यूएस सानुकूलन</string>
+	<string name="qs_selector_title">क्यूएस थीमिंग</string>
+	<string name="qs_selector_default">डिफॉल्ट</string>
+	<string name="qs_selector_split">विभाजित</string>
+	<string name="qs_selector_teardrop">टियरड्रॉप</string>
+	<string name="qs_selector_framed">फ्रेम केले</string>
+	<string name="qs_selector_super_bubble">सुपर बबल</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux स्थिती</string>
+	<string name="selinux_status_disabled">अक्षम</string>
+	<string name="selinux_status_permissive">परवानगी</string>
+	<string name="selinux_status_enforcing">अंमलबजावणी</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">स्क्रीन बंद अॅनिमेशन</string>
+	<string name="screen_off_animation_default">डिफॉल्ट</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">स्केल</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">फिका रंग</string>
+	<string name="custom_light_on_time_title">अग्रेषित नाडी (एमएस) दरम्यान प्रकाश वेळ</string>
+	<string name="custom_light_off_time_title">दिवाळखोर पल्स (एमएस) दरम्यान वेळ बंद करा</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">फॉन्ट</string>
+	<string name="disable_fonts_installed_title">सबस्ट्रेटमसह संघर्ष टाळण्यासाठी फॉन्ट पिकर अनुपलब्ध आहे. आपण फॉन्ट पिकर वापरू इच्छित असल्यास ते विस्थापित करा.</string>
+	<string name="font_picker_progress">नवीन फॉन्ट लागू करीत आहे\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">मशाल सक्रिय करा</string>
+	<string name="double_tap_power_flashlight_title">स्क्रीन बंद पॉवर बटण मशाल</string>
+	<string name="torch_power_button_gesture_none">अक्षम</string>
+	<string name="torch_power_button_gesture_dt">टॉर्च टॉगल करण्यासाठी डबल टॅप शक्ती</string>
+	<string name="torch_power_button_gesture_lp">टॉर्च टॉगल करण्यासाठी जास्त शक्ती दाबा</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">लॉग बदला</string>
+	<string name="changelog_summary">Gerrit उदाहरण बदलते</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">बॅटरी तपमान</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">सभोवतालचे पर्याय</string>
+	<string name="custom_ambient_display_summary">प्रगत वातावरणीय प्रदर्शन कॉन्फिगर करा</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">पूर्ण हावभाव मोड सक्षम करा</string>
+	<string name="full_gesture_mode_summary">हा मोड बॅक बटण देखील अक्षम करेल आणि आपण नेव्हरवर डाव्या स्वाइप करून बॅक बटण क्रिया ट्रिगर करण्यास सक्षम असाल. उजवे स्वाइप अद्याप अंतिम-अॅप क्रिया ट्रिगर करेल.</string>
+
+</resources>

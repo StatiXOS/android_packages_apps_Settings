@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS-versie</string>
+	<string name="statix_version_default">Onbekend</string>
+
+	<!-- Density category -->
+	<string name="density_category">Dichtheidsopties</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Thema toepassen, een ogenblik geduld…</string>
+	<string name="theme_applied_toast">Thema toegepast!</string>
+	<string name="system_theme_wallpaper">Automatisch (gebaseerd op tijdstip van de dag)</string>
+	<string name="system_theme_light">Licht</string>
+	<string name="system_theme_dark">Donker</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS maatwerk</string>
+	<string name="qs_selector_title">QS-thema\'s</string>
+	<string name="qs_selector_default">Standaard</string>
+	<string name="qs_selector_split">Spleet</string>
+	<string name="qs_selector_teardrop">Traan</string>
+	<string name="qs_selector_framed">Omlijst</string>
+	<string name="qs_selector_super_bubble">Super bubbel</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux-status</string>
+	<string name="selinux_status_disabled">Invalide</string>
+	<string name="selinux_status_permissive">Toegeeflijk</string>
+	<string name="selinux_status_enforcing">Handhaving van</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animatie afschermen</string>
+	<string name="screen_off_animation_default">Standaard</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Schaal</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Lichte kleur</string>
+	<string name="custom_light_on_time_title">Licht AAN-tijd tijdens led-puls (ms)</string>
+	<string name="custom_light_off_time_title">Licht UIT-tijd tijdens led-puls (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Doopvont</string>
+	<string name="disable_fonts_installed_title">Letterkiezer is niet beschikbaar om conflicten met Substratum te voorkomen. Maak de installatie ongedaan als u de lettertypekiezer wilt gebruiken.</string>
+	<string name="font_picker_progress">Nieuw lettertype toepassen\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Activeer de fakkel</string>
+	<string name="double_tap_power_flashlight_title">Scherm uit-knop toorts</string>
+	<string name="torch_power_button_gesture_none">Invalide</string>
+	<string name="torch_power_button_gesture_dt">Dubbeltikken om de toorts in te schakelen</string>
+	<string name="torch_power_button_gesture_lp">Druk lang op de knop om de zaklamp in te schakelen</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Changelog</string>
+	<string name="changelog_summary">Gerrit instantie verandert</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Batterijtemperatuur</string>
+
+	<!-- Ambient category -->
+	<string name="ambient_display_category">Omgevingsopties</string>
+	<string name="custom_ambient_display_summary">Configureer geavanceerde Ambient-weergave</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Volledige bewegingsmodus inschakelen</string>
+	<string name="full_gesture_mode_summary">Deze modus schakelt ook de terugknop uit en u zult in staat zijn om een actie in de terugknop te activeren door links te vegen op de navigatiebalk. Met recht vegen wordt de laatste app-actie nog steeds geactiveerd.</string>
+
+</resources>

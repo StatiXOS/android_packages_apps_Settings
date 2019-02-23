@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">સ્ટેટીક્સએસએસ સંસ્કરણ</string>
+	<string name="statix_version_default">અજ્ઞાત</string>
+
+	<!-- Density category -->
+	<string name="density_category">ઘનતા વિકલ્પો</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">થીમ લાગુ કરી રહ્યું છે, કૃપા કરીને રાહ જુઓ…</string>
+	<string name="theme_applied_toast">થીમ લાગુ!</string>
+	<string name="system_theme_wallpaper">આપમેળે (દિવસના સમયના આધારે)</string>
+	<string name="system_theme_light">પ્રકાશ</string>
+	<string name="system_theme_dark">ડાર્ક</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">ક્યુએસ વૈવિધ્યપણું</string>
+	<string name="qs_selector_title">ક્યુએસ થીમિંગ</string>
+	<string name="qs_selector_default">ડિફૉલ્ટ</string>
+	<string name="qs_selector_split">સ્પ્લિટ</string>
+	<string name="qs_selector_teardrop">ટિયરડ્રોપ</string>
+	<string name="qs_selector_framed">ફ્રેમ્ડ</string>
+	<string name="qs_selector_super_bubble">સુપર બબલ</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux સ્થિતિ</string>
+	<string name="selinux_status_disabled">અક્ષમ</string>
+	<string name="selinux_status_permissive">અનુમતિ</string>
+	<string name="selinux_status_enforcing">અમલ</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">એનિમેશન સ્ક્રીન બંધ કરો</string>
+	<string name="screen_off_animation_default">ડિફૉલ્ટ</string>
+	<string name="screen_off_animation_crt">સીઆરટી</string>
+	<string name="screen_off_animation_scale">સ્કેલ</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">પ્રકાશ રંગ</string>
+	<string name="custom_light_on_time_title">આગેવાનીવાળી પલ્સ (એમએસ) દરમિયાન સમય પર પ્રકાશ</string>
+	<string name="custom_light_off_time_title">આગેવાનીવાળી પલ્સ (એમએસ) દરમિયાન પ્રકાશનો સમય</string>
+	<string name="value_equals_default">ડીફ</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">ફૉન્ટ</string>
+	<string name="disable_fonts_installed_title">સબસ્ટ્રેટમ સાથે વિરોધાભાસ ટાળવા ફૉન્ટ પીકર ઉપલબ્ધ નથી. </string>
+	<string name="font_picker_progress">નવા ફૉન્ટને લાગુ કરી રહ્યું છે \ u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">મશાલ સક્રિય કરો</string>
+	<string name="double_tap_power_flashlight_title">પાવર બટન મશાલ સ્ક્રીન</string>
+	<string name="torch_power_button_gesture_none">અક્ષમ</string>
+	<string name="torch_power_button_gesture_dt">મશાલ ટૉગલ કરવા માટે ડબલ ટેપ પાવર</string>
+	<string name="torch_power_button_gesture_lp">મશાલ ટૉગલ કરવા માટે પાવરને લાંબા સમય સુધી દબાવો</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">ચેન્જલૉગ</string>
+	<string name="changelog_summary">ગેરીટ ઉદાહરણ બદલાઈ જાય છે</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">બેટરી તાપમાન</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">એમ્બિઅન્ટ વિકલ્પો</string>
+	<string name="custom_ambient_display_summary">અદ્યતન એમ્બિયન્ટ પ્રદર્શનને ગોઠવો</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">સંપૂર્ણ હાવભાવ મોડ સક્ષમ કરો</string>
+	<string name="full_gesture_mode_summary">આ મોડ બેક બટનને નિષ્ક્રિય કરશે અને તમે નેવિબાર પર ડાબી સ્વાઇપ દ્વારા બેક બટન ક્રિયાને ટ્રિગર કરવામાં સમર્થ હશો. જમણી સ્વાઇપ હજી પણ છેલ્લી-એપ્લિકેશન ક્રિયાને ટ્રિગર કરશે.</string>
+
+</resources>

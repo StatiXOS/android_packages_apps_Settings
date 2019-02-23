@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Верзија на StatiXOS</string>
+	<string name="statix_version_default">Непознат</string>
+
+	<!-- Density category -->
+	<string name="density_category">Опции за густина</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Примена на тема, ве молиме почекајте…</string>
+	<string name="theme_applied_toast">Темата се применува!</string>
+	<string name="system_theme_wallpaper">Автоматски (врз основа на периодот од денот)</string>
+	<string name="system_theme_light">Светлина</string>
+	<string name="system_theme_dark">Темно</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS прилагодување</string>
+	<string name="qs_selector_title">QS тематизирање</string>
+	<string name="qs_selector_default">Стандардно</string>
+	<string name="qs_selector_split">Подели</string>
+	<string name="qs_selector_teardrop">Терапија</string>
+	<string name="qs_selector_framed">Рамка</string>
+	<string name="qs_selector_super_bubble">Супер меур</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux статус</string>
+	<string name="selinux_status_disabled">Исклучено</string>
+	<string name="selinux_status_permissive">Дозволено</string>
+	<string name="selinux_status_enforcing">Спроведување</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Екран од анимација</string>
+	<string name="screen_off_animation_default">Стандардно</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Скала</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Светлосна боја</string>
+	<string name="custom_light_on_time_title">Светло ON времето за време на пулсот (мс)</string>
+	<string name="custom_light_off_time_title">Светло време за исклучување за време на пулсот (мс)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Фонт</string>
+	<string name="disable_fonts_installed_title">Избирачот на фонт е недостапен за да се избегнат конфликти со субстратот. Деинсталирајте го ако сакате да го користите фонтот.</string>
+	<string name="font_picker_progress">Примена на нов фонт\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Активирајте ја факелот</string>
+	<string name="double_tap_power_flashlight_title">Исклучи го копчето за заклучување на копчето</string>
+	<string name="torch_power_button_gesture_none">Исклучено</string>
+	<string name="torch_power_button_gesture_dt">Двоен допир моќ да го вклучите факелот</string>
+	<string name="torch_power_button_gesture_lp">Долго притискајте енергија за да го вклучите факелот</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Промени го дневникот</string>
+	<string name="changelog_summary">Gerrit пример промени</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Температура на батеријата</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Опции на амбиент</string>
+	<string name="custom_ambient_display_summary">Конфигурирајте напреден амбиентален екран</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Овозможи целосен режим на гестови</string>
+	<string name="full_gesture_mode_summary">Овој режим ќе го оневозможи и копчето за враќање назад и ќе можете да активирате копче со копче за враќање со помош на лев удар на навивачот. Правото одвлекување и понатаму ќе ја активира акцијата за последна апликација.</string>
+
+</resources>

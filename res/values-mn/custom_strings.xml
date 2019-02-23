@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS хувилбар</string>
+	<string name="statix_version_default">Үл мэдэгдэх</string>
+
+	<!-- Density category -->
+	<string name="density_category">Нягт нягтрал</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Сэдэв хэрэглэх, түр хүлээнэ үү…</string>
+	<string name="theme_applied_toast">Сэдвийг ашигласан!</string>
+	<string name="system_theme_wallpaper">Автомат (өдрийн цагт тулгуурласан)</string>
+	<string name="system_theme_light">Гэрэл</string>
+	<string name="system_theme_dark">Харанхуй</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS тохируулга</string>
+	<string name="qs_selector_title">QS Тэмдэглэл</string>
+	<string name="qs_selector_default">Үндсэн байна</string>
+	<string name="qs_selector_split">салгах</string>
+	<string name="qs_selector_teardrop">Нулимс дусал</string>
+	<string name="qs_selector_framed">Хүрээтэй байна</string>
+	<string name="qs_selector_super_bubble">Супер хөөс</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux төлөв</string>
+	<string name="selinux_status_disabled">Хөгжлийн бэрхшээлтэй</string>
+	<string name="selinux_status_permissive">зөвшөөрөх</string>
+	<string name="selinux_status_enforcing">Хэрэгжүүлэлт хийх</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Хөдөлгөөнт зургийг дэлгэцрүү</string>
+	<string name="screen_off_animation_default">Үндсэн байна</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Хэмжээ</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Гэрэл өнгө</string>
+	<string name="custom_light_on_time_title">Удаан хугацааны туршид удирдаж буй импульс (ms)</string>
+	<string name="custom_light_off_time_title">Удирдсан импульс (мс) үед цаг алдах</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Фонт</string>
+	<string name="disable_fonts_installed_title">Substrratum-тэй зөрчилдөхөөс зайлсхийх боломжгүй. Хэрэв та үсгийн Picker ашиглахыг хүсвэл устгах хэрэгтэй.</string>
+	<string name="font_picker_progress">Шинэ фонт ашиглах\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Бамбарыг идэвхжүүлнэ</string>
+	<string name="double_tap_power_flashlight_title">Цахилгаан товч бамбарыг унтраа</string>
+	<string name="torch_power_button_gesture_none">Хөгжлийн бэрхшээлтэй</string>
+	<string name="torch_power_button_gesture_dt">Бамбарыг сэлгэхийн тулд хоёр удаа тогш</string>
+	<string name="torch_power_button_gesture_lp">Бамбарыг сэлгэх урт даралттай хүч</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Логийг өөрчлөх</string>
+	<string name="changelog_summary">Gerrit жишээ өөрчлөгдөнө</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Зайны температур</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Хүрээлэн буй орчны сонголтууд</string>
+	<string name="custom_ambient_display_summary">Нарийвчилсан Орчны дэлгэцийг тохируулна уу</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Бүрэн дохио горимыг идэвхжүүлэх</string>
+	<string name="full_gesture_mode_summary">Энэ горим нь буцах товчийг идэвхгүй болгох бөгөөд navbar дээр зүүн шилжүүлгээр буцах товчийг дарах боломжтой болно. Зөв шудрага нь сүүлийн аппликешны үйл ажиллагааг идэвхжүүлнэ.</string>
+
+</resources>

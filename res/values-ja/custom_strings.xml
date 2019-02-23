@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOSバージョン</string>
+	<string name="statix_version_default">道の</string>
+
+	<!-- Density category -->
+	<string name="density_category">密度オプション</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">テーマを適用して、お待ちください…</string>
+	<string name="theme_applied_toast">テーマを適用！</string>
+	<string name="system_theme_wallpaper">自動（時間帯に基づく）</string>
+	<string name="system_theme_light">光</string>
+	<string name="system_theme_dark">ダーク</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QSのカスタマイズ</string>
+	<string name="qs_selector_title">QSテーマ</string>
+	<string name="qs_selector_default">デフォルト</string>
+	<string name="qs_selector_split">スプリット</string>
+	<string name="qs_selector_teardrop">ティアドロップ</string>
+	<string name="qs_selector_framed">額入り</string>
+	<string name="qs_selector_super_bubble">スーパーバブル</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinuxのステータス</string>
+	<string name="selinux_status_disabled">無効</string>
+	<string name="selinux_status_permissive">寛容</string>
+	<string name="selinux_status_enforcing">実施する</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">スクリーンオフアニメーション</string>
+	<string name="screen_off_animation_default">デフォルト</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">規模</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">明色</string>
+	<string name="custom_light_on_time_title">導かれた脈拍の間のライトオンタイム（ミリ秒）</string>
+	<string name="custom_light_off_time_title">導かれた脈拍の間の消灯時間（ミリ秒）</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">フォント</string>
+	<string name="disable_fonts_installed_title">フォントピッカーはSubstratumとの競合を避けるために利用できません。 フォントピッカーを使用したい場合はアンインストールしてください。</string>
+	<string name="font_picker_progress">新しいフォントを適用する\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">トーチを作動させる</string>
+	<string name="double_tap_power_flashlight_title">スクリーンオフ電源ボタントーチ</string>
+	<string name="torch_power_button_gesture_none">無効</string>
+	<string name="torch_power_button_gesture_dt">トーチを切り替えるためのダブルタップ電源</string>
+	<string name="torch_power_button_gesture_lp">トーチを切り替える長押し力</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">変更ログ</string>
+	<string name="changelog_summary">Gerritインスタンスの変更</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">電池温度</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">環境オプション</string>
+	<string name="custom_ambient_display_summary">高度なアンビエントディスプレイを設定する</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">フルジェスチャーモードを有効にする</string>
+	<string name="full_gesture_mode_summary">このモードでは、戻るボタンも無効になり、ナビゲーションバーを左にスワイプすることで戻るボタンのアクションをトリガーできます。 右にスワイプしても、最後のアプリの動作がトリガーされます。</string>
+
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Versi StatiXOS</string>
+	<string name="statix_version_default">Tidak dikenal</string>
+
+	<!-- Density category -->
+	<string name="density_category">Opsi kepadatan</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Menerapkan tema, harap tunggu…</string>
+	<string name="theme_applied_toast">Tema diterapkan!</string>
+	<string name="system_theme_wallpaper">Otomatis (berdasarkan waktu)</string>
+	<string name="system_theme_light">Cahaya</string>
+	<string name="system_theme_dark">Gelap</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">Kustomisasi QS</string>
+	<string name="qs_selector_title">Bertema QS</string>
+	<string name="qs_selector_default">Default</string>
+	<string name="qs_selector_split">Membagi</string>
+	<string name="qs_selector_teardrop">Titik air mata</string>
+	<string name="qs_selector_framed">Dibingkai</string>
+	<string name="qs_selector_super_bubble">Gelembung Super</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">Status SELinux</string>
+	<string name="selinux_status_disabled">Cacat</string>
+	<string name="selinux_status_permissive">Permisif</string>
+	<string name="selinux_status_enforcing">Menegakkan</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animasi layar mati</string>
+	<string name="screen_off_animation_default">Default</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Skala</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Warna terang</string>
+	<string name="custom_light_on_time_title">Waktu menyala selama pulsa led (ms)</string>
+	<string name="custom_light_off_time_title">Waktu MATI menyala selama pulsa led (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Fon</string>
+	<string name="disable_fonts_installed_title">Pemilih font tidak tersedia untuk menghindari konflik dengan Substratum. Hapus instalannya jika Anda ingin menggunakan pemetik font.</string>
+	<string name="font_picker_progress">Menerapkan font baru\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktifkan obor</string>
+	<string name="double_tap_power_flashlight_title">Layar mematikan obor tombol daya</string>
+	<string name="torch_power_button_gesture_none">Cacat</string>
+	<string name="torch_power_button_gesture_dt">Ketuk dua kali daya untuk menghidupkan obor</string>
+	<string name="torch_power_button_gesture_lp">Tekan lama daya untuk menghidupkan obor</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Ubah log</string>
+	<string name="changelog_summary">Contoh Gerrit berubah</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Suhu baterai</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Opsi sekitar</string>
+	<string name="custom_ambient_display_summary">Konfigurasikan tampilan Ambient tingkat lanjut</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Aktifkan mode gerakan penuh</string>
+	<string name="full_gesture_mode_summary">Mode ini juga akan menonaktifkan tombol kembali dan Anda akan dapat memicu aksi tombol kembali dengan gesek ke kiri di navbar. Gesek ke kanan masih akan memicu aksi aplikasi terakhir.</string>
+
+</resources>

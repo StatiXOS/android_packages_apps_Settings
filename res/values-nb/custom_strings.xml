@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS versjon</string>
+	<string name="statix_version_default">Ukjent</string>
+
+	<!-- Density category -->
+	<string name="density_category">Tetthet alternativer</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Bruk tema, vennligst vent…</string>
+	<string name="theme_applied_toast">Tema anvendt!</string>
+	<string name="system_theme_wallpaper">Automatisk (basert på klokkeslett)</string>
+	<string name="system_theme_light">Lys</string>
+	<string name="system_theme_dark">Mørk</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS-tilpasning</string>
+	<string name="qs_selector_title">QS temaer</string>
+	<string name="qs_selector_default">Misligholde</string>
+	<string name="qs_selector_split">Dele</string>
+	<string name="qs_selector_teardrop">Tårefall</string>
+	<string name="qs_selector_framed">innrammet</string>
+	<string name="qs_selector_super_bubble">Superboble</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux status</string>
+	<string name="selinux_status_disabled">SELinux status</string>
+	<string name="selinux_status_permissive">givende</string>
+	<string name="selinux_status_enforcing">håndheving</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Skjerm av animasjon</string>
+	<string name="screen_off_animation_default">Misligholde</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">skala</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Lys farge</string>
+	<string name="custom_light_on_time_title">Lys på tid under ledet puls (ms)</string>
+	<string name="custom_light_off_time_title">Lysetid under leddpuls (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Font</string>
+	<string name="disable_fonts_installed_title">Font picker er utilgjengelig for å unngå konflikter med Substratum. Avinstaller det hvis du vil bruke skriftvalsen.</string>
+	<string name="font_picker_progress">Bruk av ny skrift\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktiver fakkelen</string>
+	<string name="double_tap_power_flashlight_title">Skjerm av strømbryteren</string>
+	<string name="torch_power_button_gesture_none">Funksjonshemmet</string>
+	<string name="torch_power_button_gesture_dt">Dobbeltklikk på strøm til å bytte fakkel</string>
+	<string name="torch_power_button_gesture_lp">Lang trykk på strømbryteren</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Endre logg</string>
+	<string name="changelog_summary">Gerrit-forekomsten endres</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Batteritemperatur</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Ambient alternativer</string>
+	<string name="custom_ambient_display_summary">Konfigurer avansert omgivelsesdisplay</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Aktiver full gestusmodus</string>
+	<string name="full_gesture_mode_summary">Denne modusen deaktiverer også tilbakeknappen, og du vil kunne utløse en tilbakeknappsaksjon med en venstre sveipe på navbaren. Høyre sveiper vil fortsatt utløse handlingen sist app.</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS bertsioa</string>
+	<string name="statix_version_default">Ezezaguna</string>
+
+	<!-- Density category -->
+	<string name="density_category">Dentsitate aukerak</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Aplikatu gaia, mesedez itxaron…</string>
+	<string name="theme_applied_toast">Gaia aplikatu da!</string>
+	<string name="system_theme_wallpaper">Automatikoa (orduaren arabera)</string>
+	<string name="system_theme_light">Argia</string>
+	<string name="system_theme_dark">Iluna</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS pertsonalizazioa</string>
+	<string name="qs_selector_title">QS gaiak</string>
+	<string name="qs_selector_default">Lehenetsi</string>
+	<string name="qs_selector_split">Zatitu</string>
+	<string name="qs_selector_teardrop">Teardrop</string>
+	<string name="qs_selector_framed">Banatutako</string>
+	<string name="qs_selector_super_bubble">Bikain Burbuila</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux egoera</string>
+	<string name="selinux_status_disabled">Desgaituta</string>
+	<string name="selinux_status_permissive">Permisiboa</string>
+	<string name="selinux_status_enforcing">Behartu</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animazio pantailan</string>
+	<string name="screen_off_animation_default">Lehenetsi</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Eskalatu</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Argi kolorea</string>
+	<string name="custom_light_on_time_title">Iluntzeko pultsua (ms) zehar argi denbora</string>
+	<string name="custom_light_off_time_title">Argi piztuaren ordua OFF pultsu (ms) zehar</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Letra-</string>
+	<string name="disable_fonts_installed_title">Letra-hautatzailea ez dago erabilgarri Substratuarekin gatazkak ekiditeko.</string>
+	<string name="font_picker_progress">Letra berria aplikatuz \ u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Fokua aktibatu</string>
+	<string name="double_tap_power_flashlight_title">Pizteko botoiaren torcha itzali</string>
+	<string name="torch_power_button_gesture_none">Desgaituta</string>
+	<string name="torch_power_button_gesture_dt">Bi aldiz ukitu botoia, torch para activar</string>
+	<string name="torch_power_button_gesture_lp">Luze sakatu botoia konektatzeko torch</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Aldaketen</string>
+	<string name="changelog_summary">Gerrit instantzia aldaketak</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Bateriaren tenperatura</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Ingurune aukerak</string>
+	<string name="custom_ambient_display_summary">Konfiguratu giro ingurune aurreratua</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Gaitu keinu modu osoa</string>
+	<string name="full_gesture_mode_summary">Modu honek atzera botoia ere desgaituko du eta atzera botoia ekintza ezkerreko hatza erabiliz nabigatu ahal izango duzu. Eskuineko hatzak azken aplikazioa abiaraziko du oraindik.</string>
+
+</resources>

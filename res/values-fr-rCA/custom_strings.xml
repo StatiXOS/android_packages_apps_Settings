@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Version StatiXOS</string>
+	<string name="statix_version_default">Inconnu</string>
+
+	<!-- Density category -->
+	<string name="density_category">Options de densité</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Application du thème, veuillez patienter…</string>
+	<string name="theme_applied_toast">Thème appliqué!</string>
+	<string name="system_theme_wallpaper">Automatique (en fonction de l\'heure de la journée)</string>
+	<string name="system_theme_light">Leger</string>
+	<string name="system_theme_dark">Foncé</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">Personnalisation QS</string>
+	<string name="qs_selector_title">Thématisation QS</string>
+	<string name="qs_selector_default">Défaut</string>
+	<string name="qs_selector_split">Divisé</string>
+	<string name="qs_selector_teardrop">Larme</string>
+	<string name="qs_selector_framed">Encadré</string>
+	<string name="qs_selector_super_bubble">Bulle Super</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">Statut SELinux</string>
+	<string name="selinux_status_disabled">Désactivé</string>
+	<string name="selinux_status_permissive">Permissif</string>
+	<string name="selinux_status_enforcing">Imposant</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animation éteint d\'écran</string>
+	<string name="screen_off_animation_default">Défaut</string>
+	<string name="screen_off_animation_crt">Tube cathodique</string>
+	<string name="screen_off_animation_scale">Échelle</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Couleur claire</string>
+	<string name="custom_light_on_time_title">Temps allumé pendant l\'impulsion de la led (ms)</string>
+	<string name="custom_light_off_time_title">Temps arrêter pendant l\'impulsion de la led (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Police de caractère</string>
+	<string name="disable_fonts_installed_title">Le sélecteur de polices n\'est pas disponible. Pour éviter les conflits avec Substratum, désinstallez-le si vous souhaitez utiliser le sélecteur de polices.</string>
+	<string name="font_picker_progress">Application d\'une nouvelle police\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Activer le flambeau</string>
+	<string name="double_tap_power_flashlight_title">Écran éteint bouton de la torche</string>
+	<string name="torch_power_button_gesture_none">Désactivé</string>
+	<string name="torch_power_button_gesture_dt">Double puissance pour basculer la torche</string>
+	<string name="torch_power_button_gesture_lp">Longue pression pour basculer la torche</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Changelog</string>
+	<string name="changelog_summary">Changement d\'instance de Gerrit</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Température de la batterie</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Options Ambiantes</string>
+	<string name="custom_ambient_display_summary">Configurer l\'affichage Ambiant avancé</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Activer le mode geste complet</string>
+	<string name="full_gesture_mode_summary">Ce mode désactivera également le bouton précédent et vous pourrez déclencher une action du bouton précédent par un balayage gauche sur la barre de navigation. Le balayage droit déclenchera toujours l’action de la dernière application.</string>
+
+</resources>

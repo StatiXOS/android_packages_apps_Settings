@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS versija</string>
+	<string name="statix_version_default">Nežinoma</string>
+
+	<!-- Density category -->
+	<string name="density_category">Tankio parinktys</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Laukite temos, palaukite…</string>
+	<string name="theme_applied_toast">Taikoma tema!</string>
+	<string name="system_theme_wallpaper">Automatinis (pagal dienos laiką)</string>
+	<string name="system_theme_light">Šviesa</string>
+	<string name="system_theme_dark">Tamsus</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS pritaikymas</string>
+	<string name="qs_selector_title">QS temos</string>
+	<string name="qs_selector_default">Numatytas</string>
+	<string name="qs_selector_split">Splitas</string>
+	<string name="qs_selector_teardrop">Ašaros</string>
+	<string name="qs_selector_framed">Rėmeliai</string>
+	<string name="qs_selector_super_bubble">Super burbulas</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux būsena</string>
+	<string name="selinux_status_disabled">Išjungta</string>
+	<string name="selinux_status_permissive">Leistinas</string>
+	<string name="selinux_status_enforcing">Vykdymas</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Ekrano animacija</string>
+	<string name="screen_off_animation_default">Numatytas</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Skalė</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Šviesi spalva</string>
+	<string name="custom_light_on_time_title">Šviesos įjungimo laikas per impulsą (ms)</string>
+	<string name="custom_light_off_time_title">Šviesos išjungimo laikas per impulsą (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Šriftas</string>
+	<string name="disable_fonts_installed_title">Šrifto rinkiklis negalimas, kad būtų išvengta konfliktų su Substratum. Pašalinkite jį, jei norite naudoti šriftų rinkiklį.</string>
+	<string name="font_picker_progress">Naujo šrifto taikymas\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Suaktyvinkite degiklį</string>
+	<string name="double_tap_power_flashlight_title">Išjungti maitinimo mygtuko degiklį</string>
+	<string name="torch_power_button_gesture_none">Išjungta</string>
+	<string name="torch_power_button_gesture_dt">Du kartus bakstelėkite maitinimą, kad perjungtumėte degiklį</string>
+	<string name="torch_power_button_gesture_lp">Ilgai spauskite maitinimą, kad perjungtumėte degiklį</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Keisti žurnalą</string>
+	<string name="changelog_summary">Gerrito pavyzdžio pakeitimai</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Akumuliatoriaus temperatūra</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Aplinkos parinktys</string>
+	<string name="custom_ambient_display_summary">Konfigūruokite išplėstinį „Ambient“ ekraną</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Įgalinti visą gestų režimą</string>
+	<string name="full_gesture_mode_summary">Šis režimas taip pat išjungs atgalinį mygtuką ir galėsite paleisti nugaros mygtuko veiksmus kairiuoju braukimo mygtuku. Dešinysis braukimas vis tiek sukels paskutinės programos veiksmą.</string>
+
+</resources>

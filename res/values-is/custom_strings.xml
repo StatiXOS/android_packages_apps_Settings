@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">StatiXOS útgáfa</string>
+	<string name="statix_version_default">Óþekktur</string>
+
+	<!-- Density category -->
+	<string name="density_category">Density valkostir</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Sækja um þema, vinsamlegast bíðið…</string>
+	<string name="theme_applied_toast">Þema sótt!</string>
+	<string name="system_theme_wallpaper">Sjálfvirkt (fer eftir tíma dags)</string>
+	<string name="system_theme_light">Ljós</string>
+	<string name="system_theme_dark">Myrkur</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS customization</string>
+	<string name="qs_selector_title">QS þema</string>
+	<string name="qs_selector_default">Sjálfgefið</string>
+	<string name="qs_selector_split">Skipta</string>
+	<string name="qs_selector_teardrop">Tárfall</string>
+	<string name="qs_selector_framed">Ramma</string>
+	<string name="qs_selector_super_bubble">Frábær kúla</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">SELinux stöðu</string>
+	<string name="selinux_status_disabled">Óvirk</string>
+	<string name="selinux_status_permissive">Leyfilegt</string>
+	<string name="selinux_status_enforcing">Þvinga</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Skjár af fjör</string>
+	<string name="screen_off_animation_default">Sjálfgefið</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Skala</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Ljós litur</string>
+	<string name="custom_light_on_time_title">Ljós ON tíma meðan á leiddi púlsi (ms)</string>
+	<string name="custom_light_off_time_title">Ljós slökktími á leiðarljósi (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Leturgerð</string>
+	<string name="disable_fonts_installed_title">Leturritari er ekki tiltækur til að koma í veg fyrir átök við undirlag. Fjarlægðu það ef þú vilt nota leturvalið.</string>
+	<string name="font_picker_progress">Nota nýja leturgerð\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Virkjaðu kyndann</string>
+	<string name="double_tap_power_flashlight_title">Skrúfaðu aflrofanum</string>
+	<string name="torch_power_button_gesture_none">Óvirk</string>
+	<string name="torch_power_button_gesture_dt">Tvöfalt tappa kraft til að kveikja á fakki</string>
+	<string name="torch_power_button_gesture_lp">Langt þrýstingur til að kveikja á fakki</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Breytingaskrá</string>
+	<string name="changelog_summary">Gerrit dæmi breytist</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Hiti rafhlöðu</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Umhverfisvalkostir</string>
+	<string name="custom_ambient_display_summary">Stilla háþróaða umhverfisskjá</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Virkja fulla bendingartillögu</string>
+	<string name="full_gesture_mode_summary">Þessi hamur mun slökkva á afturhnappinum og þú getur virkjað aðgerð til baka á vinstri högg á hnakkaborðinu. Hægri þurrka mun ennfremur kveikja á aðgerðinni sem síðast hefur verið beitt.</string>
+
+</resources>

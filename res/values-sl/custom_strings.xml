@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- StatiXOS version -->
+	<string name="statix_version">Različica StatiXOS</string>
+	<string name="statix_version_default">Neznano</string>
+
+	<!-- Density category -->
+	<string name="density_category">Možnosti gostote</string>
+
+	<!-- System theme -->
+	<string name="applying_theme_toast">Uporaba teme, počakajte…</string>
+	<string name="theme_applied_toast">Uporabljena tema!</string>
+	<string name="system_theme_wallpaper">Samodejno (glede na uro dneva)</string>
+	<string name="system_theme_light">Svetloba</string>
+	<string name="system_theme_dark">Temno</string>
+
+	<!-- QS Selector -->
+	<string name="qs_category_title">QS prilagoditev</string>
+	<string name="qs_selector_title">QS tematizacijo</string>
+	<string name="qs_selector_default">Privzeto</string>
+	<string name="qs_selector_split">Razdeli</string>
+	<string name="qs_selector_teardrop">Kaplja</string>
+	<string name="qs_selector_framed">Uokvirjeno</string>
+	<string name="qs_selector_super_bubble">Super mehurček</string>
+
+	<!-- SELinux Status -->
+	<string name="selinux_status">Stanje SELinux</string>
+	<string name="selinux_status_disabled">Onemogočeno</string>
+	<string name="selinux_status_permissive">Dovoljeno</string>
+	<string name="selinux_status_enforcing">Izvrševanje</string>
+
+	<!-- Screen off animation -->
+	<string name="screen_off_animation_title">Animacija za izklop zaslona</string>
+	<string name="screen_off_animation_default">Privzeto</string>
+	<string name="screen_off_animation_crt">CRT</string>
+	<string name="screen_off_animation_scale">Lestvica</string>
+
+	<!-- Custom light color -->
+	<string name="custom_light_title">Barva svetlobe</string>
+	<string name="custom_light_on_time_title">Čas osvetlitve med impulzom (ms)</string>
+	<string name="custom_light_off_time_title">Čas izklopa svetlobe med impulzom (ms)</string>
+	<string name="value_equals_default">def</string>
+
+	<!-- Manage applications, package string displayed in app snippet -->
+	<string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+
+	<!-- FontEngine -->
+	<string name="font_picker_title">Pisava</string>
+	<string name="disable_fonts_installed_title">Izbirnik pisav ni na voljo, da bi se izognili konfliktom s Substratum. Odstranite jo, če želite uporabiti izbirnik pisav.</string>
+	<string name="font_picker_progress">Uporaba nove pisave\u2026</string>
+
+	<!-- Flashlight gestures -->
+	<string name="double_tap_power_flashlight_screen_title">Aktivirajte svetilko</string>
+	<string name="double_tap_power_flashlight_title">Izklopite svetilko gumba za napajanje</string>
+	<string name="torch_power_button_gesture_none">Onemogočeno</string>
+	<string name="torch_power_button_gesture_dt">Dvakrat se dotaknite moči, da preklopite gorilnik</string>
+	<string name="torch_power_button_gesture_lp">Dolg pritisk na gumb za vklop plamenice</string>
+
+	<!-- Changelog -->
+	<string name="changelog_title">Dnevnik sprememb</string>
+	<string name="changelog_summary">Gerrit primer se spremeni</string>
+
+	<!-- Battery temp -->
+	<string name="battery_temp_title">Temperatura baterije</string>
+
+    <!-- Ambient category -->
+	<string name="ambient_display_category">Možnosti okolice</string>
+	<string name="custom_ambient_display_summary">Konfigurirajte napredni prikaz okolja</string>
+
+	<!-- Stock navbar customizations -->
+	<string name="full_gesture_mode_title">Omogoči način polne poteze</string>
+	<string name="full_gesture_mode_summary">Ta način bo onemogočil tudi gumb za nazaj, tako da boste lahko sprožili delovanje gumba za nazaj z levo potegom po navbari. Z desno potezo se še vedno sproži dejanje zadnje aplikacije.</string>
+
+</resources>

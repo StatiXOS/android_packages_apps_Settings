@@ -26,9 +26,9 @@
     <!-- System theme -->
     <string name="applying_theme_toast">Applying theme, please wait...</string>
     <string name="theme_applied_toast">Theme applied!</string>
-    <string name="system_theme_wallpaper">Automatic (based on time of day)</string>
-    <string name="system_theme_light">Light</string>
-    <string name="system_theme_dark">Dark</string>
+    <string name="system_theme_wallpaper" msgid="146804192658443142">Automatic (based on time of day)</string>
+    <string name="system_theme_light" msgid="6385301106124765323">Light</string>
+    <string name="system_theme_dark" msgid="6620560879508595181">Dark</string>
 
     <!-- QS Selector -->
     <string name="qs_category_title">QS customization</string>
