@@ -44,6 +44,12 @@
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
 
+    <Preference
+        android:fragment="com.android.settings.fuelgauge.AggressiveBatterySettings"
+        android:key="aggressive_battery"
+        android:title="@string/aggressive_battery_title"
+        android:summary="@string/aggressive_battery_summary" />
+
     <!-- Battery LED customisations -->
     <Preference
          android:key="battery_light_settings"
