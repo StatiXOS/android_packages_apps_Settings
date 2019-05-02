@@ -145,4 +145,8 @@
     <!-- Ambient battery -->
     <string name="ambient_battery_percent_title">Battery level on bottom</string>
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
