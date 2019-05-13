@@ -213,8 +213,6 @@ public class DashboardSummary extends InstrumentedFragment
                 mConditionManager.getConditions(), mSuggestionControllerMixin, getLifecycle());
         mDashboard.setAdapter(mAdapter);
         mSummaryLoader.setSummaryConsumer(mAdapter);
-        ActionBarShadowController.attachToRecyclerView(
-                getActivity().findViewById(R.id.search_bar_container), getLifecycle(), mDashboard);
         rebuildUI();
         if (DEBUG_TIMING) {
             Log.d(TAG, "onCreateView took "
