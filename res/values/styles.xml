@@ -401,6 +401,15 @@
         <item name="*android:successColor">@color/setup_lock_pattern_view_success_color_light</item>
     </style>
 
+    <style name="SuggestionConditionStyle">
+        <item name="android:background">?android:attr/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.SearchBar" parent="@android:style/TextAppearance.Material.Widget.Toolbar.Subtitle">
+        <item name="android:textSize">@dimen/search_bar_text_size</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
     <style name="device_info_dialog_label">
         <item name="android:textAlignment">viewStart</item>
         <item name="android:textAppearance">@*android:style/TextAppearance.DeviceDefault.Body1</item>
