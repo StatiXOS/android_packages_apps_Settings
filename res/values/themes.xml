@@ -267,10 +267,14 @@
 
     <style name="Theme.ActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
         <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
     <style name="Theme.ActionBar.SubSettings" parent="Theme.ActionBar">
         <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
     <style name="ThemeOverlay.SwitchBar.Settings" parent="@android:style/ThemeOverlay.Material.ActionBar">
@@ -279,6 +283,8 @@
         <item name="switchBarMarginEnd">@dimen/switchbar_subsettings_margin_end</item>
         <item name="switchBarBackgroundColor">@color/switch_bar_background</item>
         <item name="switchBarBackgroundActivatedColor">?android:attr/colorAccent</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:background">?android:attr/colorBackground</item>
     </style>
 
     <style name="Widget.SwitchBar.Switch" parent="@android:style/Widget.Material.CompoundButton.Switch">
