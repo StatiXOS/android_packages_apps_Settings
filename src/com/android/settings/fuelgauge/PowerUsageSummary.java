@@ -298,6 +298,14 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 batteryTemp = true;
             }
         }
+        if (KEY_BATTERY_HEADER.equals(preference.getKey())) {
+            new SubSettingLauncher(getContext())
+                        .setDestination(PowerUsageAdvanced.class.getName())
+                        .setSourceMetricsCategory(getMetricsCategory())
+                        .setTitleRes(R.string.advanced_battery_title)
+                        .launch();
+            return true;
+        }
         return super.onPreferenceTreeClick(preference);
     }
 
