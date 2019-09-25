@@ -17,6 +17,15 @@
     <string name="statix_version">StatiXOS version</string>
     <string name="statix_version_default">Unknown</string>
 
+<<<<<<< HEAD   (12917f Settings: support black theme for dark mode [2/3])
     <!-- Black theme -->
     <string name="darker_theme_enable">Enable black theme</string>
+=======
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
+>>>>>>> CHANGE (b34007 Settings: add back SELinux info)
 </resources>
