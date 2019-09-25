@@ -159,9 +159,20 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
 
         RadioButtonPreferenceWithExtraWidget p = (RadioButtonPreferenceWithExtraWidget) pref;
         if (info.getKey() == KEY_SYSTEM_NAV_GESTURAL) {
-            p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
-            p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
-                    .show(this, getBackSensitivity(getContext(), mOverlayManager)));
+			
+            if (SystemNavigationPreferenceController.isGestureNavSupportedByDefaultLauncher(
+                    getContext())) {
+                p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
+                p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
+                        .show(this, getBackSensitivity(getContext(), mOverlayManager),
+                        getBackHeight(getContext())));
+            } else {
+                p.setEnabled(false);
+                p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_INFO);
+                p.setExtraWidgetOnClickListener((v) ->
+                        GestureNavigationNotAvailableDialog.show(this));
+            }
+
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -250,6 +261,21 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         // If Gesture nav is not selected, read the value from shared preferences.
         return context.getSharedPreferences(SHARED_PREFERENCES_NAME, Context.MODE_PRIVATE)
                 .getInt(PREFS_BACK_SENSITIVITY_KEY, BACK_GESTURE_INSET_DEFAULT_OVERLAY);
+    }
+
+    static void setBackHeight(Context context, int height) {
+        // height cant be range 0 - 3
+        // 0 means full height
+        // 1 measns half of the screen
+        // 2 means lower third of the screen
+        // 3 means lower sixth of the screen
+        Settings.System.putInt(context.getContentResolver(),
+                Settings.System.OMNI_BACK_GESTURE_HEIGHT, height);
+    }
+
+    static int getBackHeight(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.OMNI_BACK_GESTURE_HEIGHT, 0);
     }
 
     @VisibleForTesting
