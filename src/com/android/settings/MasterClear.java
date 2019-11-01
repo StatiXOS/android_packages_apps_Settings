@@ -385,7 +385,12 @@ public class MasterClear extends InstrumentedFragment implements OnGlobalLayoutL
         }
         ContentResolver cr = context.getContentResolver();
         return Settings.Global.getInt(cr, Settings.Global.EUICC_PROVISIONED, 0) != 0
+<<<<<<< HEAD   (697681 Settings: Volume Long Press to Skip Tracks [2/2])
                 || DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(context);
+=======
+                || Settings.Global.getInt(
+                cr, Settings.Global.DEVELOPMENT_SETTINGS_ENABLED, 1) != 0;
+>>>>>>> CHANGE (8302fa Enable Developer settings by default [2/2])
     }
 
     @VisibleForTesting

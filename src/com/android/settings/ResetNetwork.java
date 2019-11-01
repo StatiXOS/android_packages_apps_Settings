@@ -236,7 +236,11 @@ public class ResetNetwork extends InstrumentedFragment {
         }
         ContentResolver resolver = context.getContentResolver();
         return Settings.Global.getInt(resolver, Global.EUICC_PROVISIONED, 0) != 0
+<<<<<<< HEAD   (697681 Settings: Volume Long Press to Skip Tracks [2/2])
                 || DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(context);
+=======
+                || Settings.Global.getInt(resolver, Global.DEVELOPMENT_SETTINGS_ENABLED, 1) != 0;
+>>>>>>> CHANGE (8302fa Enable Developer settings by default [2/2])
     }
 
     @Override
