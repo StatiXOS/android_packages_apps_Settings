@@ -592,4 +592,5 @@
             android:title="@string/autofill_reset_developer_options" />
 
     </com.android.settings.development.autofill.AutofillPreferenceCategory>
+
 </PreferenceScreen>
