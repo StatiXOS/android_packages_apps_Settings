@@ -31,4 +31,8 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader</string>
+
 </resources>
