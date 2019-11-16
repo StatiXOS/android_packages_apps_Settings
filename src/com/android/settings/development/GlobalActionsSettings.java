@@ -25,7 +25,6 @@ import com.android.settings.CustomSettingsPreferenceFragment;
 public class GlobalActionsSettings extends CustomSettingsPreferenceFragment {
     private static final String GLOBAL_ACTIONS_POWER = "global_actions_power";
     private static final String GLOBAL_ACTIONS_RESTART = "global_actions_restart";
-    private static final String GLOBAL_ACTIONS_LOCKDOWN = "global_actions_lockdown";
     private static final String GLOBAL_ACTIONS_SCREENSHOT = "global_actions_screenshot";
     private static final String GLOBAL_ACTIONS_AIRPLANE = "global_actions_airplane";
     private static final String GLOBAL_ACTIONS_SETTINGS = "global_actions_settings";
@@ -40,7 +39,6 @@ public class GlobalActionsSettings extends CustomSettingsPreferenceFragment {
 
         addCustomPreference(findPreference(GLOBAL_ACTIONS_POWER), SYSTEM_TWO_STATE, STATE_ON);
         addCustomPreference(findPreference(GLOBAL_ACTIONS_RESTART), SYSTEM_TWO_STATE, STATE_ON);
-        addCustomPreference(findPreference(GLOBAL_ACTIONS_LOCKDOWN), SYSTEM_TWO_STATE, STATE_OFF);
         addCustomPreference(findPreference(GLOBAL_ACTIONS_SCREENSHOT), SYSTEM_TWO_STATE, STATE_ON);
         addCustomPreference(findPreference(GLOBAL_ACTIONS_AIRPLANE), SYSTEM_TWO_STATE, STATE_OFF);
         addCustomPreference(findPreference(GLOBAL_ACTIONS_SETTINGS), SYSTEM_TWO_STATE, STATE_OFF);
