@@ -27,11 +27,6 @@
         android:defaultValue="true" />
 
     <SwitchPreference
-        android:key="global_actions_lockdown"
-        android:title="@string/global_actions_lockdown"
-        android:defaultValue="false" />
-
-    <SwitchPreference
         android:key="global_actions_screenshot"
         android:title="@string/global_actions_screenshot"
         android:defaultValue="true" />

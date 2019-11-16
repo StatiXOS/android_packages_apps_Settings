@@ -43,7 +43,6 @@
     <string name="global_actions_restart">Restart</string>
     <string name="global_actions_airplane">Airplane</string>
     <string name="global_actions_settings">Settings</string>
-    <string name="global_actions_lockdown">Lock down</string>
     <string name="global_actions_soundpanel">Sound panel</string>
     <string name="global_actions_users">Users</string>
     <string name="global_actions_screenshot">Screenshot</string>
