@@ -57,6 +57,12 @@
         android:summary="@string/battery_percent_summary"
         android:fragment="com.android.settings.fuelgauge.StatusBarBatterySettings"/>
 
+    <Preference
+        android:key="battery_light_settings"
+        android:title="@string/battery_light_settings_pref_title"
+        android:fragment="com.android.settings.fuelgauge.BatteryLightSettings"
+        settings:controller="com.android.settings.fuelgauge.BatteryLightSettingsPreferenceController" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"

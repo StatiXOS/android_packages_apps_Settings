@@ -38,14 +38,6 @@
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
     <Preference
-        android:key="date_time_settings"
-        android:title="@string/date_and_time"
-        android:icon="@drawable/ic_settings_date_time"
-        android:order="-240"
-        android:fragment="com.android.settings.datetime.DateTimeSettings"
-        settings:controller="com.android.settings.datetime.DateTimePreferenceController"/>
-
-    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:summary="@string/reset_dashboard_summary"
