@@ -63,4 +63,15 @@
     <string name="double_tap_sleep_statusbar_summary">Double tap on the status bar to put the device to sleep</string>
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings_pref_title">Battery lights</string>
+    <string name="battery_light_settings_pref_summary">Configure battery lights in different scenarios</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_cat">Battery light color when charging</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full battery (100)</string>
 </resources>
