@@ -70,6 +70,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
 
     private static final String KEY_SCREEN_USAGE = "screen_usage";
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
+    private static final String KEY_BATTERY_LIGHT_SETTINGS = "battery_light_settings";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
