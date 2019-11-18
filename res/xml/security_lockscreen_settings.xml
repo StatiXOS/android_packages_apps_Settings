@@ -53,6 +53,14 @@
             android:summary="@string/lockdown_settings_summary"
         settings:controller="com.android.settings.security.LockdownButtonPreferenceController" /> -->
 
+         <com.statix.support.preferences.CustomSystemSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            allowEditText="true"
+            android:max="2500"
+            android:min="1"
+            android:defaultValue="2500"
+            settings:units="dp" />
     </PreferenceCategory>
 
     <PreferenceCategory
