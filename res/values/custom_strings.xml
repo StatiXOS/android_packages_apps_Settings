@@ -137,5 +137,7 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
+
+    <!-- Lockscreen blur level -->
+    <string name="lockscreen_media_blur_title">Lockscreen media art blur level</string>
 </resources>
- 
