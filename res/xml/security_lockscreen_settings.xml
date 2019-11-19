@@ -52,15 +52,27 @@
             android:title="@string/lockdown_settings_title"
             android:summary="@string/lockdown_settings_summary"
             settings:controller="com.android.settings.security.LockdownButtonPreferenceController" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_options_title"
+        android:order="999">
+
+        <com.statix.support.preferences.SystemSettingSwitchPreference
+            android:key="show_lockscreen_media_art"
+            android:title="@string/show_lockscreen_media_art_title"
+            android:defaultValue="true" />
 
          <com.statix.support.preferences.CustomSystemSeekBarPreference
             android:key="lockscreen_media_blur"
             android:title="@string/lockscreen_media_blur_title"
+            android:dependency="show_lockscreen_media_art"
             allowEditText="true"
             android:max="25"
             android:min="0"
             android:defaultValue="25"
-            settings:units="dp" />
+            settings:units="dp"/>
     </PreferenceCategory>
 
     <PreferenceCategory
