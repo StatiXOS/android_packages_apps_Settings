@@ -147,11 +147,20 @@
         android:title="@string/theme_customization_category"
         android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
 
-        <SwitchPreference
+        <!-- <SwitchPreference
             android:key="dark_ui_mode"
             android:title="@string/dark_ui_mode"
             settings:keywords="@string/keywords_dark_ui_mode"
-            settings:controller="com.android.settings.display.DarkUIPreferenceController"/>
+            settings:controller="com.android.settings.display.DarkUIPreferenceController"/> -->
+
+        <com.android.settings.display.darkmode.DarkModePreference
+            android:key="dark_ui_mode"
+            android:title="@string/dark_ui_mode"
+            android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+            android:widgetLayout="@null"
+            settings:widgetLayout="@null"
+            settings:controller="com.android.settings.display.DarkUIPreferenceController"
+            settings:searchable="false"/>
 
         <Preference
             android:key="themes"
