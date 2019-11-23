@@ -56,4 +56,7 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 
+    <!-- DT2S on lockscreen -->
+    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+
 </resources>
