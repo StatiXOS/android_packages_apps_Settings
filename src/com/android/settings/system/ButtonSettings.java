@@ -51,6 +51,7 @@ import com.android.settings.search.Indexable;
 
 import com.android.settings.system.buttons.ActionFragment;
 import com.statix.support.preferences.CustomSeekBarPreference;
+import com.statix.support.preferences.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,6 +64,7 @@ public class ButtonSettings extends ActionFragment implements
     private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+    private static final String ANBI_ENABLED_OPTION = "anbi_enabled_option";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -88,6 +90,7 @@ public class ButtonSettings extends ActionFragment implements
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mHwKeyDisable;
+    private SystemSettingSwitchPreference mAnbiEnable;
     private Handler mHandler;
 
     @Override
@@ -99,6 +102,9 @@ public class ButtonSettings extends ActionFragment implements
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mAnbiEnable = (SystemSettingSwitchPreference) findPreference(ANBI_ENABLED_OPTION);
+        mAnbiEnable.setOnPreferenceChangeListener(this);
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
@@ -149,6 +155,7 @@ public class ButtonSettings extends ActionFragment implements
                     }
                 }
         } else {
+            mAnbiEnable.setChecked(false);
             prefScreen.removePreference(hwkeyCat);
         }
 
@@ -201,6 +208,8 @@ public class ButtonSettings extends ActionFragment implements
             prefScreen.removePreference(assistCategory);
         }
 
+        mAnbiEnable.setEnabled(keysDisabled == 0);
+
         // let super know we can load ActionPreferences
         onPreferenceScreenLoaded(ActionConstants.getDefaults(ActionConstants.HWKEYS));
 
@@ -236,6 +245,13 @@ public class ButtonSettings extends ActionFragment implements
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
+            mAnbiEnable.setEnabled(!value);
+            mAnbiEnable.setChecked(!value);
+            return true;
+        } else if (preference == mAnbiEnable) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getContentResolver(), Settings.System.ANBI_ENABLED_OPTION,
+                    value ? 1 : 0);
             return true;
         }
         return false;
