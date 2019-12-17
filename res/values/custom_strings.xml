@@ -73,5 +73,11 @@
     <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
     <string name="doubletap_lockscreen_title">Double tap to sleep on losckreen</string>
     <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
+
+    <!-- Weather -->
+    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+
 </resources>
  
