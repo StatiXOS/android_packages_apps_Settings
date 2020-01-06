@@ -91,6 +91,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_BATTERY_SAVER_SUMMARY = "battery_saver_summary";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String KEY_BATTERY_LIGHT_SETTINGS = "battery_light_settings";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
