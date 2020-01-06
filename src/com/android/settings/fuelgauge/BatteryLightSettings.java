@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.system;
+package com.android.settings.fuelgauge;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
