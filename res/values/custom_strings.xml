@@ -99,5 +99,7 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full battery (100)</string>
+
+    <!-- Buttons -->
+    <string name="buttons_settings_title">Buttons</string>
 </resources>
- 
