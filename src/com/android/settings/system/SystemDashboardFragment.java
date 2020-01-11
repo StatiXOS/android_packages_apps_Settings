@@ -49,6 +49,11 @@ public class SystemDashboardFragment extends DashboardFragment {
         super.onCreate(icicle);
 
         final PreferenceScreen screen = getPreferenceScreen();
+        final Preference buttonsCat = screen.findPreference("buttons_settings");
+        int hwkeys = getResources().getInteger(com.android.internal.R.integer.config_deviceHardwareKeys);
+        if (hwkeys == 64 || hwkeys == 0) {
+            screen.removePreference(buttonsCat);
+        }
         // We do not want to display an advanced button if only one setting is hidden
         if (getVisiblePreferenceCount(screen) == screen.getInitialExpandedChildrenCount() + 1) {
             screen.setInitialExpandedChildrenCount(Integer.MAX_VALUE);
