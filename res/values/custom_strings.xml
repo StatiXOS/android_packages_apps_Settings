@@ -197,4 +197,8 @@
     <!-- ANBI -->
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+
+    <!-- Power Menu on lockscreen -->
+    <string name="powermenu_lockscreen_title">Power menu visibility</string>
+    <string name="powermenu_lockscreen_summary">Display power menu on a secured lockscreen</string>
 </resources>
