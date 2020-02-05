@@ -16,6 +16,7 @@
 -->
 <resources>
 
-    <!-- Device specific doze package -->
+    <!-- Device specific Doze package -->
     <string name="config_customDozePackage" translatable="false">com.custom.ambient.display/com.custom.ambient.display.DozeSettings</string>
+
 </resources>
