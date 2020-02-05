@@ -119,7 +119,7 @@
 
     <Preference
         android:key="ambient_display_custom"
-        android:title="@string/advanced_settings" />
+        android:title="@string/ambient_display_screen_title" />
 
     <Preference
         android:key="lockscreen_from_display_settings"
