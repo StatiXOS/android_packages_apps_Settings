@@ -16,6 +16,24 @@
       "revId": "37e08302f8dfbbf9c97af11b225aa13e7539fcdb",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f3af6c1f_1ea37a96",
+        "filename": "res/xml/gestures.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-02-10T00:36:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4e3b907_bd7ec6f3",
+      "revId": "37e08302f8dfbbf9c97af11b225aa13e7539fcdb",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6",
+      "unresolved": false
     }
   ]
 }
