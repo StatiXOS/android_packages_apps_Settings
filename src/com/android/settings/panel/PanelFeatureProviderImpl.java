@@ -41,6 +41,8 @@ public class PanelFeatureProviderImpl implements PanelFeatureProvider {
                 return InternetConnectivityPanel.create(context);
             case ACTION_MEDIA_OUTPUT:
                 return MediaOutputPanel.create(context, mediaPackageName);
+            case Settings.Panel.ACTION_BLUETOOTH:
+                return BluetoothPanel.create(context);
             case Settings.Panel.ACTION_NFC:
                 return NfcPanel.create(context);
             case Settings.Panel.ACTION_WIFI:
