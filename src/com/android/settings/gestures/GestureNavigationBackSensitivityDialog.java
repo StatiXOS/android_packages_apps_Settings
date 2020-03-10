@@ -29,6 +29,8 @@ import android.widget.SeekBar;
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 
+import com.statix.support.preferences.CustomSeekBarPreference;
+
 /**
  * Dialog to set the back gesture's sensitivity in Gesture navigation mode.
  */
@@ -67,8 +69,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarSensitivity.setProgress(getArguments().getInt(KEY_BACK_SENSITIVITY));
         final SeekBar seekBarHeight = view.findViewById(R.id.back_height_seekbar);
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
-        final SeekBar seekBarHandleSize = view.findViewById(R.id.home_handle_seekbar);
-        seekBarHandleSize.setProgress(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
+        final CustomSeekBarPreference seekBarHandleSize = (CustomSeekBarPreference) findPreference("home_handle_seekbar");
+        seekBarHandleSize.setValue(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
