@@ -289,4 +289,7 @@
     <string name="volume_adjustment_category_title">Volume Adjustments</string>
     <string name="do_not_disturb_category_title">Do Not Disturb</string>
     <string name="ringtone_category_title">Ringtone</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>
