@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.os.ServiceManager;
 import android.view.View;
 import android.widget.SeekBar;
+import android.widget.Switch;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -37,8 +38,11 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "back_height";
     private static final String KEY_HOME_HANDLE_SIZE = "home_handle_width";
+    private static final String KEY_SHOW_NAV = "show_nav";
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height, int length) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height, int length, boolean showNav) {
+
+
         if (!parent.isAdded()) {
             return;
         }
@@ -49,6 +53,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_HEIGHT, height);
         bundle.putInt(KEY_HOME_HANDLE_SIZE, length);
+        bundle.putBoolean(KEY_SHOW_NAV, showNav);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
         dialog.show(parent.getFragmentManager(), TAG);
@@ -69,6 +74,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
         final SeekBar seekBarHandleSize = view.findViewById(R.id.home_handle_seekbar);
         seekBarHandleSize.setProgress(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
+        final Switch showNavSwitch = view.findViewById(R.id.show_gestures_navbar);
+        showNavSwitch.setChecked(getArguments().getBoolean(KEY_SHOW_NAV));
         return new AlertDialog.Builder(getContext())
                 .setTitle(R.string.back_options_dialog_title)
                 .setMessage(R.string.back_sensitivity_dialog_message)
@@ -84,6 +91,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                     SystemNavigationGestureSettings.setHomeHandleSize(getActivity(), length);
+                    boolean showNav = showNavSwitch.isChecked();
+                    getArguments().putBoolean(KEY_SHOW_NAV, showNav);
+                    SystemNavigationGestureSettings.setShowNav(getActivity(),
+                            showNav);
                 })
                 .create();
     }
