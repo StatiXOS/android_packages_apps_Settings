@@ -62,6 +62,6 @@
                   android:textAppearance="?android:attr/textAppearance"
                   android:singleLine="true"
                   android:ellipsize="marquee" />
-
     </LinearLayout>
+
 </LinearLayout>
