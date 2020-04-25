@@ -258,4 +258,21 @@
     <!-- [CHAR LIMIT=60] -->
     <string name="show_gestures_navbar_title_text">Ativar barra de navegação</string>
     <string name="show_gestures_navbar_switch_text">Mostrar barra de navegação por gestos</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Indicador de bateria na barra de status</string>
+    <string name="battery_percent_summary">Configure o ícone e estilos de texto para o indicador de bateria na barra de status</string>
+    <string name="status_bar_battery_style_title">Estilo da bateria</string>
+    <string name="status_bar_battery_style_icon_portrait">Retrato</string>
+    <string name="status_bar_battery_style_circle">Circular</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo pontilhado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo preenchido</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Escondido</string>
+    <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
+    <string name="status_bar_battery_percentage_default">Escondida</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
+    <string name="status_bar_battery_percentage_text_next">Próxima ao ícone</string>
+    <string name="qs_battery_percentage_title">Porcentagem da bateria no QS</string>
+    <string name="qs_battery_percentage_summary">Exibir a porcentagem da bateria no cabeçalho das Configurações Rápidas ao invés do tempo estimado</string>
 </resources>
