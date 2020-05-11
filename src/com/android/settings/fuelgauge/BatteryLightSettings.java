@@ -17,39 +17,58 @@
 package com.android.settings.fuelgauge;
 
 import android.app.settings.SettingsEnums;
+import android.content.ContentResolver;
 import android.content.Context;
+import android.content.res.Resources;
 import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
-import com.android.settings.dashboard.DashboardFragment;
+import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
+import com.statix.support.preferences.SystemSettingSwitchPreference;
 
 import java.util.Arrays;
 import java.util.List;
 
 @SearchIndexable
-public class BatteryLightSettings extends DashboardFragment {
+public class BatteryLightSettings extends SettingsPreferenceFragment {
 
     private static final String TAG = "BatteryLightSettings";
 
     private AmbientDisplayConfiguration mAmbientDisplayConfig;
 
+    private SystemSettingSwitchPreference mLowBatteryBlinking;
+    private PreferenceCategory mColorCategory;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        addPreferencesFromResource(R.xml.battery_light_settings);
+        PreferenceScreen prefSet = getPreferenceScreen();
+        mColorCategory = (PreferenceCategory) findPreference("battery_light_cat");
+
+        mLowBatteryBlinking = (SystemSettingSwitchPreference) prefSet.findPreference("battery_light_low_blinking");
+        if (!getResources().getBoolean(
+                        com.android.internal.R.bool.config_ledCanPulse)) {
+            prefSet.removePreference(mLowBatteryBlinking);
+        }
+
+        if (!getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {
+            prefSet.removePreference(mColorCategory);
+        }
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CUSTOM;
-    }
-
-    @Override
-    protected String getLogTag() {
-        return TAG;
-    }
-
-    @Override
-    protected int getPreferenceScreenResId() {
-        return R.xml.battery_light_settings;
     }
 
     @Override
