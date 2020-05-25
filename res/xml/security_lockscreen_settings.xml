@@ -75,7 +75,7 @@
             settings:units="dp" />
     </PreferenceCategory>
 
-    <PreferenceCategory
+   <!-- <PreferenceCategory
         android:key="ambient_display_category_when_to_show"
         android:title="@string/ambient_display_category_triggers"
         android:order="1000">
@@ -111,7 +111,7 @@
             android:summary="@string/doze_summary"
             settings:controller="com.android.settings.display.AmbientDisplayNotificationsPreferenceController" />
 
-    </PreferenceCategory>
+    </PreferenceCategory> -->
 
     <com.statix.support.preferences.SystemSettingListPreference
          android:key="weather_lockscreen_unit"
