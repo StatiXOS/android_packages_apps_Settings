@@ -70,7 +70,7 @@
 
     <!-- DT2S On Lockscreen -->
     <string name="doubletap_lockscreen_screen_title">Switch screen off</string>
-    <string name="doubletap_lockscreen_title">Double tap to sleep on losckreen</string>
+    <string name="doubletap_lockscreen_title">Double tap to sleep on lockscreen</string>
     <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
 
     <!-- Weather -->
@@ -87,7 +87,7 @@
     <!-- Custom light color -->
     <string name="custom_light_title">Light color</string>
     <string name="custom_light_on_time_title">Light ON time during led pulse (ms)</string>
-    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
+    <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)</string>
     <string name="value_equals_default">def</string>
 
     <!-- Battery light -->

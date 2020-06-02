@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- StatiXOS version -->
+    <string name="statix_version">Versão da StatiXOS</string>
+    <string name="statix_version_default">Desconhecida</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desabilitado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Som da captura de tela</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Temperatura da bateria</string>
+    <string name="battery_temp_summary">Toque para mudar a unidade</string>
+
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslize a digital para esquerda ou direita para dispensar notificações</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para dispensar suas notificações, deslize para esquerda ou direita no sensor de impressão digital na traseira do seu celular.</string>
+
+    <string name="system_global_actions_category">Ações globais</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_title">Menu de energia</string>
+    <string name="global_actions_summary">Selecione o que exibir quando o botão de energia for pressionado</string>
+    <string name="global_actions_power">Desligar</string>
+    <string name="global_actions_restart">Reiniciar</string>
+    <string name="global_actions_airplane">Modo avião</string>
+    <string name="global_actions_settings">Configurações</string>
+    <string name="global_actions_lockdown">Bloquear</string>
+    <string name="global_actions_soundpanel">Painel de volume</string>
+    <string name="global_actions_users">Usuários</string>
+    <string name="global_actions_screenshot">Captura de tela</string>
+    <string name="global_actions_flashlight">Lanterna</string>
+    <string name="global_actions_advanced_reboot_title">Ativar reinício avançado</string>
+    <string name="global_actions_advanced_reboot_summary">Exibir opções para recovery e bootloader</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela estiver desligada, segurar os botões de volume irá pular faixas</string>
+
+    <!-- Back Gesture Height -->
+    <string name="back_height_low_label">Completo</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_options_dialog_title">Opções</string>
+    <string name="back_height_message">Valor da altura da tela usada como região tocável para o gesto de retorno.</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Ativar a lanterna</string>
+    <string name="double_tap_power_flashlight_title">Ativar a lanterna com o botão de energia na tela desligada</string>
+    <string name="torch_power_button_gesture_none">Desativado</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo para ativar a lanterna</string>
+    <string name="torch_power_button_gesture_lp">Segure para ativar a lanterna</string>
+
+    <!-- DT2S On Lockscreen -->
+    <string name="doubletap_lockscreen_screen_title">Desligar a tela</string>
+    <string name="doubletap_lockscreen_title">Toque duplo para desligar na tela de bloqueio</string>
+    <string name="doubletap_lockscreen_summary">Toque duplo nas áreas vazias da tela de bloqueio para desligar a tela</string>
+
+    <!-- Weather -->
+    <string name="weather_unit">Unidade de temperatura</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar informações</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">Cor da luz</string>
+    <string name="custom_light_on_time_title">Tempo de luz ligada durante pulsação do led (ms)</string>
+    <string name="custom_light_off_time_title">Tempo de luz desligada durante a pulsação do led (ms)</string>
+    <string name="value_equals_default">def</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings_pref_title">Luz de carregamento da bateria</string>
+    <string name="battery_light_enable">Ativar luz de carregamento</string>
+    <string name="battery_light_allow_on_dnd_title">Luz de carregamento no modo Não Pertube</string>
+    <string name="battery_light_low_blinking_title">Luz piscando com bateria baixa</string>
+    <string name="battery_light_cat">Cor da luz de bateria enquanto carrega</string>
+    <string name="battery_light_low_color">Bateria baixa</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase cheia</string>
+    <string name="battery_light_reallyfull_color">Bateria cheia (100)</string>
+
+    <!-- Status bar clock options -->
+    <string name="clock_date_settings_title">Relógio da barra de status</string>
+    <string name="status_bar_clock">Data e Hora</string>
+    <string name="status_bar_clock_summary">Configurar a aparição da data e hora na barra de status</string>
+    <string name="clock_title_enable">Alinhamento</string>
+    <string name="clock_enabled">Ativado</string>
+    <string name="clock_disabled">Desativado</string>
+    <string name="status_bar_clock_style_reset">Redefinir cor</string>
+    <string name="status_bar_show_clock_title">Mostrar data e hora</string>
+    <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Relógio de 24h está ativado</string>
+    <string name="enable_clock_weekday">Dia da semana</string>
+    <string name="enable_clock_weekday_summary">Dia da semana abreviado antes da hora</string>
+    <string name="right_clock">Relógio na direita</string>
+    <string name="left_clock">Relógio na esquerda</string>
+    <string name="dont_show">Não exibir</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Exibir data customizada antes do relógio</string>
+    <string name="clock_date_style">Estilo da data</string>
+    <string name="clock_date_format">Formato da data</string>
+    <string name="clock_date_string_edittext_title">Deve estar no formato ex. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Entrar texto</string>
+    <string name="am_pm_clock_normal">Fonte de tamanho normal</string>
+    <string name="am_pm_clock_small">Fonte de tamanho pequeno</string>
+    <string name="am_pm_clock_none">Não exibir</string>
+    <string name="clock_date_display_none">Não exibir</string>
+    <string name="clock_date_display_small">Fonte de tamanho pequeno</string>
+    <string name="clock_date_display_normal">Fonte de tamanho normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúsculo</string>
+    <string name="clock_date_style_uppercase">Maiúsculo</string>
+    <string name="clock_date_format_custom">Formato java customizado</string>
+    <string name="clock_date_right">À direita do relógio</string>
+    <string name="clock_date_left">À esquerda do relógio</string>
+    <string name="clock_date_position">Posição da data</string>
+
+    <!-- Lockscreen blur level -->
+    <string name="lockscreen_media_blur_title">Nível de desfoque da capa do álbum</string>
+    <string name="show_lockscreen_media_art_title">Exibir capa do álbum</string>
+    <string name="lockscreen_media_art_options_title">Capa do album na tela de bloqueio</string>
+
+    <!-- Buttons -->
+    <string name="buttons_settings_title">Botões</string>
+    <string name="hardware_keys_title">Teclas físicas</string>
+    <string name="button_brightness_title">Luz de fundo</string>
+    <string name="button_brightness_sw_title">Ativar luz de fundo</string>
+    <string name="backlight_timeout_title">Tempo limite da luz de fundo</string>
+    <string name="button_backlight_on_touch_only_title">Toque no botão</string>
+    <string name="button_backlight_on_touch_only_summary">Ativar luz de fundo com tempo limite somente quando o botão for tocado</string>
+    <string name="backlight_timeout_on">Sempre ativado</string>
+    <string name="backlight_timeout_3s">3 seg</string>
+    <string name="backlight_timeout_default">5 seg (padrão)</string>
+    <string name="backlight_timeout_10s">10 seg</string>
+    <string name="backlight_timeout_15s">15 seg</string>
+    <string name="backlight_timeout_20s">20 seg</string>
+    <string name="backlight_timeout_30s">30 seg</string>
+    <string name="picker_activities">Atividades</string>
+    <string name="select_custom_app_title">Escolher aplicativo personalizado</string>
+    <string name="select_custom_activity_title">Escolher atividade personalizada</string>
+    <string name="profile_applist_title">Aplicativos</string>
+    <string name="choose_action_title">Escolher ação</string>
+    <string name="action_entry_default_action">Configurações padrão</string>
+    <string name="action_entry_select_app">Selecionar aplicativo</string>
+    <string name="action_entry_custom_action">Selecionar atividade personalizada</string>
+    <string name="hardware_keys_home_key_title">Botão de início</string>
+    <string name="hardware_keys_menu_key_title">Botão de menu</string>
+    <string name="hardware_keys_assist_key_title">Botão de pesquisa</string>
+    <string name="hardware_keys_appswitch_key_title">Botão de recentes</string>
+    <string name="hardware_keys_back_key_title">Botão de retornar</string>
+    <string name="hardware_keys_double_tap_summary">Selecionar ação de toque duplo</string>
+    <string name="hardware_keys_single_tap_summary">Seleconar ação de toque único</string>
+    <string name="hardware_keys_long_press_summary">Selecionar ação de toque longo</string>
+    <string name="hardware_keys_single_tap_title">Ação de toque único</string>
+    <string name="hardware_keys_long_press_title">Ação de toque longo</string>
+    <string name="hardware_keys_double_tap_title">Ação de toque duplo</string>
+    <string name="hardware_keys_disable_title">Desativar teclas</string>
+    <string name="haptic_on_action_title">Retorno à ação</string>
+    <string name="haptic_on_action_summary">Vibrar em ações ao invés de toques</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Botão iniciar durante o toque</string>
+    <string name="allow_incall_home_summary">Habilitar o uso do botão iniciar enquanto o dispositivo toca</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">Toque acidental</string>
+    <string name="anbi_summary">Evitar interações com os botões de navegação enquanto a tela está sendo tocada</string>
+
+    <!-- Power Menu on lockscreen -->
+    <string name="powermenu_lockscreen_title">Visibilidade do menu de energia</string>
+    <string name="powermenu_lockscreen_summary">Exibir o menu de energia na tela de bloqueio segura</string>
+
+    <!-- Show QS on lockscreen -->
+    <string name="show_qs_on_secure_keyguard_title">Configurações rápidas</string>
+    <string name="show_qs_on_secure_keyguard_summary">Exibir configurações rápidas na tela de bloqueio segura</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Deslizar para capturar a tela</string>
+    <string name="swipe_to_screenshot_gesture_summary">Deslize três dedos para capturar a tela</string>
+
+    <!-- Themes -->
+    <string name="theme_settings_title">Temas</string>
+    <string name="theme_settings_summary">Nenhum erro, somente acidentes felizes</string>
+
+    <!-- DT2S on statusbar -->
+    <string name="double_tap_to_sleep_title">Toque duplo para desligar na barra de status</string>
+    <string name="double_tap_to_sleep_summary">Toque duplo na barra de status para desligar a tela</string>
+
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Tamanho da barra de gestos</string>
+    <string name="home_handle_low_label">Pequena (AOSP)</string>
+    <string name="home_handle_high_label">Longa</string>
+
+    <!-- Gestures Settings -->
+    <string name="quick_gestures_title">Gestos rápidos</string>
+    <string name="offscreen_gesture_title">Gestos com a tela desligada</string>
+    <string name="offscreen_gesture_summary">Desenhe padrões ou toque na tela para realizar ações</string>
+    <string name="keywords_gestures">tela toque desenho deslizar dedo</string>
+
+    <string name="gestures_double_tap">Toque duplo</string>
+    <string name="gestures_draw_v">Desenhar V</string>
+    <string name="gestures_draw_inverse_v">Desenhar V Invertido</string>
+    <string name="gestures_draw_o">Desenhar O</string>
+    <string name="gestures_draw_m">Desenhar M</string>
+    <string name="gestures_draw_w">Desenhar W</string>
+    <string name="gestures_draw_s">Desenhar S</string>
+    <string name="gestures_draw_arrow_left">Desenhar &lt;</string>
+    <string name="gestures_draw_arrow_right">Desenhar &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Deslizar para cima com um dedo</string>
+    <string name="gestures_one_finger_swipe_right">Deslizar para direita com um dedo</string>
+    <string name="gestures_one_finger_swipe_down">Deslizar para baixo com um dedo</string>
+    <string name="gestures_one_finger_swipe_left">Deslizar para esquerda com um dedo</string>
+    <string name="gestures_two_finger_swipe">Deslizar com dois dedos</string>
+
+    <string name="gestures_disabled">Desativado</string>
+    <string name="gestures_wake_device">Acordar aparelho</string>
+    <string name="gestures_toggle_flashlight">Ativar/desativar lanterna</string>
+    <string name="gestures_toggle_airplane_mode">Ativar/desativar modo avião</string>
+    <string name="gestures_play_pause_music">Tocar/Pausar música</string>
+    <string name="gestures_next_music">Próxima música</string>
+    <string name="gestures_previous_music">Música anterior</string>
+    <string name="gestures_open_camera">Abrir câmera</string>
+    <string name="gestures_open_dialer">Abrir discador</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu celular.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">traseira</string>
+    <string name="security_settings_fingerprint_sensor_location_front">frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">esquerda</string>
+    <string name="security_settings_fingerprint_sensor_location_right">direita</string>
+
+    <!-- Gesture nav gear options -->
+    <!-- [CHAR LIMIT=60] -->
+    <string name="show_gestures_navbar_title_text">Ativar barra de navegação</string>
+    <string name="show_gestures_navbar_switch_text">Mostrar barra de navegação por gestos</string>
+</resources>
