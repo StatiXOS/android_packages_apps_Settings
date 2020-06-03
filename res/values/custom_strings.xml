@@ -73,11 +73,6 @@
     <string name="doubletap_lockscreen_title">Double tap to sleep on losckreen</string>
     <string name="doubletap_lockscreen_summary">Double tap on lockscreen empty areas to switch the screen off</string>
 
-    <!-- Weather -->
-    <string name="weather_unit">Temperature unit</string>
-    <string name="weather_unit_metric" translatable="false">Celsius</string>
-    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
-
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     
@@ -269,4 +264,5 @@
     <!-- [CHAR LIMIT=60] -->
     <string name="show_gestures_navbar_title_text">Toggle navbar</string>
     <string name="show_gestures_navbar_switch_text">Show gestures navbar</string>
+
 </resources>
