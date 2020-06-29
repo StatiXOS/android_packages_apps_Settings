@@ -218,6 +218,11 @@
     <string name="home_handle_low_label">Small (AOSP)</string>
     <string name="home_handle_high_label">Long</string>
 
+    <!-- Home thickness sizing -->
+    <string name="handle_sizer_title">Gesture bar thickness</string>
+    <string name="handle_low_label">Default (AOSP)</string>
+    <string name="handle_high_label">Thick (iOS)</string>
+
     <!-- Gestures Settings -->
     <string name="quick_gestures_title">Quick gestures</string>
     <string name="offscreen_gesture_title">Screen off gestures</string>

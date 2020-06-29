@@ -162,7 +162,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
                     .show(this, getBackSensitivity(getContext(), mOverlayManager),
-                    getBackHeight(getContext()), getHomeHandleSize(getContext()), getShowNav(getContext())));
+                    getBackHeight(getContext()), getHomeHandleSize(getContext()), getHandleThickness(getContext()), getShowNav(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -300,6 +300,20 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     static int getHomeHandleSize(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, 0);
+    }
+
+    static void setHandleThickness(Context context, int length) {
+        // length cant be range 0 - 2
+        // 2 means thick
+        // 1 measns middle
+        // 0 means aosp thickness
+        Settings.System.putInt(context.getContentResolver(),
+                Settings.System.NAVIGATION_HANDLE_RADIUS, radius);
+    }
+
+    static int getHandleThickness(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.NAVIGATION_HANDLE_RADIUS, 0);
     }
 
     @VisibleForTesting
