@@ -38,9 +38,10 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
     private static final String KEY_BACK_SENSITIVITY = "back_sensitivity";
     private static final String KEY_BACK_HEIGHT = "back_height";
     private static final String KEY_HOME_HANDLE_SIZE = "home_handle_width";
+    private static final String KEY_HANDLE_THICKNESS = "handle_radius";
     private static final String KEY_SHOW_NAV = "show_nav";
 
-    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height, int length, boolean showNav) {
+    public static void show(SystemNavigationGestureSettings parent, int sensitivity, int height, int length, int radius, boolean showNav) {
 
 
         if (!parent.isAdded()) {
@@ -53,6 +54,7 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         bundle.putInt(KEY_BACK_SENSITIVITY, sensitivity);
         bundle.putInt(KEY_BACK_HEIGHT, height);
         bundle.putInt(KEY_HOME_HANDLE_SIZE, length);
+        bundle.putInt(KEY_HANDLE_THICKNESS, radius);
         bundle.putBoolean(KEY_SHOW_NAV, showNav);
         dialog.setArguments(bundle);
         dialog.setTargetFragment(parent, 0);
@@ -74,6 +76,8 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
         seekBarHeight.setProgress(getArguments().getInt(KEY_BACK_HEIGHT));
         final SeekBar seekBarHandleSize = view.findViewById(R.id.home_handle_seekbar);
         seekBarHandleSize.setProgress(getArguments().getInt(KEY_HOME_HANDLE_SIZE));
+        final SeekBar seekBarHandleThickness = view.findViewById(R.id.handle_seekbar);
+        seekBarHandleSize.setProgress(getArguments().getInt(KEY_HANDLE_THICKNESS));
         final Switch showNavSwitch = view.findViewById(R.id.show_gestures_navbar);
         showNavSwitch.setChecked(getArguments().getBoolean(KEY_SHOW_NAV));
         return new AlertDialog.Builder(getContext())
@@ -87,10 +91,13 @@ public class GestureNavigationBackSensitivityDialog extends InstrumentedDialogFr
                     getArguments().putInt(KEY_BACK_HEIGHT, height);
                     int length = seekBarHandleSize.getProgress();
                     getArguments().putInt(KEY_HOME_HANDLE_SIZE, length);
+                    int length = seekBarHandleThickness.getProgress();
+                    getArguments().putInt(KEY_HANDLE_THICKNESS, height);
                     SystemNavigationGestureSettings.setBackHeight(getActivity(), height);
                     SystemNavigationGestureSettings.setBackSensitivity(getActivity(),
                             getOverlayManager(), sensitivity);
                     SystemNavigationGestureSettings.setHomeHandleSize(getActivity(), length);
+                    SystemNavigationGestureSettings.setHandleThickness(getActivity(), radius);
                     boolean showNav = showNavSwitch.isChecked();
                     getArguments().putBoolean(KEY_SHOW_NAV, showNav);
                     SystemNavigationGestureSettings.setShowNav(getActivity(),
