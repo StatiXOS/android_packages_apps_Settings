@@ -408,6 +408,7 @@
     <!-- Battery meter icon size of advanced bluetooth device -->
     <dimen name="advanced_bluetooth_battery_meter_width">7.8dp</dimen>
     <dimen name="advanced_bluetooth_battery_meter_height">13dp</dimen>
+<<<<<<< HEAD
     <dimen name="advanced_bluetooth_battery_width">15.5dp</dimen>
     <dimen name="advanced_bluetooth_battery_height">27.5dp</dimen>
     <dimen name="advanced_bluetooth_battery_right_margin">-4dp</dimen>
@@ -429,4 +430,10 @@
 
     <!-- Text padding for EmptyTextSettings -->
     <dimen name="empty_text_padding">24dp</dimen>
+
+    <!-- StatiX custom dimens -->
+    <dimen name="statix_preference_category_padding_top">0.0dip</dimen>
+    <dimen name="statix_preference_category_line_margin_start">10.0dip</dimen>
+    <dimen name="statix_preference_category_height">40.0dip</dimen>
+
 </resources>
