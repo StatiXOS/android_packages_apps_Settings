@@ -22,6 +22,11 @@
     settings:keywords="@string/keywords_display"
     settings:initialExpandedChildrenCount="5">
 
+<PreferenceCategory
+    android:key="brightness_category"
+    android:title="@string/brightness_title"
+    android:order="1000" >
+
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
@@ -31,6 +36,13 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
 
+    <Preference
+        android:key="auto_brightness_entry"
+        android:title="@string/auto_brightness_title"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.display.AutoBrightnessSettings"
+        settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
@@ -38,13 +50,7 @@
         android:widgetLayout="@null"
         settings:widgetLayout="@null"
         settings:searchable="false" />
-
-    <Preference
-        android:key="auto_brightness_entry"
-        android:title="@string/auto_brightness_title"
-        android:summary="@string/summary_placeholder"
-        android:fragment="com.android.settings.display.AutoBrightnessSettings"
-        settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+</PreferenceCategory>
 
     <!-- Cross-listed item, if you change this, also change it in power_usage_summary.xml -->
     <com.android.settings.display.TimeoutListPreference
@@ -81,6 +87,11 @@
         android:summary="@string/display_white_balance_summary"
         settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController" />
 
+<PreferenceCategory
+    android:key="font_and_display_sizes"
+    android:title="@string/sizes_title"
+    android:order="1100" >
+
     <Preference
         android:key="font_size"
         android:title="@string/title_font_size"
@@ -96,6 +107,7 @@
     <com.android.settings.display.DensityPreference
         android:key="density"
         android:title="@string/developer_smallest_width" />
+</PreferenceCategory>
 
     <SwitchPreference
         android:key="show_operator_name"
