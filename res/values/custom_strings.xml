@@ -282,4 +282,11 @@
     <string name="qs_battery_percentage_title">QS battery percentage</string>
     <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
 
+    <!-- Preference Titles-->
+    <string name="battery_stats_title">Battery stats</string>
+    <string name="brightness_title">Brightness</string>
+    <string name="sizes_title">Font / Display Sizes</string>
+    <string name="volume_adjustment_category_title">Volume Adjustments</string>
+    <string name="do_not_disturb_category_title">Do Not Disturb</string>
+    <string name="ringtone_category_title">Ringtone</string>
 </resources>
