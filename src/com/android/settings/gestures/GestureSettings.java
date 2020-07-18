@@ -37,7 +37,7 @@ public class GestureSettings extends DashboardFragment {
 
     private static final String TAG = "GestureSettings";
 
-    private static final String KEY_OFFSCREEN_GESTURE = "offscreen_gesture";
+    private static final String KEY_OFFSCREEN_GESTURE = "quick_gestures";
 
     private AmbientDisplayConfiguration mAmbientDisplayConfig;
 
@@ -81,7 +81,7 @@ public class GestureSettings extends DashboardFragment {
 
     private static boolean deviceSupportsOffscreenGestures(Context context) {
         return context.getResources().
-                getInteger(com.android.internal.R.integer.config_doubleTapKeyCode) == 0;
+                getInteger(com.android.internal.R.integer.config_doubleTapKeyCode) != 0;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
