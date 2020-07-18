@@ -80,7 +80,7 @@ public class GestureSettings extends DashboardFragment {
     }
 
     private static boolean deviceSupportsOffscreenGestures(Context context) {
-        return context.getResources().
+        return !context.getResources().
                 getInteger(com.android.internal.R.integer.config_doubleTapKeyCode) == 0;
     }
 
