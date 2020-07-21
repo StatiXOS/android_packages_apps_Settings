@@ -292,4 +292,8 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access toast</string>
+
 </resources>
