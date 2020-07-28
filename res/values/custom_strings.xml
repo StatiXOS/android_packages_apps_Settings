@@ -296,4 +296,8 @@
     <!-- Clipboard toast toggle -->
     <string name="show_clipboard_toast">Show clipboard access toast</string>
 
+    <!-- Recents provider -->
+    <string name="recents_provider_dashboard_title">Customize your recents provider</string>
+    <string name="custom_recents_provider_title">Recents providers</string>
+
 </resources>
