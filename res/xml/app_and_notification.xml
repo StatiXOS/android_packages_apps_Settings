@@ -59,10 +59,16 @@
         <intent android:action="android.settings.MANAGE_DEFAULT_APPS_SETTINGS"/>
     </Preference>
 
+    <com.statix.support.preferences.SystemSettingListPreference
+        android:key="custom_recents_provider"
+        android:title="@string/recents_provider_dashboard_title"
+        android:order="12"
+        android:fragment="com.android.settings.applications.RecentsProviderFragment"/>
+
     <Preference
         android:key="manage_perms"
         android:title="@string/app_permissions"
-        android:order="12"
+        android:order="13"
         settings:keywords="@string/keywords_app_permissions"
         settings:controller="com.android.settings.applications.AppPermissionsPreferenceController">
         <intent android:action="android.intent.action.MANAGE_PERMISSIONS"/>
