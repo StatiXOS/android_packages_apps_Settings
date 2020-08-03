@@ -73,9 +73,6 @@
     <string name="doubletap_lockscreen_title">Toque duplo para desligar na tela de bloqueio</string>
     <string name="doubletap_lockscreen_summary">Toque duplo nas áreas vazias da tela de bloqueio para desligar a tela</string>
 
-    <!-- Weather -->
-    <string name="weather_unit">Unidade de temperatura</string>
-
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     
@@ -275,4 +272,18 @@
     <string name="status_bar_battery_percentage_text_next">Próxima ao ícone</string>
     <string name="qs_battery_percentage_title">Porcentagem da bateria no QS</string>
     <string name="qs_battery_percentage_summary">Exibir a porcentagem da bateria no cabeçalho das Configurações Rápidas ao invés do tempo estimado</string>
+
+    <!-- Preference Titles-->
+    <string name="battery_stats_title">Estatísticas da Bateria</string>
+    <string name="screen_category_title">Tela</string>
+    <string name="display_customization_category_title">Customizações da Tela</string>
+    <string name="volume_adjustment_category_title">Ajustes do Volume</string>
+    <string name="do_not_disturb_category_title">Não Pertube</string>
+    <string name="ringtone_category_title">Toque</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Exibir histórico de notificações</string>
+
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Exibir toast de acesso à área de transferência</string>
 </resources>
