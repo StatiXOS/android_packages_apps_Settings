@@ -22,6 +22,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- StatiXOS logo -->
+    <PreferenceScreen
+        android:key="statix_logo"
+        android:enabled="false"
+        android:layout="@layout/statix_logo" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
