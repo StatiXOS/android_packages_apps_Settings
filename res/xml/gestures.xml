@@ -86,4 +86,10 @@
         android:title="@string/power_menu_setting_name"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
+
+    <Preference
+        android:key="double_tap_statusbar"
+        android:title="@string/double_tap_statusbar_title"
+        android:fragment="com.android.settings.gestures.DoubleTapStatusbarSettings"
+        settings:controller="com.android.settings.gestures.DoubleTapStatusbarPreferenceController" />
 </PreferenceScreen>
