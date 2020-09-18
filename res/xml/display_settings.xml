@@ -40,6 +40,11 @@
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="enable_darker_theme"
+        android:title="@string/darker_theme_enable"
+        android:defaultValue="false" />
+
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
         android:title="@string/night_display_title"
