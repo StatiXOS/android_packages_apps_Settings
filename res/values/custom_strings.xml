@@ -101,4 +101,7 @@
     <string name="customDozePackage_title">Ambient Display</string>
     <string name="customDozePackage_summary">Interact with your device when the screen is off</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Lockscreen media art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when playing music</string>
 </resources>
