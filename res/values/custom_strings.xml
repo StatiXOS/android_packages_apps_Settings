@@ -114,4 +114,8 @@
    <!-- Volume link notification -->
    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_art_title">Lockscreen media art</string>
+    <string name="lockscreen_media_art_summary">Display media cover art when playing music</string>
+
 </resources>
