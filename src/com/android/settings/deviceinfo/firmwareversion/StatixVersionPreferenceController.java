@@ -18,15 +18,14 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.SystemClock;
 import android.os.SystemProperties;
-import android.os.UserHandle;
-import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 
 import com.android.settings.R;
@@ -44,16 +43,12 @@ public class StatixVersionPreferenceController extends BasePreferenceController 
 
     private static final String KEY_STATIX_VERSION_PROP = "ro.statix.version";
 
-    private final UserManager mUserManager;
+    private final PackageManager mPackageManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
-
-    private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
-    private boolean mFunDisallowedBySystem;
 
     public StatixVersionPreferenceController(Context context, String key) {
         super(context, key);
-        mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
-        initializeAdminPermissions();
+        mPackageManager = mContext.getPackageManager();
     }
 
     @Override
@@ -82,31 +77,17 @@ public class StatixVersionPreferenceController extends BasePreferenceController 
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-        if (Utils.isMonkeyRunning()) {
-            return false;
-        }
-        arrayCopy();
-        mHits[mHits.length - 1] = SystemClock.uptimeMillis();
-        if (mHits[0] >= (SystemClock.uptimeMillis() - DELAY_TIMER_MILLIS)) {
-            if (mUserManager.hasUserRestriction(UserManager.DISALLOW_FUN)) {
-                if (mFunDisallowedAdmin != null && !mFunDisallowedBySystem) {
-                    RestrictedLockUtils.sendShowAdminSupportDetailsIntent(mContext,
-                            mFunDisallowedAdmin);
-                }
-                Log.d(TAG, "Sorry, no fun for you!");
+            final Intent intent = new Intent()
+            intent.setAction(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(mContext.getString(R.string.statix_uri)));
+            if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
+                // Don't send out the intent to stop crash
+                Log.w(TAG, "queryIntentActivities() returns empty");
                 return true;
             }
 
-            final Intent intent = new Intent(Intent.ACTION_MAIN)
-                    .setClassName(
-                            "android", com.android.internal.app.PlatLogoActivity.class.getName());
-            try {
-                mContext.startActivity(intent);
-            } catch (Exception e) {
-                Log.e(TAG, "Unable to start activity " + intent.toString());
-            }
-        }
-        return true;
+            mContext.startActivity(intent);
+            return true;
     }
 
     /**
@@ -115,14 +96,6 @@ public class StatixVersionPreferenceController extends BasePreferenceController 
     @VisibleForTesting
     void arrayCopy() {
         System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
-    }
-
-    @VisibleForTesting
-    void initializeAdminPermissions() {
-        mFunDisallowedAdmin = RestrictedLockUtilsInternal.checkIfRestrictionEnforced(
-                mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
-        mFunDisallowedBySystem = RestrictedLockUtilsInternal.hasBaseUserRestriction(
-                mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
     }
 
     @Override
