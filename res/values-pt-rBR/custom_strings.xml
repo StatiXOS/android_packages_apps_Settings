@@ -27,4 +27,6 @@
     <string name="status_bar_battery_percentage_default">Escondida</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro do ícone</string>
     <string name="status_bar_battery_percentage_text_next">Próxima ao ícone</string>
+    <string name="qs_battery_percentage_title">Porcentagem da bateria no QS</string>
+    <string name="qs_battery_percentage_summary">Exibir a porcentagem da bateria no cabeçalho das Configurações Rápidas ao invés do tempo estimado</string>
 </resources>
