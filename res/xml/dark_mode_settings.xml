@@ -55,6 +55,11 @@
         settings:allowDividerBelow="true"
         settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
+    <com.statix.support.preferences.SystemSettingSwitchPreference
+        android:key="enable_darker_theme"
+        android:title="@string/darker_theme_enable"
+        android:defaultValue="false" />
+
     <com.android.settingslib.widget.FooterPreference
             android:key="dark_ui_footer"
             android:title="@string/dark_ui_text"
