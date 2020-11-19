@@ -145,4 +145,9 @@
     <!-- Ambient battery -->
     <string name="ambient_battery_percent_title">Battery level on bottom</string>
     <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string>
+
+    <!-- Fp wake unlock options -->
+    <string name="fp_wake_unlock_title">Fingerprint behaviour</string>
+    <string name="fp_wake_unlock_touch">Touch</string>
+    <string name="fp_wake_unlock_press">Press</string>
 </resources>
