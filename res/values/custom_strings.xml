@@ -128,4 +128,9 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+    
+    <!-- Screen off fod -->
+    <string name="fod_gesture_wake_title">Show ambient display for screen off fingerprint</string>
+    <string name="fod_gesture_wake_summary">When enabled, screen will show ambient display instead of lock screen after fingerprint area is touched. </string>
+
 </resources>
