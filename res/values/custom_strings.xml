@@ -142,4 +142,7 @@
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
 
+    <!-- Ambient battery -->
+    <string name="ambient_battery_percent_title">Battery level on bottom</string>
+    <string name="ambient_battery_percent_summary">Enable to show battery percent while dozing</string>
 </resources>
