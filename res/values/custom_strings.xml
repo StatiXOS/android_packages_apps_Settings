@@ -57,14 +57,14 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-    
+
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_title">Double tap to sleep settings</string>
     <string name="double_tap_sleep_summary">Enable multiple tap to sleep gestures</string>
     <string name="double_tap_sleep_statusbar_title">Double tap to sleep on statusbar</string>
-    <string name="double_tap_sleep_statusbar_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_statusbar_summary">Double tap on statusbar to put the device to sleep</string>
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on lockscreen to put the device to sleep</string>
 
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Quick torch</string>
@@ -73,7 +73,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
-	    
+
     <!-- Battery light -->
     <string name="battery_light_settings_pref_title">Battery lights</string>
     <string name="battery_light_settings_pref_summary">Configure battery lights in different scenarios</string>
