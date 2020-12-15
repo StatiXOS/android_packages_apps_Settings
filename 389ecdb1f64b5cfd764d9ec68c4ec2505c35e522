@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70a03132_1153b633",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000013
+      },
+      "writtenOn": "2020-12-15T01:42:48Z",
+      "side": 1,
+      "message": "Looks better now that they\u0027re similar",
+      "revId": "389ecdb1f64b5cfd764d9ec68c4ec2505c35e522",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
