@@ -17,6 +17,7 @@
 package com.android.settings.display;
 
 import static android.provider.Settings.System.MIN_REFRESH_RATE;
+import static android.provider.Settings.System.PEAK_REFRESH_RATE;
 
 import android.content.Context;
 import android.provider.Settings;
@@ -66,9 +67,8 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
         for (Display.Mode m : modes) {
             if (m.getPhysicalWidth() == mode.getPhysicalWidth() &&
                     m.getPhysicalHeight() == mode.getPhysicalHeight()) {
-                entries.add(String.format("%.02fHz", m.getRefreshRate())
-                        .replaceAll("[\\.,]00", ""));
-                values.add(String.format(Locale.US, "%.02f", m.getRefreshRate()));
+			entries.add(String.format("%dHz", Math.round(m.getRefreshRate())));
+			values.add(String.format("%d", Math.round(m.getRefreshRate())));
             }
         }
         mListPreference.setEntries(entries.toArray(new String[entries.size()]));
@@ -79,10 +79,11 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public void updateState(Preference preference) {
-        final float currentValue = Settings.System.getFloat(mContext.getContentResolver(),
-                MIN_REFRESH_RATE, 60.00f);
-        int index = mListPreference.findIndexOfValue(
-                String.format(Locale.US, "%.02f", currentValue));
+        final int defaultRefreshRate = (int) mContext.getResources().getInteger(
+					 com.android.internal.R.integer.config_defaultRefreshRate);
+        final int currentValue = Settings.System.getInt(mContext.getContentResolver(),
+				   MIN_REFRESH_RATE, defaultRefreshRate);
+        int index = mListPreference.findIndexOfValue(Integer.toString(currentValue));
         if (index < 0) index = 0;
         mListPreference.setValueIndex(index);
         mListPreference.setSummary(mListPreference.getEntries()[index]);
@@ -90,10 +91,10 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        Settings.System.putFloat(mContext.getContentResolver(), MIN_REFRESH_RATE,
-                Float.valueOf((String) newValue));
-        updateState(preference);
+	int newRefreshRate = Integer.valueOf((String) newValue);
+	Settings.System.putInt(mContext.getContentResolver(), MIN_REFRESH_RATE, newRefreshRate);
+	Settings.System.putInt(mContext.getContentResolver(), PEAK_REFRESH_RATE, newRefreshRate);
+	updateState(preference);
         return true;
     }
-
 }
