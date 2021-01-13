@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="statix_version">Versión de StatiXOS</string>
+    <string name="statix_version_default">Desconocida</string>
+    <string name="darker_theme_enable">Habilitar el tema negro</string>
+    <string name="selinux_status">Estado SELinux</string>
+    <string name="selinux_status_disabled">Deshabilitado</string>
+    <string name="selinux_status_permissive">Permisivo</string>
+    <string name="selinux_status_enforcing">Bajo cumplimiento</string>
+    <string name="navbar_length">Longitud de la barra de gestos</string>
+    <string name="short_label">Corto</string>
+    <string name="long_label">Largo</string>
+    <string name="global_actions_advanced_reboot_title">Habilitar el reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recovery y bootloader</string>
+    <string name="screenshot_shutter_sound_title">Sonido de obturador de captura de pantalla</string>
+    <string name="battery_percent_title">Indicador de batería en la barra de estado</string>
+    <string name="battery_percent_summary">Configurar los estilos de icono y texto para el indicador de batería en la barra de estado</string>
+    <string name="status_bar_battery_style_title">Estilo de la batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo punteado</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo relleno</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Escondido</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Escondido</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
+    <string name="qs_battery_percentage_title">Porcentaje de batería en QS</string>
+    <string name="qs_battery_percentage_summary">Mostrar el porcentaje de batería en el encabezado QS en lugar de la estimación de batería</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="double_tap_sleep_title">Configuración de tocar dos veces para dormir</string>
+    <string name="double_tap_sleep_summary">Habilitar múltiples gestos de tocar para dormir</string>
+    <string name="double_tap_sleep_statusbar_title">Tocar dos veces en la barra de estado para dormir</string>
+    <string name="double_tap_sleep_statusbar_summary">Tocar dos veces en la barra de estado para poner el dispositivo a dormir</string>
+    <string name="double_tap_sleep_lockscreen_title">Tocar dos veces en la pantalla de bloqueo para dormir</string>
+    <string name="double_tap_sleep_lockscreen_summary">Tocar dos veces en cualquier lugar de la pantalla de bloqueo para poner el dispositivo a dormir</string>
+    <string name="power_button_torch_title">Antorcha rápida</string>
+    <string name="power_button_torch_summary">Cuando la pantalla está apagada, presionar prolongadamente el botón de encendido habilitará la antorcha</string>
+    <string name="prevent_ringing_option_cycle">Recorrer los modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Encendido (recorrer los modos)</string>
+    <string name="battery_light_settings_pref_title">Luces de la batería</string>
+    <string name="battery_light_settings_pref_summary">Configurar las luces de batería en diferentes escenarios</string>
+    <string name="battery_light_enable">Habilitar las luces de batería</string>
+    <string name="battery_light_allow_on_dnd_title">Luz de batería en el modo No Molestar</string>
+    <string name="battery_light_low_blinking_title">Luz intermitente con batería baja</string>
+    <string name="battery_light_cat">Color de la luz de batería al cargar</string>
+    <string name="battery_light_low_color">Batería baja</string>
+    <string name="battery_light_medium_color">Batería media</string>
+    <string name="battery_light_full_color">Batería casi llena</string>
+    <string name="battery_light_reallyfull_color">Batería llena (100)</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localice el sensor de huellas dactilares en el <xliff:g id="sensor_location">%1$s</xliff:g> de su tableta.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localice el sensor de huellas dactilares en el <xliff:g id="sensor_location">%1$s</xliff:g> de su dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localice el sensor de huellas dactilares en el <xliff:g id="sensor_location">%1$s</xliff:g> de su teléfono.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">atrás</string>
+    <string name="security_settings_fingerprint_sensor_location_front">frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lado izquierdo</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lado derecho</string>
+    <string name="customDozePackage_title">Pantalla ambiental</string>
+    <string name="customDozePackage_summary">Interactuar con tu dispositivo cuando la pantalla está apagada</string>
+    <string name="smallest_tick_label">Apagado</string>
+    <string name="greatest_tick_label">Media pantalla</string>
+    <string name="gesture_back_deadzone_label">Zona muerta</string>
+    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="proximity_wake_title">Evitar el despertar accidental</string>
+    <string name="proximity_wake_summary">Verificar el sensor de proximidad antes de despertar la pantalla</string>
+    <string name="lockscreen_media_art_title">Arte de los medios en pantalla de bloqueo</string>
+    <string name="lockscreen_media_art_summary">Mostrar la portada de los medios al reproducir música</string>
+    <string name="lockscreen_media_blur_title">Nivel de desenfoque del arte de los medios</string>
+    <string name="show_lockscreen_media_art_title">Mostrar el arte de los medios</string>
+    <string name="lockscreen_media_art_options_title">Arte de los medios en la pantalla de bloqueo</string>
+    <string name="volume_link_notification_title">Ligar el volumen del timbre &amp; notificación</string>
+    <string name="connected_tws_device_saved_title">Auriculares guardados</string>
+</resources>

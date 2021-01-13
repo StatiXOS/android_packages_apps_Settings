@@ -12,8 +12,19 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- Battery Styles -->
+    <string name="statix_version">Versão da StatiXOS</string>
+    <string name="statix_version_default">Desconhecida</string>
+    <string name="darker_theme_enable">Ativar tema preto</string>
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Impondo</string>
+    <string name="navbar_length">Tamanho da barra de gestos</string>
+    <string name="short_label">Pequena</string>
+    <string name="long_label">Longa</string>
+    <string name="global_actions_advanced_reboot_title">Ativar reinício avançado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recovery e bootloader</string>
+    <string name="screenshot_shutter_sound_title">Som da captura de tela</string>
     <string name="battery_percent_title">Indicador de bateria na barra de status</string>
     <string name="battery_percent_summary">Configure o ícone e estilos de texto para o indicador de bateria na barra de status</string>
     <string name="status_bar_battery_style_title">Estilo da bateria</string>
@@ -29,4 +40,47 @@
     <string name="status_bar_battery_percentage_text_next">Próxima ao ícone</string>
     <string name="qs_battery_percentage_title">Porcentagem da bateria no QS</string>
     <string name="qs_battery_percentage_summary">Exibir a porcentagem da bateria no cabeçalho das Configurações Rápidas ao invés do tempo estimado</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="double_tap_sleep_title">Opções de toque duplo para desligar</string>
+    <string name="double_tap_sleep_summary">Ativa múltiplos gestos de toque para desligar</string>
+    <string name="double_tap_sleep_statusbar_title">Toque duplo para dormir na barra de status</string>
+    <string name="double_tap_sleep_statusbar_summary">Toque duas vezes na barra de status para colocar o dispositivo para dormir</string>
+    <string name="double_tap_sleep_lockscreen_title">Toque duplo para dormir na tela de bloqueio</string>
+    <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes na tela de bloqueio para colocar o dispositivo para dormir</string>
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela está desligada, segurar o botão power irá ativar a lanterna</string>
+    <string name="prevent_ringing_option_cycle">Circular entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ativado (circular entre modos)</string>
+    <string name="battery_light_settings_pref_title">Luzes da bateria</string>
+    <string name="battery_light_settings_pref_summary">Configura as luzes da bateria em diferentes cenários</string>
+    <string name="battery_light_enable">Ativar luz da bateria</string>
+    <string name="battery_light_allow_on_dnd_title">Luz da bateria no modo Não Pertube</string>
+    <string name="battery_light_low_blinking_title">Luz piscante com bateria baixa</string>
+    <string name="battery_light_cat">Cor da luz da bateria durante carregamento</string>
+    <string name="battery_light_low_color">Bateria baixa</string>
+    <string name="battery_light_medium_color">Bateria média</string>
+    <string name="battery_light_full_color">Bateria quase cheia</string>
+    <string name="battery_light_reallyfull_color">Bateria cheia (100)</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu aparelho.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu celular.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">traseira</string>
+    <string name="security_settings_fingerprint_sensor_location_front">frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">esquerda</string>
+    <string name="security_settings_fingerprint_sensor_location_right">direita</string>
+    <string name="customDozePackage_title">Display Ambiente</string>
+    <string name="customDozePackage_summary">Interaja com seu dispositivo quando a tela estiver desligada</string>
+    <string name="smallest_tick_label">Desativado</string>
+    <string name="greatest_tick_label">Metade</string>
+    <string name="gesture_back_deadzone_label">Zona morta</string>
+    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="proximity_wake_title">Previnir ativação acidental</string>
+    <string name="proximity_wake_summary">Verifica o sensor de proximidade antes de ativar a tela</string>
+    <string name="lockscreen_media_art_title">Capa do álbum na tela de bloqueio</string>
+    <string name="lockscreen_media_art_summary">Mostrar capa do álbum durante reprodução</string>
+    <string name="lockscreen_media_blur_title">Nível de desfoque da capa do álbum</string>
+    <string name="show_lockscreen_media_art_title">Mostrar capa do álbum</string>
+    <string name="lockscreen_media_art_options_title">Capa do álbum na tela de bloqueio</string>
+    <string name="volume_link_notification_title">Conectar volumee de toque e notificações</string>
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
 </resources>
