@@ -73,14 +73,14 @@
     <string name="smallest_tick_label">Desativado</string>
     <string name="greatest_tick_label">Metade</string>
     <string name="gesture_back_deadzone_label">Zona morta</string>
-    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
-    <string name="proximity_wake_title">Previnir ativação acidental</string>
+    <string name="back_sensitivity_dialog_message_cust">Use a primeira e a segunda barra para configurar a sensitividade do gesto de retorno, a última barra para definir uma área morta no topo da tela onde o retorno não pode ser ativado, para evitar conflitos com gestos de aplicativos.</string>
+    <string name="proximity_wake_title">Prevenir ativação acidental</string>
     <string name="proximity_wake_summary">Verifica o sensor de proximidade antes de ativar a tela</string>
     <string name="lockscreen_media_art_title">Capa do álbum na tela de bloqueio</string>
     <string name="lockscreen_media_art_summary">Mostrar capa do álbum durante reprodução</string>
     <string name="lockscreen_media_blur_title">Nível de desfoque da capa do álbum</string>
     <string name="show_lockscreen_media_art_title">Mostrar capa do álbum</string>
     <string name="lockscreen_media_art_options_title">Capa do álbum na tela de bloqueio</string>
-    <string name="volume_link_notification_title">Conectar volumee de toque e notificações</string>
+    <string name="volume_link_notification_title">Conectar volume de toque e notificações</string>
     <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
 </resources>
