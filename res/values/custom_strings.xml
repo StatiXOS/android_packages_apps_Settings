@@ -132,4 +132,10 @@
     <!-- Ambient Music -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+
+    <!-- Ambient Music Indicator -->
+    <string name="ambient_music_location">Show ambient music ticker</string>
+    <string name="ambient_music_disabled">Disabled</string>
+    <string name="ambient_music_bottom">At the bottom (default)</string>
+    <string name="ambient_music_center">Centered (under the cLock)</string>
 </resources>
