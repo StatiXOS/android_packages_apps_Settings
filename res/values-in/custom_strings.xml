@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The StatiXOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="statix_version">Versi StatiXOS</string>
+    <string name="statix_version_default">Tidak diketahui</string>
+    <string name="darker_theme_enable">Aktifkan tema gelap</string>
+    <string name="selinux_status">Status SELinux</string>
+    <string name="selinux_status_disabled">Dimatikan</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <string name="navbar_length">Panjang bilah gerakan</string>
+    <string name="short_label">Pendek</string>
+    <string name="long_label">Panjang</string>
+    <string name="global_actions_advanced_reboot_title">Aktifkan mulai ulang lanjutan</string>
+    <string name="global_actions_advanced_reboot_summary">Tampilkan opsi untuk pemulihan dan bootloader</string>
+    <string name="screenshot_shutter_sound_title">Suara tangkapan layar</string>
+    <string name="battery_percent_title">Indikator baterai bilah status</string>
+    <string name="battery_percent_summary">Konfigurasi ikon dan gaya teks untuk indikator baterai bilah status</string>
+    <string name="status_bar_battery_style_title">Gaya Baterai</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon potret</string>
+    <string name="status_bar_battery_style_circle">Lingkaran</string>
+    <string name="status_bar_battery_style_dotted_circle">Lingkaran putus-putus</string>
+    <string name="status_bar_battery_style_filled_circle">Lingkaran berisi</string>
+    <string name="status_bar_battery_style_text">Teks</string>
+    <string name="status_bar_battery_style_hidden">Sembunyikan</string>
+    <string name="status_bar_battery_percentage_title">Persentase baterai</string>
+    <string name="status_bar_battery_percentage_default">Sembunyikan</string>
+    <string name="status_bar_battery_percentage_text_inside">Di dalam ikon</string>
+    <string name="status_bar_battery_percentage_text_next">Di samping ikon</string>
+    <string name="qs_battery_percentage_title">Persentase baterai di QS</string>
+    <string name="qs_battery_percentage_summary">Tampilkan persentase baterai di header QS alih-alih perkiraan baterai</string>
+    <string name="app_play_store">Google Play</string>
+    <string name="double_tap_sleep_title">Ketuk dua kali untuk pengaturan tidur</string>
+    <string name="double_tap_sleep_summary">Aktifkan beberapa gerakan ketuk untuk tidur</string>
+    <string name="double_tap_sleep_statusbar_title">Ketuk dua kali untuk tidur di bilah status</string>
+    <string name="double_tap_sleep_statusbar_summary">Ketuk dua kali pada bilah status untuk membuat perangkat tidur</string>
+    <string name="double_tap_sleep_lockscreen_title">Ketuk dua kali untuk tidur di layar kunci</string>
+    <string name="double_tap_sleep_lockscreen_summary">Ketuk dua kali di mana saja pada layar kunci untuk mengalihkan perangkat ke mode tidur</string>
+    <string name="power_button_torch_title">Senter cepat</string>
+    <string name="power_button_torch_summary">Saat layar mati, menekan lama tombol daya akan mengaktifkan senter</string>
+    <string name="prevent_ringing_option_cycle">Siklus melalui mode</string>
+    <string name="prevent_ringing_option_cycle_summary">Aktif (siklus melalui mode)</string>
+    <string name="battery_light_settings_pref_title">Lampu baterai</string>
+    <string name="battery_light_settings_pref_summary">Konfigurasikan lampu baterai dalam berbagai skenario</string>
+    <string name="battery_light_enable">Aktifkan lampu baterai</string>
+    <string name="battery_light_allow_on_dnd_title">Lampu baterai dalam mode Jangan Ganggu</string>
+    <string name="battery_light_low_blinking_title">Lampu berkedip pada baterai lemah</string>
+    <string name="battery_light_cat">Warna lampu baterai saat mengisi daya</string>
+    <string name="battery_light_low_color">Baterai lemah</string>
+    <string name="battery_light_medium_color">Baterai sedang</string>
+    <string name="battery_light_full_color">Baterai hampir penuh</string>
+    <string name="battery_light_reallyfull_color">Baterai penuh (100%)</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Temukan sensor sidik jari di <xliff:g id="sensor_location">%1$s</xliff:g> tablet Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Temukan sensor sidik jari di <xliff:g id="sensor_location">%1$s</xliff:g> perangkat Anda.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Temukan sensor sidik jari di <xliff:g id="sensor_location">%1$s</xliff:g> ponsel Anda.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">kembali</string>
+    <string name="security_settings_fingerprint_sensor_location_front">depan</string>
+    <string name="security_settings_fingerprint_sensor_location_left">sisi kiri</string>
+    <string name="security_settings_fingerprint_sensor_location_right">sisi kanan</string>
+    <string name="customDozePackage_title">Tampilan Ambien</string>
+    <string name="customDozePackage_summary">Berinteraksi dengan perangkat Anda saat layar mati</string>
+    <string name="smallest_tick_label">Mati</string>
+    <string name="greatest_tick_label">Setengah layar</string>
+    <string name="gesture_back_deadzone_label">Zona mati</string>
+    <string name="back_sensitivity_dialog_message_cust">Gunakan seekbar pertama dan kedua untuk mengonfigurasi sensitivitas geser ke belakang, seekbar terakhir untuk mengatur area mati di atas layar di mana gesekan tidak dapat dipicu, untuk menghindari konflik dengan isyarat dalam aplikasi.</string>
+    <string name="proximity_wake_title">Cegah bangun yang tidak disengaja</string>
+    <string name="proximity_wake_summary">Periksa sensor jarak sebelum bangun layar</string>
+    <string name="lockscreen_media_art_title">Seni media layar kunci</string>
+    <string name="lockscreen_media_art_summary">Tampilkan seni sampul media saat memutar musik</string>
+    <string name="lockscreen_media_blur_title">Tingkat keburaman seni media</string>
+    <string name="show_lockscreen_media_art_title">Tampilkan seni media</string>
+    <string name="lockscreen_media_art_options_title">Seni media layar kunci</string>
+    <string name="volume_link_notification_title">Gabungkan dering &amp; volume notifikasi</string>
+    <string name="connected_tws_device_saved_title">Earbuds tersimpan</string>
+</resources>
