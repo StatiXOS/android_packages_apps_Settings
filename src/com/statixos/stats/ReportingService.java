@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.cmparts.cmstats;
+package com.statixos.stats;
 
 import android.app.IntentService;
 import android.app.job.JobInfo;
@@ -26,12 +26,11 @@ import android.content.Intent;
 import android.os.PersistableBundle;
 import android.os.UserHandle;
 import android.util.Log;
-import cyanogenmod.providers.CMSettings;
 
 import java.util.List;
 
 public class ReportingService extends IntentService {
-    /* package */ static final String TAG = "CMStats";
+    /* package */ static final String TAG = "Stats";
     private static final boolean DEBUG = Log.isLoggable(TAG, Log.DEBUG);
 
     public ReportingService() {

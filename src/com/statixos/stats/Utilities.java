@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.cmparts.cmstats;
+package com.statixos.stats;
 
 import android.content.Context;
 import android.os.Build;
@@ -23,13 +23,15 @@ import android.provider.Settings;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 
-import cyanogenmod.providers.CMSettings;
+import android.provider.Settings.Secure;
 
 import java.math.BigInteger;
 import java.net.NetworkInterface;
 import java.security.MessageDigest;
 
 public class Utilities {
+    static final String STATS_COLLECTION = "stats_collection";
+
     public static String getUniqueID(Context context) {
         final String id = Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ANDROID_ID);
         return digest(context.getPackageName() + id);
@@ -63,11 +65,11 @@ public class Utilities {
     }
 
     public static String getDevice() {
-        return SystemProperties.get("ro.cm.device", Build.PRODUCT);
+        return SystemProperties.get("ro.statix.device", Build.PRODUCT);
     }
 
     public static String getModVersion() {
-        return SystemProperties.get("ro.cm.version", Build.DISPLAY);
+        return SystemProperties.get("ro.statix.base.version", Build.DISPLAY);
     }
 
     public static String digest(String input) {
@@ -85,8 +87,8 @@ public class Utilities {
      * @return Whether or not stats collection is enabled.
      */
     public static boolean isStatsCollectionEnabled(Context context) {
-        return CMSettings.Secure.getInt(context.getContentResolver(),
-                CMSettings.Secure.STATS_COLLECTION, 1) != 0;
+        return Secure.getInt(context.getContentResolver(),
+		STATS_COLLECTION, 1) != 0;
     }
 
     /**
@@ -96,7 +98,8 @@ public class Utilities {
      */
     public static void setStatsCollectionEnabled(Context context, boolean enabled) {
         int enable = (enabled) ? 1 : 0;
-        CMSettings.Secure.putInt(context.getContentResolver(),
-                CMSettings.Secure.STATS_COLLECTION, enable);
+        Secure.putInt(context.getContentResolver(),
+                STATS_COLLECTION, enable);
+
     }
 }
