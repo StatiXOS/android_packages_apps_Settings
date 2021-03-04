@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.cmparts.cmstats;
+package com.statixos.stats;
 
 import android.app.job.JobParameters;
 import android.app.job.JobService;
@@ -24,7 +24,6 @@ import android.os.AsyncTask;
 import android.os.PersistableBundle;
 import android.util.ArrayMap;
 import android.util.Log;
-import org.cyanogenmod.cmparts.R;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -40,6 +39,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Collections;
 import java.util.Map;
+
+import com.android.settings.R;
 
 public class StatsUploadJobService extends JobService {
 
@@ -156,7 +157,7 @@ public class StatsUploadJobService extends JobService {
     }
 
     private boolean uploadToCM(JSONObject json) throws IOException {
-        final Uri uri = Uri.parse(getString(R.string.stats_cm_url));
+        final Uri uri = Uri.parse(getString(R.string.stats_url));
         URL url = new URL(uri.toString());
         HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
         try {

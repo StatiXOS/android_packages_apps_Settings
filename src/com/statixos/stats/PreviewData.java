@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.cmparts.cmstats;
+package com.statixos.stats;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -22,8 +22,11 @@ import android.os.Bundle;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import org.cyanogenmod.cmparts.R;
-import org.cyanogenmod.cmparts.SettingsPreferenceFragment;
+import com.android.internal.logging.MetricsLogger;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
+
+import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
 
 public class PreviewData extends SettingsPreferenceFragment {
     private static final String UNIQUE_ID = "preview_id";

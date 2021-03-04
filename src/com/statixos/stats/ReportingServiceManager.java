@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.cyanogenmod.cmparts.cmstats;
+package com.statixos.stats;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;

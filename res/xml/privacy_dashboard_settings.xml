@@ -23,10 +23,10 @@
 
     <!-- Anonymous statistics - (CMStats) -->
     <PreferenceScreen
-        android:key="cmstats"
+        android:key="stats"
         android:title="@string/anonymous_statistics_title"
         android:summary="@string/anonymous_statistics_summary"
-        android:fragment="org.cyanogenmod.cmparts.cmstats.AnonymousStats" >
+        android:fragment="com.statixos.stats.AnonymousStats" >
     </PreferenceScreen>
 
     <!-- This preference isn't searchable, and user won't see title in this preference.
