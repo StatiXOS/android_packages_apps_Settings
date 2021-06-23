@@ -16,6 +16,24 @@
       "message": "FP_WAKE_UNLOCK is missing.",
       "revId": "9d2796068585ccf354a6d5709606252cae47cf0a",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c83a167_28829d22",
+        "filename": "src/com/android/settings/security/screenlock/FpWakeUnlockSelectorController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000048
+      },
+      "writtenOn": "2021-06-23T18:34:44Z",
+      "side": 1,
+      "message": "seems like https://github.com/ArrowOS/android_frameworks_base/commit/9df42e8d12759091d6d164871b64854f2fd9244d#diff-1b66eadd49db92101fbb3c17619f1ccfafc6f0f05c3ec91156aa930cd2b62b13 will fix it",
+      "parentUuid": "39de9813_d85551a9",
+      "revId": "9d2796068585ccf354a6d5709606252cae47cf0a",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
