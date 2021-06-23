@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39de9813_d85551a9",
+        "filename": "src/com/android/settings/security/screenlock/FpWakeUnlockSelectorController.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1000048
+      },
+      "writtenOn": "2021-06-23T18:27:29Z",
+      "side": 1,
+      "message": "FP_WAKE_UNLOCK is missing.",
+      "revId": "9d2796068585ccf354a6d5709606252cae47cf0a",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
