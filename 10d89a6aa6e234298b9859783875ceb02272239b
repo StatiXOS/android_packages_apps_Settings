@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6a6ab8c_e6ba809b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2021-10-25T10:51:07Z",
+      "side": 1,
+      "message": "I don\u0027t think we\u0027d need this, we don\u0027t specifically ship userdebug builds for this to be only enabled in eng builds.",
+      "revId": "10d89a6aa6e234298b9859783875ceb02272239b",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
