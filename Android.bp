@@ -113,6 +113,12 @@ android_library_import {
     aars: ["libs/contextualcards.aar"],
 }
 
+java_import {
+    name: "powerusagefeaturegoogle",
+    jars: ["libs/powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
+}
+
 filegroup {
     name: "Settings_proguard_flags",
     srcs: ["proguard.flags"],
