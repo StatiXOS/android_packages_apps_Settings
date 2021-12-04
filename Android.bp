@@ -74,6 +74,7 @@ android_library {
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
         "VendorSupportLib",
+        "accountfeatureprovidergoogle",
         "powerusagefeaturegoogle",
     ],
 
@@ -112,6 +113,12 @@ android_app {
 android_library_import {
     name: "contextualcards",
     aars: ["libs/contextualcards.aar"],
+}
+
+java_import {
+    name: "accountfeatureprovidergoogle",
+    jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
 }
 
 java_import {
