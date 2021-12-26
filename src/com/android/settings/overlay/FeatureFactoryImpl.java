@@ -79,6 +79,7 @@ import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 
 import com.google.android.settings.accounts.AccountFeatureProviderGoogleImpl;
 import com.google.android.settings.fuelgauge.PowerUsageFeatureProviderGoogleImpl;
+import com.google.android.settings.games.GameSettingsFeatureProviderGoogleImpl;
 
 /**
  * {@link FeatureFactory} implementation for AOSP Settings.
@@ -337,7 +338,7 @@ public class FeatureFactoryImpl extends FeatureFactory {
     @Override
     public GameSettingsFeatureProvider getGameSettingsFeatureProvider() {
         if (mGameSettingsFeatureProvider == null) {
-            mGameSettingsFeatureProvider = new GameSettingsFeatureProviderImpl();
+            mGameSettingsFeatureProvider = new GameSettingsFeatureProviderGoogleImpl();
         }
         return mGameSettingsFeatureProvider;
     }
