@@ -83,12 +83,6 @@ public class StatusBarBatterySettings extends SettingsPreferenceFragment
         mBatteryPercent.setOnPreferenceChangeListener(this);
         mBatteryPercent.setEnabled(
                 batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
-
-        mQsBatteryPercent = (SwitchPreference) findPreference(QS_BATTERY_PERCENTAGE);
-        mQsBatteryPercent.setChecked((Settings.System.getInt(
-                getActivity().getApplicationContext().getContentResolver(),
-                Settings.System.QS_SHOW_BATTERY_PERCENT, 0) == 1));
-        mQsBatteryPercent.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -112,18 +106,13 @@ public class StatusBarBatterySettings extends SettingsPreferenceFragment
             int index = mBatteryPercent.findIndexOfValue((String) newValue);
             mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
             return true;
-        } else if (preference == mQsBatteryPercent) {
-            Settings.System.putInt(resolver,
-                    Settings.System.QS_SHOW_BATTERY_PERCENT,
-                    (Boolean) newValue ? 1 : 0);
-            return true;
         }
         return false;
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.CUSTOM;
+        return -1;
     }
 
     public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
