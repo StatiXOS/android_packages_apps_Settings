@@ -126,6 +126,16 @@
             android:title="@string/show_operator_name_title"
             android:summary="@string/show_operator_name_summary"/>
 
+        <SwitchPreference
+            android:key="show_refresh_rate"
+            android:title="@string/show_refresh_rate"
+            android:summary="@string/show_refresh_rate_summary" />
+
+        <SwitchPreference
+            android:key="pref_key_peak_refresh_rate"
+            android:title="@string/force_high_refresh_rate_toggle"
+            android:summary="@string/force_high_refresh_rate_desc" />
+
         <Preference
             android:key="screensaver"
             android:title="@string/screensaver_settings_title"
