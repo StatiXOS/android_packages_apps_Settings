@@ -38,6 +38,21 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="navbar_length_title_category"
+        android:persistent="false"
+        android:title="@string/navbar_length_title">
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_navbar_length"
+            android:title="@string/navbar_length"
+            android:min="10"
+            android:max="20"
+            android:selectable="true"
+            settings:textStart="@string/short_label"
+            settings:textEnd="@string/long_label"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="back_sensitivity_category"
         android:persistent="false"
         android:title="@string/back_sensitivity_dialog_title">
@@ -64,15 +79,6 @@
         android:title="@string/back_sensitivity_dialog_message"
         android:selectable="false"
         settings:searchable="false"/>
-
-    <com.android.settings.widget.LabeledSeekBarPreference
-        android:key="gesture_navbar_length"
-        android:title="@string/navbar_length"
-        android:min="10"
-        android:max="20"
-        android:selectable="true"
-        settings:textStart="@string/short_label"
-        settings:textEnd="@string/long_label"/>
 
 </PreferenceScreen>
 
