@@ -77,6 +77,12 @@ public class BluetoothSampleRateDialogPreferenceController extends
             case 4:
                 sampleRateValue = BluetoothCodecConfig.SAMPLE_RATE_96000;
                 break;
+            case 5:
+                sampleRateValue = BluetoothCodecConfig.SAMPLE_RATE_176400;
+                break;
+            case 6:
+                sampleRateValue = BluetoothCodecConfig.SAMPLE_RATE_192000;
+                break;
             default:
                 break;
         }
@@ -123,6 +129,12 @@ public class BluetoothSampleRateDialogPreferenceController extends
                 break;
             case BluetoothCodecConfig.SAMPLE_RATE_96000:
                 index = 4;
+                break;
+            case BluetoothCodecConfig.SAMPLE_RATE_176400:
+                index = 5;
+                break;
+            case BluetoothCodecConfig.SAMPLE_RATE_192000:
+                index = 6;
                 break;
             default:
                 Log.e(TAG, "Unsupported config:" + config);
