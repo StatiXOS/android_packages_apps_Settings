@@ -33,6 +33,24 @@
       "message": "meh i cba to move this to statixsettings",
       "revId": "6072c017e33c3af5952fdbcdb65f1ac12f526998",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed4ac665_50b96c78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-05T22:08:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "abea532e_084c39e4",
+      "revId": "6072c017e33c3af5952fdbcdb65f1ac12f526998",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
