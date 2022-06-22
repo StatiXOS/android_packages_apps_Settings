@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eaa2ca6f_5f6b3c66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2022-06-22T23:23:41Z",
+      "side": 1,
+      "message": "watch for updates to this change and move to stxsettings if possible",
+      "revId": "719e2bad471ceb50ade9fd2dee272b7fb084dbfa",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
