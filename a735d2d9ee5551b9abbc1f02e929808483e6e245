@@ -16,6 +16,24 @@
       "message": "could move this to stxsettings or gms overlay",
       "revId": "a735d2d9ee5551b9abbc1f02e929808483e6e245",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6ed2d8f_538f7aa1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2022-09-26T01:39:16Z",
+      "side": 1,
+      "message": "lets go stx settings",
+      "parentUuid": "a9eac2a1_c720adf9",
+      "revId": "a735d2d9ee5551b9abbc1f02e929808483e6e245",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
