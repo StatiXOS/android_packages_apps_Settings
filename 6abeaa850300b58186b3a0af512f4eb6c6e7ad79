@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b7ee7a3_97abf352",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2023-03-12T04:35:25Z",
+      "side": 1,
+      "message": "Check 9375 \u0026 9376",
+      "revId": "6abeaa850300b58186b3a0af512f4eb6c6e7ad79",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
