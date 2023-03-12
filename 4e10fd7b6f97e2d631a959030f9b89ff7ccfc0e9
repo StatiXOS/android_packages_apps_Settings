@@ -16,6 +16,23 @@
       "message": "Task for you (ig): Find out regulatory info for all our supported devices and add then as overlays to their respective device trees. We can then merge this :)",
       "revId": "4e10fd7b6f97e2d631a959030f9b89ff7ccfc0e9",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e2138d7_663dcb41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000122
+      },
+      "writtenOn": "2023-03-12T14:53:32Z",
+      "side": 1,
+      "message": "Looks nice but the image gets cut off behind the navbar: https://i.imgur.com/d9MRT8H.png",
+      "revId": "4e10fd7b6f97e2d631a959030f9b89ff7ccfc0e9",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
