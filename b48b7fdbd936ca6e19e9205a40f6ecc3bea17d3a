@@ -16,6 +16,24 @@
       "message": "match the pattern of the rest of the classes",
       "revId": "b48b7fdbd936ca6e19e9205a40f6ecc3bea17d3a",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "afee8743_54a5ba31",
+        "filename": "src/com/android/settings/security/LockscreenDashboardFragment.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1000047
+      },
+      "writtenOn": "2023-03-18T12:40:12Z",
+      "side": 1,
+      "message": "Compile error 😞",
+      "parentUuid": "3d09a41c_c94227c7",
+      "revId": "b48b7fdbd936ca6e19e9205a40f6ecc3bea17d3a",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
