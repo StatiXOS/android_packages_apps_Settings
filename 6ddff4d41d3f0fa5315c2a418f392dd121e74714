@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e852c47_5edd71d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2023-03-19T08:41:47Z",
+      "side": 1,
+      "message": "Leddaz: Looks nice but the image gets cut off behind the navbar: https://i.imgur.com/d9MRT8H.png",
+      "revId": "6ddff4d41d3f0fa5315c2a418f392dd121e74714",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
