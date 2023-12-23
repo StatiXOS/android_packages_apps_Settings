@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c892430d_58b0816e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000122
+      },
+      "writtenOn": "2023-12-23T20:05:25Z",
+      "side": 1,
+      "message": "Could be temporary since we\u0027re not shipping gpsu for now",
+      "revId": "c62085fc8634772f091300e7b82765c5c8b8c4a9",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
