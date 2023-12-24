@@ -16,6 +16,23 @@
       "message": "Could be temporary since we\u0027re not shipping gpsu for now",
       "revId": "c62085fc8634772f091300e7b82765c5c8b8c4a9",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c582150_6cd8fd6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2023-12-24T04:51:17Z",
+      "side": 1,
+      "message": "MetadataGoogle is shipped and GPSU doesn\u0027t error out. I guess we don\u0027t need this",
+      "revId": "c62085fc8634772f091300e7b82765c5c8b8c4a9",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
