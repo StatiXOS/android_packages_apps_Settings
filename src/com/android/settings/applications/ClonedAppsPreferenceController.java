@@ -22,7 +22,6 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.UserHandle;
-import android.provider.DeviceConfig;
 
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.LifecycleObserver;
@@ -53,9 +52,7 @@ public class ClonedAppsPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        return DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_APP_CLONING,
-                PROPERTY_CLONED_APPS_ENABLED, true)
-                && mContext.getResources().getBoolean(R.bool.config_cloned_apps_page_enabled)
+        return mContext.getResources().getBoolean(R.bool.config_cloned_apps_page_enabled)
                 ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
     }
 
