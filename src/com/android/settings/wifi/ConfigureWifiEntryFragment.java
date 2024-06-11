@@ -88,6 +88,8 @@ public class ConfigureWifiEntryFragment extends InstrumentedFragment implements 
             mWorkerThread.quit();
         }
 
+        getContext().sendBroadcast(new Intent("com.statix.wificompanion.wifirequest.STOP"));
+
         super.onDestroy();
     }
 
@@ -128,6 +130,8 @@ public class ConfigureWifiEntryFragment extends InstrumentedFragment implements 
         // Resize the layout when keyboard opens.
         getActivity().getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_ADJUST_RESIZE);
+
+        getContext().sendBroadcast(new Intent("com.statix.wificompanion.wifirequest.START"));
 
         return rootView;
     }
