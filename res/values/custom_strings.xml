@@ -22,4 +22,7 @@
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 
+    <!-- Wi-Fi hotspot connected devices -->
+    <string name="wifi_hotspot_connected_devices">Connected devices</string>
+    <string name="wifi_hotspot_connected_devices_summary">%1$d devices</string>
 </resources>

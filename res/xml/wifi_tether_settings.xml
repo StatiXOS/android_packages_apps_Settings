@@ -33,6 +33,12 @@
         android:entryValues="@array/wifi_tether_security_values"/>
 
     <Preference
+        android:key="wifi_hotspot_connected_devices"
+        android:title="@string/wifi_hotspot_connected_devices"
+        android:summary="@string/summary_placeholder"
+        android:fragment="com.android.settings.wifi.tether.WifiHotspotConnectedDevices" />
+
+    <Preference
         android:key="wifi_hotspot_security"
         android:title="@string/wifi_security"
         android:summary="@string/summary_placeholder"
