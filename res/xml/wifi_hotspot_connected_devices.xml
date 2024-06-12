@@ -1,0 +1,12 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:title="@string/wifi_hotspot_connected_devices">
+
+    <androidx.compose.ui.platform.ComposeView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/connected_devices_compose_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />    
+
+</PreferenceScreen>
