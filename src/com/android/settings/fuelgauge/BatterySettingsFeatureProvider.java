@@ -35,9 +35,6 @@ public interface BatterySettingsFeatureProvider {
     /** Returns true if first use date should be shown */
     boolean isFirstUseDateAvailable(Context context, long firstUseDateMs);
 
-    /** Check whether the battery information page is enabled in the About phone page */
-    boolean isBatteryInfoEnabled(Context context);
-
     /** A way to add more battery tip detectors. */
     void addBatteryTipDetector(
             Context context,
