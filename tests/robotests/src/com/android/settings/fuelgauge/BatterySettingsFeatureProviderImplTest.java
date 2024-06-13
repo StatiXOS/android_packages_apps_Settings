@@ -56,11 +56,6 @@ public class BatterySettingsFeatureProviderImplTest {
     }
 
     @Test
-    public void isBatteryInfoEnabled_returnFalse() {
-        assertThat(mImpl.isBatteryInfoEnabled(mContext)).isFalse();
-    }
-
-    @Test
     public void addBatteryTipDetector_containsLowBatteryTip() {
         var tips = new ArrayList<BatteryTip>();
 
