@@ -16,6 +16,24 @@
       "message": "drop this patch. use dynamic injection flag in aconfig.",
       "revId": "34a0715b2c304a599978c66dcebbc0f2e9fd5df5",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51fe36ae_9b55693f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2024-11-27T09:20:59Z",
+      "side": 1,
+      "message": "Got it, thank you for your contribution.",
+      "parentUuid": "b7a0a13e_4f72fbc4",
+      "revId": "34a0715b2c304a599978c66dcebbc0f2e9fd5df5",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
