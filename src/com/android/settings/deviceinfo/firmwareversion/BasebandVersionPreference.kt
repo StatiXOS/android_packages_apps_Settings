@@ -39,8 +39,21 @@ class BasebandVersionPreference :
     override val title: Int
         get() = R.string.baseband_version
 
-    override fun getSummary(context: Context): CharSequence? =
-        SystemProperties.get(BASEBAND_PROPERTY, context.getString(R.string.device_info_default))
+    override fun getSummary(context: Context): CharSequence {
+        val baseband = SystemProperties.get(
+            BASEBAND_PROPERTY,
+            context.getString(R.string.device_info_default)
+        ).trim()
+
+        for (part in baseband.split(",")) {
+            val trimmed = part.trim()
+            if (trimmed.isNotEmpty()) {
+               return trimmed
+            }
+         }
+
+        return baseband
+    }
 
     override fun isAvailable(context: Context) =
         Utils.isMobileDataCapable(context) || Utils.isVoiceCapable(context)
